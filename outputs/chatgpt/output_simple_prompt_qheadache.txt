@@ -1,0 +1,17 @@
+### **Functional Requirements**
+
+1. The system must provide an interface for users to interact with the game.
+2. The game must allow users to solve a specific headache (problem-solving element).
+3. The application must support user input via a keyboard and a mouse.
+4. The game must provide different levels of difficulty to accommodate both beginner (age 8) and advanced players (adults).
+5. The game must include a menu system for navigation.
+6. The system must include graphical and sound elements to enhance gameplay.
+
+### **Non-Functional Requirements**
+
+1. The game must run as a standalone application (not requiring internet or external services).
+2. The user interface must support graphical display with a minimum resolution of 800x600 pixels.
+3. The system must be easy to use for players with basic computer skills.
+4. The game must have an intuitive UI with clear navigation.
+5. The system must ensure a smooth and responsive interaction using a keyboard and mouse.
+6. The game should provide an engaging experience with appropriate sound and graphics.

@@ -1,0 +1,356 @@
+Functional Requirements:
+
+1. **User Interface**: 
+   - A graphical interface (GUI) must allow users to navigate through different levels within the space fractions game.
+   - Users can select from various options such as difficulty level, score tracking, and progress history.
+
+2. **Gameplay**:
+   - Players take turns solving math problems related to geometry shapes.
+   - Each problem has multiple steps where players have to calculate values using basic arithmetic operations like addition/subtraction multiplication/division.
+   - After each step, the player's answer is displayed along with correct/incorrect answers provided by the computer program.
+   - Correctly answering all questions earns points; incorrect ones deduct them.
+   - Points accumulate over several rounds until reaching a target number required to unlock new levels.
+   - Levels increase complexity gradually, requiring more calculations per round.
+   - Game ends after completing a set number of rounds.
+
+3. **Level Selection**:
+   - Upon starting the game, it prompts the user to enter the desired level.
+   - User selects one out of five available levels at start-up.
+   - Level selection determines gameplay progression and content availability.
+
+4. **Score Tracking**:
+   - Player tracks their overall performance across selected levels.
+   - Progress chart displays current ranking among other players.
+   - Leaderboard ranks top-scoring players globally.
+
+5. **Progress History**:
+   - When playing a single level, the game saves its state so subsequent attempts retain previous results.
+   - Saved states include initial score, total earned points, and final rank position.
+   - This feature allows replaying previously played levels if needed.
+
+6. **Menu System**:
+   - Main page provides access to main features including game settings, high-score management, and support pages.
+   - Menu items offer direct navigation into respective sections.
+   - Support section includes links to forums, FAQs, contact forms, and documentation resources.
+
+7. **High-Score Management**:
+   - High-scores track individual achievements throughout play sessions.
+   - Top scorers list shows rankings according to accumulated points.
+   - Highest scorer gets special recognition via notification display.
+
+8. **Support Features**:
+   - Forums enable discussion about strategies used during gameplay.
+   - FAQ addresses common queries regarding rules, mechanics, and usage scenarios.
+   - Contact Form facilitates communication with developers for bug reports or technical assistance requests.
+   - Documentation contains detailed guides covering setup procedures, troubleshooting tips, and advanced topics.
+
+Non-Functional Requirements:
+
+1. **Performance Optimization**:
+   - Ensure the application runs smoothly even under heavy load.
+   - Optimize database storage and retrieval mechanisms for efficient data processing.
+   - Implement caching techniques whenever possible to reduce server load.
+
+2. **Security Measures**:
+   - Protect against unauthorized access to sensitive areas of the software.
+   - Use secure encryption methods for storing passwords and personal data.
+   - Limit access rights to authorized personnel only.
+
+3. **Compatibility**:
+   - Develop applications compatible with Windows operating systems.
+   - Test compatibility before releasing updates to ensure stability.
+   - Provide cross-platform solutions for mobile devices and Linux distributions.
+
+4. **Usability Enhancements**:
+   - Improve accessibility features ensuring equal usability regardless of platform choice.
+   - Introduce intuitive visual indicators guiding users toward objectives.
+   - Simplify complex tasks through clear explanations and concise instructions.
+
+5. **Maintenance and Updates**:
+   - Regularly update existing codebase addressing known issues and adding new functionalities.
+   - Perform thorough testing before release to identify bugs and regressions.
+   - Release minor patches containing fixes rather than major versions.
+
+6. **Testing Frameworks**:
+   - Utilize automated tools for comprehensive unit testing and integration validation.
+   - Employ manual tests focusing on edge cases and regression scenarios.
+   - Establish test environments identical to production setups.
+
+7. **Documentation and Training**:
+   - Create extensive online tutorials explaining core concepts and best practices.
+   - Offer instructor-led training courses teaching development methodologies and coding standards.
+   - Maintain up-to-date knowledge bases detailing changes made since last review cycle.
+
+8. **Release Process**:
+   - Plan releases every six months incorporating significant enhancements and bug fixes.
+   - Prepare marketing materials highlighting key improvements and benefits.
+   - Coordinate internal teams working together to finalize post-release activities.
+
+9. **Monitoring Performance**:
+   - Track metrics monitoring application speed, resource utilization, and error rates.
+   - Analyze logs identifying bottlenecks and optimizing processes accordingly.
+   - Adjust configuration parameters to maintain optimal balance between functionality and efficiency.
+
+10. **Backup Strategy**:
+    - Store backups regularly maintaining integrity and recoverable format.
+    - Configure automatic backup schedules adhering to predefined intervals.
+    - Prioritize recovery efforts prioritizing critical files first.
+
+11. **Data Storage**:
+    - Design databases capable of handling large amounts of structured and semi-structured data.
+    - Choose relational databases offering scalability and flexibility.
+    - Select NoSQL variants suitable for real-time analytics and distributed architectures.
+
+12. **Cloud Deployment**:
+    - Deploy cloud services enabling scalable infrastructure growth.
+    - Leverage managed service providers reducing operational overhead.
+    - Consider hybrid deployment models combining public and private clouds.
+
+13. **Server Configuration**:
+    - Set up servers running standard operating systems.
+    - Install relevant security measures protecting against malware threats.
+    - Configure firewalls controlling incoming and outgoing network traffic.
+
+14. **Network Infrastructure**:
+    - Establish reliable internet connectivity facilitating remote collaboration.
+    - Secure local networks preventing unauthorized access.
+    - Implement robust intrusion detection and prevention systems.
+
+15. **Communication Tools**:
+    - Foster open channels promoting team coordination and idea sharing.
+    - Schedule regular meetings discussing ongoing projects and goals.
+    - Encourage participation fostering diverse perspectives and expertise.
+
+16. **Project Governance**:
+    - Define roles assigning responsibilities clearly outlining expectations.
+    - Establish decision-making protocols governing scope and timelines.
+    - Document policies defining acceptable behavior and consequences.
+
+17. **Risk Assessment**:
+    - Identify risks associated with implementation and mitigation plans.
+    - Conduct risk assessments evaluating likelihood and impact.
+    - Update risk assessment documents reflecting changing circumstances.
+
+18. **Change Control**:
+    - Monitor status of proposed changes affecting the entire organization.
+    - Approve or reject proposals considering business needs and feasibility.
+    - Communicate change decisions promptly informing stakeholders involved.
+
+19. **Compliance**:
+    - Adhere to applicable laws and regulations safeguarding individuals' privacy.
+    - Comply with industry-specific guidelines enhancing trustworthiness.
+    - Demonstrate transparency demonstrating compliance actions taken.
+
+20. **Quality Assurance**:
+    - Continuously evaluate products meeting quality criteria.
+    - Address defects proactively improving reliability.
+    - Collaborate with external partners verifying third-party components meet specifications.
+
+21. **Customer Service**:
+    - Respond promptly to customer inquiries resolving concerns efficiently.
+    - Empower customers to self-service utilizing dedicated portals.
+    - Train staff members supporting proactive resolution strategies.
+
+22. **Financial Planning**:
+    - Establish budget allocating funds effectively towards technology investments.
+    - Manage cash flow balancing expenses with revenue projections.
+    - Review financial statements quarterly assessing performance.
+
+23. **Marketing Strategies**:
+    - Develop targeted campaigns emphasizing value propositions.
+    - Engage influencers collaborating with brand ambassadors.
+    - Execute social media advertising initiatives driving awareness.
+
+24. **Public Relations**:
+    - Craft press releases announcing strategic partnerships or company milestones.
+    - Host live events showcasing innovative technologies.
+    - Build relationships establishing long-term collaborations.
+
+25. **Intellectual Property Protection**:
+    - Register trademarks securing exclusive use rights.
+    - File patents describing novel inventions.
+    - Enforce copyrights respecting original creative works.
+
+26. **Patent Search**:
+    - Research patent filings searching for similar ideas.
+    - Evaluate novelty and uniqueness of submitted claims.
+    - Refine search terms refining searches.
+
+27. **Research and Development**:
+    - Pursue research opportunities exploring emerging trends.
+    - Partner with academia institutions advancing scientific capabilities.
+    - Stay informed about technological advancements impacting market demand.
+
+28. **Scientific Collaboration**:
+    - Participate in joint R&D projects contributing unique insights.
+    - Share findings enriching collective understanding.
+    - Facilitate international cooperation strengthening global innovation.
+
+29. **Software Licensing**:
+    - Obtain licenses granting permission to distribute software.
+    - Negotiate licensing agreements with vendors acquiring essential assets.
+    - Respect license restrictions enforcing fair use provisions.
+
+30. **System Maintenance**:
+    - Back up daily archives preserving historical records.
+    - Run scheduled maintenance scripts performing routine checks.
+    - Apply patch updates fixing identified vulnerabilities.
+
+31. **Training Programs**:
+    - Develop comprehensive training programs educating employees.
+    - Deliver workshops introducing fundamental principles.
+    - Organize conferences featuring expert speakers.
+
+32. **Vendor Partnerships**:
+    - Establish strong relationships partnering with trusted suppliers.
+    - Agree contracts specifying delivery deadlines and payment terms.
+    - Cooperate closely negotiating pricing and volume commitments.
+
+33. **Workplace Culture**:
+    - Promote work-life balance encouraging employee well-being.
+    - Foster inclusive workplaces valuing diversity and creativity.
+    - Celebrate successes recognizing contributions individually.
+
+34. **Employee Engagement**:
+    - Encourage active participation motivating engagement.
+    - Recognize outstanding performers rewarding excellence.
+    - Foster teamwork building collaborative spirit.
+
+35. **Feedback Mechanisms**:
+    - Collect anonymous feedback gathering opinions directly.
+    - Display collected comments anonymously revealing sentiment.
+    - Act upon suggestions making adjustments incrementally.
+
+36. **Human Resources**:
+    - Recruit qualified candidates filling job openings.
+    - Hire experienced professionals aligning organizational vision.
+    - Retain talent investing in professional development.
+
+37. **HR Policies**:
+    - Establish clear employment contract definitions.
+    - Outline disciplinary procedures responding to misconduct.
+    - Specify flexible scheduling accommodating varying lifestyles.
+
+38. **Health Insurance**:
+    - Purchase health insurance coverage guaranteeing medical protection.
+    - Pay premiums annually renewing policy periodically.
+    - Access provider directories selecting healthcare facilities.
+
+39. **Retirement Plans**:
+    - Contribute employer-sponsored retirement savings accounts.
+    - Allocate pre-tax dollars maximizing tax-deferred returns.
+    - Take advantage of matching contributions increasing investment gains.
+
+40. **Time Off**:
+    - Allow annual paid vacation days accumulating hours.
+    - Grant sick leave compensating employees financially.
+    - Permit bereavement periods honoring loved ones.
+
+41. **Taxes**:
+    - Report income accurately filing taxes timely.
+    - Claim deductions eligible for reimbursement.
+    - Consult tax advisors seeking personalized guidance.
+
+42. **Travel Expenses**:
+    - Reimburse travel-related costs incurred personally.
+    - Deduct reasonable expenses reimbursing employers partially.
+    - Record mileage accounting for legitimate expenditures.
+
+43. **Vehicle Registration**:
+    - Renew vehicle registration annually updating details.
+    - Pay fees corresponding to registered vehicles.
+    - Keep accurate ownership records documenting transactions.
+
+44. **Vehicles**:
+    - Inspect vehicles thoroughly inspecting condition and safety.
+    - Replace damaged parts repairing or replacing vehicles.
+    - Maintain proper fuel consumption minimizing waste.
+
+45. **Waste Disposal**:
+    - Dispose hazardous waste properly managing environmental hazards.
+    - Reduce packaging material conservatively reusing containers.
+    - Properly dispose of recyclables collecting valuable commodities.
+
+46. **Water Conservation**:
+    - Fix leaks immediately installing leak-detection equipment.
+    - Install low-flow showerheads reducing water consumption.
+    - Harvest rainwater replenishing irrigation systems.
+
+47. **Wildlife Preservation**:
+    - Donate excess food supplies feeding wildlife habitats.
+    - Plant native vegetation restoring ecosystems naturally.
+    - Educate community participants engaging conservation efforts.
+
+48. **Zoning Regulations**:
+    - Comply with zoning ordinances regulating property uses.
+    - Meet minimum lot size requirements expanding residential spaces.
+    - Construct buildings complying with architectural codes.
+
+49. **Accessibility Compliance**:
+    - Incorporate accessible design elements integrating universal interfaces.
+    - Ensure wheelchair-accessible entrances opening doors wide enough.
+    - Accommodate visually impaired visitors navigating independently.
+
+50. **Environmental Sustainability**:
+    - Minimize energy consumption adopting renewable sources.
+    - Reduce paper usage digitizing documents eliminating unnecessary copies.
+    - Adopt sustainable transportation modes choosing environmentally friendly alternatives.
+
+51. **Fire Safety**:
+    - Install smoke detectors detecting fires early warning times.
+    - Activate emergency response systems activating alarms quickly.
+    - Prevent electrical fires extinguish flames rapidly removing heat source.
+
+52. **Food Waste Reduction**:
+    - Implement composting turning organic waste into nutrient-rich soil.
+    - Buy locally sourced produce reducing carbon footprint.
+    - Avoid excessive meat consumption consuming less animal-derived protein.
+
+53. **Greenhouse Gas Emissions**:
+    - Offset emissions generated by commuting transporting goods sustainably.
+    - Invest in electric vehicles purchasing eco-friendly cars.
+    - Increase recycling rate converting waste into useful materials.
+
+54. **Landscaping**:
+    - Implement drought-resistant landscaping adapting climate zones.
+    - Mulch gardens retaining moisture suppressing weeds competing plants.
+    - Water lawns judiciously saving this precious resource.
+
+55. **Noise Pollution Mitigation**:
+    - Install noise-reducing window treatments blocking outside sounds.
+    - Remove noisy appliances upgrading to quieter fixtures.
+    - Silence construction sites avoiding disturbance disrupting neighbors.
+
+56. **Outdoor Spaces**:
+    - Convert unused outdoor rooms creating usable living areas.
+    - Add solar panels generating electricity powering homes.
+    - Transform parking lots into green oases revitalizing urban landscapes.
+
+57. **Parking Lot Management**:
+    - Reserve designated parking spots exclusively for deliveries receiving packages.
+    - Eliminate street parking discouraging idling engines.
+    - Implement carpooling schemes reducing congestion spreading drivers evenly.
+
+58. **Pest Control**:
+    - Seal entry points sealing cracks around windows and doors.
+    - Install pest control barriers deterring unwanted critters entering properties.
+    - Treat infested structures treating pests safely killing disease-carrying organisms.
+
+59. **Plumbing Systems**:
+    - Repair leaking faucets stopping water damage causing structural instability.
+    - Upgrade plumbing fixtures modernizing outdated designs.
+    - Install low-flow toilets reducing potable water consumption.
+
+60. **Power Generation**:
+    - Source power from renewable energy sources harnessing wind or sun.
+    - Generate electricity efficiently using grid-scale inverters.
+    - Expand battery capacity deploying energy-storing batteries.
+
+61. **Renewable Energy Sources**:
+    - Transition away from fossil fuels transitioning entirely to renewables.
+    - Explore alternative energy generation methods developing new technologies.
+    - Diversify energy mix achieving balanced sustainability.
+
+62. **Smart Home Automation**:
+    - Automate lighting adjusting brightness automatically switching off lights.
+    - Control

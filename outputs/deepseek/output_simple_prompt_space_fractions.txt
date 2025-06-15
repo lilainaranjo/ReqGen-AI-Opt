@@ -1,0 +1,45 @@
+Based on the provided system description for the **Space Fractions** project, here's a clear breakdown of functional and non-functional requirements:
+
+---
+
+### **Functional Requirements**  
+*(What the system must do)*  
+1. **Deliver a fraction-solving educational game**:  
+   - Provide interactive gameplay focused on sixth-grade fraction problems.  
+2. **Generate performance-based feedback**:  
+   - Calculate player scores during gameplay and deliver tailored feedback upon game completion.  
+3. **Host a central game menu ("umbrella")**:  
+   - Offer a web-based interface to access multiple games.  
+4. **Enable game selection**:  
+   - Allow users to choose and launch games from the central menu.  
+5. **Support web-based access**:  
+   - Ensure all components (game and menu) are accessible via web browsers.  
+
+---
+
+### **Non-Functional Requirements**  
+*(How the system should perform)*  
+1. **Usability**:  
+   - Interface must be intuitive for sixth-grade students (e.g., simple navigation, age-appropriate language).  
+2. **Accessibility**:  
+   - Web-based design must ensure cross-device compatibility (desktops, tablets).  
+3. **Performance**:  
+   - Responsive gameplay with minimal latency to maintain engagement.  
+4. **Scalability**:  
+   - Menu system ("umbrella") must support adding/removing games without disrupting core functionality.  
+5. **Educational Effectiveness**:  
+   - Feedback mechanism must meaningfully correlate with player scores to support learning objectives.  
+6. **Reliability**:  
+   - Stable operation during gameplay and score calculation to prevent data loss or interruptions.  
+
+---
+
+### **Key Inferences from the Description**  
+- **Scope**: The system comprises two main components:  
+  - A fraction-solving game with scoring/feedback.  
+  - A centralized menu ("umbrella") for game selection.  
+- **Target Audience**: Sixth-grade students → Influences usability and content complexity.  
+- **Technical Foundation**: Web-based → Dictates compatibility and accessibility requirements.  
+- **Future-Proofing**: "Umbrella" implies extensibility for additional games (scalability).  
+
+This extraction aligns with the project’s goal of creating an engaging, educational tool while addressing technical and user experience constraints.

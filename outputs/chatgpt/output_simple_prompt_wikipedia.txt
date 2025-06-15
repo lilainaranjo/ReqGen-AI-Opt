@@ -1,0 +1,30 @@
+### **Requisitos Funcionales**
+
+1. **Búsqueda de artículos**: Permitir la búsqueda rápida de artículos en Wikipedia.
+2. **Explorer Feed**: Mostrar contenido recomendado, incluyendo temas de actualidad, artículos sugeridos, efemérides y más.
+3. **Soporte multilingüe**: Posibilidad de cambiar entre idiomas y visualizar artículos en distintos idiomas.
+4. **Listas de lectura sin conexión**: Guardar y organizar artículos en listas accesibles sin conexión.
+5. **Personalización de apariencia**: Permitir cambiar entre temas luminoso, oscuro y negro, y ajustar el tamaño del texto.
+6. **Reconocimiento de voz**: Permitir la búsqueda de artículos mediante reconocimiento de voz.
+7. **Nearby (Cercanos)**: Mostrar artículos relacionados con la ubicación del usuario mediante un mapa interactivo.
+8. **Vistas previas de enlaces y pestañas**: Permitir ver una vista previa de artículos sin salir de la página actual y abrir enlaces en pestañas.
+9. **Galería de imágenes**: Ver imágenes en pantalla completa y navegar entre ellas.
+10. **Definiciones de Wikcionario**: Permitir la consulta de definiciones resaltando palabras dentro de un artículo.
+11. **Envío de comentarios**: Posibilitar el envío de comentarios desde la aplicación.
+12. **Sincronización de listas**: Sincronizar listas de lectura con la cuenta de Wikipedia en distintos dispositivos.
+13. **Transmisión de informes de fallos**: Enviar informes automáticos de fallos con opción de desactivación en ajustes.
+
+### **Requisitos No Funcionales**
+
+1. **Código abierto**: El software debe ser 100% código abierto y permitir contribuciones en Java y SDK de Android.
+2. **Compatibilidad con múltiples idiomas**: La aplicación debe soportar casi 300 idiomas.
+3. **Interfaz personalizable**: Posibilidad de modificar la apariencia y la organización del contenido del Explorer Feed.
+4. **Accesibilidad**: Permitir ajuste de tamaño de texto para mejorar la lectura.
+5. **Alto rendimiento**: Carga rápida de artículos e imágenes para una experiencia fluida.
+6. **Seguridad y privacidad**: Opción para desactivar la transmisión de informes de fallos desde la configuración.
+7. **Experiencia de usuario fluida**: Interacción intuitiva con opciones como vista previa de enlaces y pestañas de artículos.
+8. **Uso eficiente de datos**: Optimización para que la app funcione de manera eficiente incluso en conexiones de baja velocidad.
+9. **Compatibilidad con versiones de Android**: Debe ser compatible con diversas versiones del sistema operativo Android.
+10. **Integración con dispositivos**: Uso del reconocimiento de voz nativo y geolocalización para funcionalidades específicas.
+
+¿Necesitas que amplíe algún punto? 😊

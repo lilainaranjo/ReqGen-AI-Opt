@@ -1,0 +1,43 @@
+### **Functional and Non-Functional Requirements for Outbreak Management (OM) System**
+
+#### **Functional Requirements:**
+
+1. **OM-1** – The system must support the investigation, monitoring, management, analysis, and reporting of a health event or bioterrorism act.
+2. **OM-2** – The system must collect and analyze data related to health events to support identifying and containing outbreaks.
+3. **OM-3** – The system must be configurable to meet the needs of different types of health events.
+4. **OM-4** – The system must capture data related to:
+
+   * Cases
+   * Contacts
+   * Investigations
+   * Exposures
+   * Relationships
+   * Clinical and environmental specimens/samples
+   * Laboratory results
+   * Vaccinations and treatments
+   * Travel history
+   * Conveyance information
+5. **OM-5** – The system must allow for the definition and creation of new objects during the course of an investigation.
+6. **OM-6** – The system must enable traceable links between cases and exposures.
+7. **OM-7** – The system must support tracing the mechanism of transmission to identify the source of the health event.
+8. **OM-8** – The system must facilitate response teams in containing the health event.
+9. **OM-9** – The system must integrate with early event detection systems.
+10. **OM-10** – The system must integrate with countermeasure administration systems.
+11. **OM-11** – The system must integrate with laboratory systems.
+12. **OM-12** – The system must integrate with surveillance systems.
+13. **OM-13** – The system must support response management and mitigation efforts.
+
+#### **Non-Functional Requirements:**
+
+1. **OM-NF1** – The system should be configurable to accommodate various outbreak scenarios.
+2. **OM-NF2** – The system should ensure traceability of all data and actions taken.
+3. **OM-NF3** – The system should support interoperability with external public health and surveillance systems.
+4. **OM-NF4** – The system should provide high availability and reliability to ensure uninterrupted operation during critical health events.
+5. **OM-NF5** – The system should ensure data security and compliance with public health data protection regulations.
+6. **OM-NF6** – The system should provide a user-friendly interface for public health personnel.
+7. **OM-NF7** – The system should support scalability to handle various outbreak sizes and complexities.
+8. **OM-NF8** – The system should allow for real-time data entry and updates.
+9. **OM-NF9** – The system should support role-based access control to ensure data integrity and security.
+10. **OM-NF10** – The system should allow data export and reporting capabilities for decision-making.
+
+This structured breakdown ensures clarity and distinction between functional and non-functional aspects of the Outbreak Management system. Let me know if you need any refinements!

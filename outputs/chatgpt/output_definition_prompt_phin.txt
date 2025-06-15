@@ -1,0 +1,40 @@
+Here are the extracted **functional** and **non-functional** requirements from the given system description:
+
+### **Functional Requirements** (What the system must do)
+
+1. The system must support the investigation, monitoring, management, analysis, and reporting of health events and bioterrorism acts.
+2. It should collect and analyze data to aid in identifying and containing a health event.
+3. The system must be configurable to meet the needs of different types of health events.
+4. It should capture and store data related to:
+
+   * Cases
+   * Contacts
+   * Investigations
+   * Exposures
+   * Relationships
+   * Clinical and environmental specimens/samples
+   * Laboratory results
+   * Vaccinations and treatments
+   * Travel history
+   * Conveyance information
+5. The system should allow for the creation and definition of new objects during an investigation.
+6. It must facilitate the creation of traceable links between cases, exposures, and other relevant entities.
+7. The system should support integration with:
+
+   * Early event detection systems
+   * Countermeasure administration systems
+   * Laboratory systems
+   * Surveillance systems
+
+### **Non-Functional Requirements** (Quality constraints and performance expectations)
+
+1. **Configurability** – The system should be adaptable to different types of health events.
+2. **Scalability** – It should handle various levels of outbreak data collection and management.
+3. **Interoperability** – The system must integrate with other public health systems for early event detection, countermeasure administration, laboratory processing, and surveillance.
+4. **Traceability** – The system must ensure that all data relationships (cases, exposures, treatments, etc.) are properly linked and traceable.
+5. **Reliability** – It should provide accurate and dependable outbreak management data.
+6. **Security & Privacy** – The system must protect sensitive health information and ensure compliance with relevant regulations.
+7. **Performance** – The system should efficiently process and manage large amounts of data in a timely manner.
+8. **Usability** – The system should be user-friendly and support efficient data entry and retrieval for public health officials.
+
+These requirements ensure that the **Public Health Information Network (PHIN) Outbreak Management (OM) System** is both functional and meets the necessary quality constraints.

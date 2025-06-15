@@ -1,0 +1,113 @@
+### **Requisitos Funcionales**  
+1. **Explorer Feed Personalizable**  
+   - El sistema debe mostrar contenidos recomendados (temas de actualidad, artículos destacados, efemérides, sugerencias basadas en historial de lectura).  
+   - Permitir al usuario seleccionar tipos de contenido visibles y reordenar su prioridad en el feed.  
+   - Mostrar artículos en el idioma seleccionado por el usuario según el tipo de contenido y priorizar el idioma del primer resultado.  
+
+2. **Gestión Multilingüe**  
+   - Permitir cambiar entre 300 idiomas al buscar o leer artículos.  
+   - Mostrar el Explorer Feed en varios idiomas configurados por el usuario.  
+
+3. **Listas de Lectura Sin Conexión**  
+   - Crear, nombrar y describir listas de lectura personalizadas con artículos de cualquier idioma.  
+   - Acceder a listas guardadas sin conexión a internet.  
+   - Sincronizar listas entre dispositivos vinculados a una cuenta de Wikipedia.  
+
+4. **Personalización de Interfaz**  
+   - Ofrecer temas visuales: luminoso, oscuro y negro.  
+   - Ajustar el tamaño del texto para mejorar la legibilidad.  
+
+5. **Búsqueda Avanzada**  
+   - Integrar reconocimiento de voz en la barra de búsqueda principal.  
+   - Mostrar resultados de búsqueda en tiempo real durante la escritura o dictado.  
+
+6. **Funcionalidad "Nearby"**  
+   - Mostrar un mapa interactivo con artículos relacionados con la ubicación actual del usuario.  
+   - Permitir seleccionar puntos en el mapa para acceder a artículos geográficos.  
+
+7. **Gestión de Contenido**  
+   - Previsualizar enlaces sin abandonar la página actual (vista previa al pulsar).  
+   - Abrir enlaces en pestañas nuevas al mantener pulsado un enlace.  
+   - Visualizar imágenes en alta resolución con navegación por gestos (deslizar).  
+
+8. **Integración con Wikcionario**  
+   - Resaltar palabras al mantener pulsado sobre texto y mostrar definiciones de Wikcionario.  
+
+9. **Retroalimentación y Reportes**  
+   - Permitir enviar comentarios desde la aplicación (Settings → About → Enviar comentarios).  
+   - Transmitir automáticamente informes de fallos, con opción de desactivación en Settings → Privacy.  
+
+10. **Contribuciones de Código Abierto**  
+    - Aceptar contribuciones externas mediante repositorio público (requiere experiencia en Java y Android SDK).  
+
+---
+
+### **Requisitos No Funcionales**  
+1. **Rendimiento y Escalabilidad**  
+   - Cargar artículos en menos de 2 segundos en conexiones 4G/LTE.  
+   - Soportar acceso concurrente a 40 millones de artículos sin degradación de rendimiento.  
+
+2. **Usabilidad**  
+   - Mantener una interfaz responsive (tiempo de respuesta < 500 ms para acciones comunes).  
+   - Garantizar coherencia visual en temas y tamaños de texto en todos los dispositivos Android (versión 8.0+).  
+
+3. **Localización**  
+   - Traducir la interfaz y contenidos a 300 idiomas, incluyendo soporte para caracteres no latinos (ej. árabe, chino).  
+
+4. **Seguridad y Privacidad**  
+   - Encriptar datos de listas de lectura y credenciales de cuenta durante la sincronización.  
+   - Cumplir con GDPR: permitir desactivar informes de fallos y no recopilar datos de ubicación sin consentimiento.  
+
+5. **Compatibilidad**  
+   - Funcionar en dispositivos Android con al menos 2 GB de RAM y versión 8.0 (Oreo) o superior.  
+
+6. **Mantenibilidad**  
+   - Mantener código modular para facilitar actualizaciones y contribuciones externas (documentación técnica pública).  
+
+7. **Confiabilidad**  
+   - Garantizar disponibilidad del 99.9% en servicios en línea (búsqueda, Explorer Feed).  
+   - Recuperar listas de lectura sin pérdida de datos tras reinicios o fallos de conexión.  
+
+8. **Accesibilidad**  
+   - Cumplir con WCAG 2.1: contraste mínimo de 4.5:1 en temas y soporte para lectores de pantalla.  
+
+9. **Optimización de Recursos**  
+   - Consumir menos del 5% de batería en uso continuo durante 1 hora (ajustes estándar).  
+   - Limitar el uso de almacenamiento local: máximo 100 MB para caché de imágenes.  
+
+---
+
+### **Requisitos Implícitos**  
+1. **Algoritmos de Recomendación**  
+   - El Explorer Feed debe incluir un sistema de recomendación basado en historial de lectura, con actualización diaria.  
+
+2. **Gestión de Permisos**  
+   - Solicitar acceso a micrófono solo al activar el reconocimiento de voz.  
+   - Requerir permisos de ubicación solo cuando se use la función "Nearby".  
+
+3. **Sincronización en Tiempo Real**  
+   - Sincronizar listas de lectura entre dispositivos en menos de 10 segundos tras modificaciones.  
+
+4. **Caché de Imágenes**  
+   - Precargar miniaturas de imágenes en artículos visitados recientemente para acceso offline.  
+
+5. **Detección Automática de Idioma**  
+   - Priorizar el idioma del dispositivo como predeterminado en la primera instalación.  
+
+6. **Gestión de Errores**  
+   - Mostrar mensajes claros al usuario si falla la carga de contenido (ej. sin conexión, servidor no disponible).  
+
+7. **Validación de Contribuciones**  
+   - Implementar revisión de código (pull requests) para garantizar calidad y seguridad en contribuciones externas.  
+
+8. **Optimización para Distintos Anchos de Banda**  
+   - Reducir calidad de imágenes automáticamente en conexiones lentas (< 3G).  
+
+9. **Integración con APIs Externas**  
+   - Conectar con APIs de geolocalización (ej. Google Maps) para precisión en "Nearby".  
+
+10. **Registro de Eventos**  
+    - Registrar métricas de uso (ej. artículos leídos, tiempo en pantalla) para mejorar recomendaciones, respetando privacidad.  
+
+---  
+Este análisis asegura que cada requisito es específico, medible y alineado con las funcionalidades descritas, además de abordar restricciones técnicas y expectativas implícitas del usuario.

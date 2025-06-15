@@ -1,0 +1,29 @@
+### **Requisitos Funcionales (RF)**
+
+1. **Búsqueda de empleo:** Permitir a los usuarios encontrar oportunidades laborales mediante filtros y recomendaciones personalizadas.
+2. **Creación y mantenimiento de perfil profesional:** Permitir a los usuarios registrar y actualizar su experiencia, aptitudes y logros.
+3. **Aplicación a empleos:** Facilitar la postulación a vacantes directamente desde la plataforma.
+4. **Alertas de empleo:** Notificar a los usuarios sobre nuevas ofertas laborales de empresas seguidas.
+5. **Networking profesional:** Permitir la conexión con otros profesionales, empresas y líderes de la industria.
+6. **Seguimiento de empresas y líderes:** Facilitar el acceso a actualizaciones y contenido de interés de empresas y líderes del sector.
+7. **Publicación de contenido:** Permitir a los usuarios compartir artículos, noticias y publicaciones en la comunidad.
+8. **Grupos y comunidades:** Permitir la creación y participación en grupos con intereses profesionales comunes.
+9. **Noticias empresariales:** Proveer acceso a tendencias y novedades del sector empresarial.
+10. **Perfil como currículum digital:** Permitir a los usuarios utilizar su perfil como CV para mostrar su experiencia y solicitar empleos.
+11. **Opciones de suscripción Premium:** Ofrecer herramientas avanzadas mediante un modelo de suscripción.
+12. **Verificación de identidad:** Proveer una opción para que los usuarios verifiquen su identidad con documentos oficiales o selfies.
+
+### **Requisitos No Funcionales (RNF)**
+
+1. **Seguridad y privacidad:** Garantizar la protección de datos personales y profesionales de los usuarios.
+2. **Disponibilidad y escalabilidad:** Asegurar un servicio estable y capaz de soportar millones de usuarios simultáneamente.
+3. **Usabilidad:** Diseñar una interfaz intuitiva y accesible para diferentes tipos de usuarios.
+4. **Compatibilidad multiplataforma:** Asegurar el correcto funcionamiento en web y dispositivos móviles.
+5. **Eficiencia en búsqueda y filtrado:** Optimizar los algoritmos de búsqueda para ofrecer resultados rápidos y precisos.
+6. **Tiempo de respuesta:** Garantizar tiempos de carga reducidos para una mejor experiencia del usuario.
+7. **Accesibilidad:** Cumplir con estándares de accesibilidad para personas con discapacidad.
+8. **Integración con terceros:** Permitir autenticación y sincronización con otras plataformas y herramientas de productividad.
+9. **Actualización y mantenimiento:** Implementar mejoras y correcciones de errores de manera periódica.
+10. **Soporte y atención al usuario:** Ofrecer asistencia técnica y respuestas a dudas de los usuarios.
+
+Estos requisitos aseguran el correcto funcionamiento de LinkedIn, cubriendo tanto las necesidades funcionales como las de calidad y experiencia de usuario.

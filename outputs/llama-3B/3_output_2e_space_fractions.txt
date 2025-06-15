@@ -1,0 +1,236 @@
+**Functional Requirements:**
+
+1. **Game Selection:**
+   - The system will have a web-based menu system that allows users to select between the Space Fractions game and the umbrella (menu of past games).
+   - The menu system will display the title of each game and a brief description of the game's objective.
+   - Users can select a game by clicking on its title, and the system will redirect them to the game's page.
+
+2. **Game Interface:**
+   - The Space Fractions game will be a web-based, interactive game that presents fraction problems to the user.
+   - The game will display a series of fraction problems, each with a numerator, denominator, and a result.
+   - Users will be able to input their answers, and the system will provide feedback on their answers (correct or incorrect).
+   - The game will keep track of the user's score and display it at the end of the game.
+
+3. **Game Logic:**
+   - The game will use a random number generator to select fraction problems from a predefined set of problems.
+   - The game will check the user's answers against the correct answers and provide feedback accordingly.
+   - The game will keep track of the user's score and display it at the end of the game.
+
+4. **User Feedback:**
+   - The system will provide feedback to the user on their answers, including correct or incorrect answers and explanations for incorrect answers.
+   - The feedback will be displayed in a clear and concise manner, with examples and explanations to help the user understand the correct answers.
+
+5. **Game Progression:**
+   - The game will have a progression system that allows users to move on to more challenging problems as they complete previous problems.
+   - The game will display the user's current level and the number of problems they have completed.
+
+6. **Game Reset:**
+   - The system will allow users to reset their game by clicking a "Reset" button.
+   - The game will reset the user's score and progress to the beginning of the game.
+
+7. **Game Completion:**
+   - The system will display a congratulatory message to the user when they complete the game.
+   - The game will display the user's final score and provide feedback on their performance.
+
+8. **Umbrella (Menu of Past Games):**
+   - The umbrella will be a web-based menu system that allows users to select between the Space Fractions game and the umbrella.
+   - The umbrella will display the title of each game and a brief description of the game's objective.
+   - Users can select a game by clicking on its title, and the system will redirect them to the game's page.
+
+**Non-Functional Requirements:**
+
+1. **Performance:**
+   - The system will respond to user input within 2 seconds.
+   - The system will display game problems and feedback within 1 second.
+   - The system will handle a minimum of 100 concurrent users without a significant decrease in performance.
+
+2. **Security:**
+   - The system will use HTTPS encryption to protect user data.
+   - The system will validate user input to prevent SQL injection and cross-site scripting (XSS) attacks.
+   - The system will store user data securely, using a password hashing algorithm to protect user passwords.
+
+3. **Usability:**
+   - The system will be accessible on a variety of devices, including desktops, laptops, tablets, and smartphones.
+   - The system will be easy to use, with clear and concise instructions and feedback.
+   - The system will be accessible to users with disabilities, using accessibility features such as high contrast mode and screen reader support.
+
+4. **Scalability:**
+   - The system will be able to handle a minimum of 1000 concurrent users without a significant decrease in performance.
+   - The system will be able to handle a minimum of 1000 new users per day without a significant decrease in performance.
+
+5. **Maintainability:**
+   - The system will be easy to maintain, with clear and concise code and documentation.
+   - The system will be modular, with separate modules for game logic, user feedback, and game progression.
+   - The system will be testable, with clear and concise test cases and test data.
+
+**Assumptions:**
+
+1. **User Input:**
+   - Users will input their answers using a text field or a dropdown menu.
+   - Users will select their answers from a predefined set of options.
+
+2. **Game Progression:**
+   - The game will progress by displaying a new fraction problem after the user completes the previous problem.
+   - The game will display the user's current level and the number of problems they have completed.
+
+3. **User Feedback:**
+   - The system will provide feedback to the user on their answers, including correct or incorrect answers and explanations for incorrect answers.
+   - The feedback will be displayed in a clear and concise manner, with examples and explanations to help the user understand the correct answers.
+
+4. **Game Reset:**
+   - The system will allow users to reset their game by clicking a "Reset" button.
+   - The game will reset the user's score and progress to the beginning of the game.
+
+5. **Game Completion:**
+   - The system will display a congratulatory message to the user when they complete the game.
+   - The game will display the user's final score and provide feedback on their performance.
+
+**Device Connections:**
+
+1. **Web Browser:**
+   - The system will be accessible on a variety of web browsers, including Google Chrome, Mozilla Firefox, and Microsoft Edge.
+   - The system will be compatible with a minimum of 1000 different devices, including desktops, laptops, tablets, and smartphones.
+
+2. **Device Requirements:**
+   - The system will require a minimum of 2 GB of RAM and a minimum of 1 GHz processor.
+   - The system will require a minimum of 1000 MB of free disk space.
+
+**Time References:**
+
+1. **Game Progression:**
+   - The game will progress by displaying a new fraction problem after the user completes the previous problem.
+   - The game will display the user's current level and the number of problems they have completed.
+
+2. **User Feedback:**
+   - The system will provide feedback to the user on their answers, including correct or incorrect answers and explanations for incorrect answers.
+   - The feedback will be displayed in a clear and concise manner, with examples and explanations to help the user understand the correct answers.
+
+3. **Game Reset:**
+   - The system will allow users to reset their game by clicking a "Reset" button.
+   - The game will reset the user's score and progress to the beginning of the game.
+
+4. **Game Completion:**
+   - The system will display a congratulatory message to the user when they complete the game.
+   - The game will display the user's final score and provide feedback on their performance.
+
+**Past Games:**
+
+1. **Game Selection:**
+   - The system will have a web-based menu system that allows users to select between the Space Fractions game and the umbrella (menu of past games).
+   - The menu system will display the title of each game and a brief description of the game's objective.
+   - Users can select a game by clicking on its title, and the system will redirect them to the game's page.
+
+2. **Game Interface:**
+   - The Space Fractions game will be a web-based, interactive game that presents fraction problems to the user.
+   - The game will display a series of fraction problems, each with a numerator, denominator, and a result.
+   - Users will be able to input their answers, and the system will provide feedback on their answers (correct or incorrect).
+   - The game will keep track of the user's score and display it at the end of the game.
+
+3. **Game Logic:**
+   - The game will use a random number generator to select fraction problems from a predefined set of problems.
+   - The game will check the user's answers against the correct answers and provide feedback accordingly.
+   - The game will keep track of the user's score and display it at the end of the game.
+
+4. **User Feedback:**
+   - The system will provide feedback to the user on their answers, including correct or incorrect answers and explanations for incorrect answers.
+   - The feedback will be displayed in a clear and concise manner, with examples and explanations to help the user understand the correct answers.
+
+5. **Game Progression:**
+   - The game will have a progression system that allows users to move on to more challenging problems as they complete previous problems.
+   - The game will display the user's current level and the number of problems they have completed.
+
+6. **Game Reset:**
+   - The system will allow users to reset their game by clicking a "Reset" button.
+   - The game will reset the user's score and progress to the beginning of the game.
+
+7. **Game Completion:**
+   - The system will display a congratulatory message to the user when they complete the game.
+   - The game will display the user's final score and provide feedback on their performance.
+
+8. **Umbrella (Menu of Past Games):**
+   - The umbrella will be a web-based menu system that allows users to select between the Space Fractions game and the umbrella.
+   - The umbrella will display the title of each game and a brief description of the game's objective.
+   - Users can select a game by clicking on its title, and the system will redirect them to the game's page.
+
+**Assumptions:**
+
+1. **User Input:**
+   - Users will input their answers using a text field or a dropdown menu.
+   - Users will select their answers from a predefined set of options.
+
+2. **Game Progression:**
+   - The game will progress by displaying a new fraction problem after the user completes the previous problem.
+   - The game will display the user's current level and the number of problems they have completed.
+
+3. **User Feedback:**
+   - The system will provide feedback to the user on their answers, including correct or incorrect answers and explanations for incorrect answers.
+   - The feedback will be displayed in a clear and concise manner, with examples and explanations to help the user understand the correct answers.
+
+4. **Game Reset:**
+   - The system will allow users to reset their game by clicking a "Reset" button.
+   - The game will reset the user's score and progress to the beginning of the game.
+
+5. **Game Completion:**
+   - The system will display a congratulatory message to the user when they complete the game.
+   - The game will display the user's final score and provide feedback on their performance.
+
+6. **Umbrella (Menu of Past Games):**
+   - The umbrella will be a web-based menu system that allows users to select between the Space Fractions game and the umbrella.
+   - The umbrella will display the title of each game and a brief description of the game's objective.
+   - Users can select a game by clicking on its title, and the system will redirect them to the game's page.
+
+**Past Games:**
+
+1. **Game Selection:**
+   - The system will have a web-based menu system that allows users to select between the Space Fractions game and the umbrella (menu of past games).
+   - The menu system will display the title of each game and a brief description of the game's objective.
+   - Users can select a game by clicking on its title, and the system will redirect them to the game's page.
+
+2. **Game Interface:**
+   - The Space Fractions game will be a web-based, interactive game that presents fraction problems to the user.
+   - The game will display a series of fraction problems, each with a numerator, denominator, and a result.
+   - Users will be able to input their answers, and the system will provide feedback on their answers (correct or incorrect).
+   - The game will keep track of the user's score and display it at the end of the game.
+
+3. **Game Logic:**
+   - The game will use a random number generator to select fraction problems from a predefined set of problems.
+   - The game will check the user's answers against the correct answers and provide feedback accordingly.
+   - The game will keep track of the user's score and display it at the end of the game.
+
+4. **User Feedback:**
+   - The system will provide feedback to the user on their answers, including correct or incorrect answers and explanations for incorrect answers.
+   - The feedback will be displayed in a clear and concise manner, with examples and explanations to help the user understand the correct answers.
+
+5. **Game Progression:**
+   - The game will have a progression system that allows users to move on to more challenging problems as they complete previous problems.
+   - The game will display the user's current level and the number of problems they have completed.
+
+6. **Game Reset:**
+   - The system will allow users to reset their game by clicking a "Reset" button.
+   - The game will reset the user's score and progress to the beginning of the game.
+
+7. **Game Completion:**
+   - The system will display a congratulatory message to the user when they complete the game.
+   - The game will display the user's final score and provide feedback on their performance.
+
+8. **Umbrella (Menu of Past Games):**
+   - The umbrella will be a web-based menu system that allows users to select between the Space Fractions game and the umbrella.
+   - The umbrella will display the title of each game and a brief description of the game's objective.
+   - Users can select a game by clicking on its title, and the system will redirect them to the game's page.
+
+**Assumptions:**
+
+1. **User Input:**
+   - Users will input their answers using a text field or a dropdown menu.
+   - Users will select their answers from a predefined set of options.
+
+2. **Game Progression:**
+   - The game will progress by displaying a new fraction problem after the user completes the previous problem.
+   - The game will display the user's current level and the number of problems they have completed.
+
+3. **User Feedback:**
+   - The system will provide feedback to the user on their answers, including correct or incorrect answers and explanations for incorrect answers.
+   - The feedback will be displayed in a clear and concise manner, with examples and explanations to help the user understand the correct answers.
+
+4. **Game Reset:**
+   - The system will allow users to reset

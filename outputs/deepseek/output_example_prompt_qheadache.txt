@@ -1,0 +1,19 @@
+### Extracted Requirements:
+
+#### **Functional Requirements:**
+1. **FR-1**: The system shall provide a graphical user interface (GUI) with menus, graphics, and sounds for user interaction.  
+2. **FR-2**: The system shall require both a keyboard and a mouse for user input.  
+3. **FR-3**: The system shall support gameplay for users aged 8 and above, including both beginner and advanced levels.  
+4. **FR-4**: The system shall display content on a graphical display with a minimum resolution of 800x600.  
+5. **FR-5**: The system shall run as a standalone application without requiring an internet connection.  
+
+#### **Non-Functional Requirements:**
+1. **NFR-1**: The system shall be compatible with standard operating systems that support graphical displays and input devices (keyboard and mouse).  
+2. **NFR-2**: The system shall ensure that the graphical user interface is intuitive and accessible to users aged 8 and above.  
+3. **NFR-3**: The system shall provide responsive feedback to user inputs (keyboard and mouse) with minimal latency.  
+4. **NFR-4**: The system shall maintain a consistent frame rate and performance on hardware that meets the minimum graphical display requirements.  
+5. **NFR-5**: The system shall include sound effects and graphics that are appropriate for the target age group (8+).  
+6. **NFR-6**: The system shall be designed to handle user errors gracefully, such as incorrect inputs or unexpected actions.  
+7. **NFR-7**: The system shall be tested to ensure compatibility with common screen resolutions, starting from 800x600 and higher.  
+
+Let me know if you need further clarification or additional details!

@@ -1,0 +1,69 @@
+Based on the description provided, the **functional** and **non-functional** requirements for the Public Health Information Network (PHIN) system, specifically for Outbreak Management (OM), can be extracted as follows:
+
+---
+
+### **Functional Requirements**:
+1. **Data Collection and Analysis**:
+   - The system must support the collection and analysis of data to identify and contain health events or acts of bioterrorism.
+   - It should capture data related to:
+     - Cases
+     - Contacts
+     - Investigations
+     - Exposures
+     - Relationships
+     - Clinical and environmental specimens/samples
+     - Laboratory results
+     - Vaccinations and treatments
+     - Travel history
+     - Conveyance information
+
+2. **Configurability**:
+   - The system should be configurable to meet the needs of different types of health events.
+
+3. **Dynamic Object Creation**:
+   - The application should allow for new objects to be defined and created during the course of an investigation.
+
+4. **Traceable Links**:
+   - The system must create traceable links between all appropriate entities (e.g., cases, exposures, contacts, etc.).
+   - It should trace the mechanism of transmission and identify the source of the health event.
+
+5. **Integration with Other Systems**:
+   - The system should integrate with systems supporting:
+     - Early event detection
+     - Countermeasure administration
+     - Laboratory systems
+     - Surveillance systems
+
+6. **Support for Investigation and Reporting**:
+   - The system must support the investigation, monitoring, management, analysis, and reporting of health events.
+
+---
+
+### **Non-Functional Requirements**:
+1. **Scalability**:
+   - The system should handle varying volumes of data and users, depending on the scale of the health event.
+
+2. **Reliability**:
+   - The system must be reliable and available during critical health events to ensure continuous operation.
+
+3. **Performance**:
+   - The system should perform efficiently, even when processing large amounts of data or during high user demand.
+
+4. **Security**:
+   - The system must ensure the security and confidentiality of sensitive health data.
+
+5. **Usability**:
+   - The system should be user-friendly and intuitive for response staff to use effectively during emergencies.
+
+6. **Interoperability**:
+   - The system must seamlessly integrate with other systems (e.g., early event detection, laboratory, surveillance) to ensure cohesive functionality.
+
+7. **Maintainability**:
+   - The system should be easy to maintain and update to adapt to new requirements or health event scenarios.
+
+8. **Compliance**:
+   - The system must comply with relevant health data standards and regulations.
+
+---
+
+These requirements ensure that the PHIN system effectively supports outbreak management while meeting quality and operational standards.

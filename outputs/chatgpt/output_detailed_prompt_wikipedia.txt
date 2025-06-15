@@ -1,0 +1,77 @@
+### **Requisitos Funcionales**
+
+#### **Búsqueda y Exploración de Contenidos**
+
+1. La aplicación debe permitir la búsqueda rápida de artículos específicos por título o palabras clave.
+2. La barra de búsqueda debe estar situada en la parte superior de la aplicación y debe integrar reconocimiento de voz.
+3. Explorer Feed debe ofrecer contenido recomendado, incluyendo:
+
+   * Temas de actualidad.
+   * Artículos destacados.
+   * Efemérides.
+   * Artículos sugeridos en función del historial de lectura.
+4. El usuario debe poder personalizar los tipos de contenido mostrados en Explorer Feed y su orden.
+5. La aplicación debe permitir cambiar fácilmente entre idiomas en la búsqueda de artículos.
+6. La aplicación debe mostrar el primer resultado en el idioma seleccionado por el usuario.
+
+#### **Soporte Multilingüe**
+
+7. Explorer Feed debe permitir la visualización de contenido en varios idiomas simultáneamente.
+8. La aplicación debe permitir la lectura de artículos en cualquiera de los casi 300 idiomas disponibles en Wikipedia.
+
+#### **Listas de Lectura y Sincronización**
+
+9. El usuario debe poder guardar artículos en listas de lectura accesibles sin conexión.
+10. La aplicación debe permitir la creación de múltiples listas de lectura con nombres y descripciones personalizadas.
+11. La aplicación debe permitir la sincronización de listas de lectura con la cuenta de Wikipedia del usuario en múltiples dispositivos.
+
+#### **Personalización de Apariencia**
+
+12. La aplicación debe permitir seleccionar entre los modos de visualización: claro, oscuro y negro.
+13. El usuario debe poder ajustar el tamaño del texto dentro de la aplicación.
+
+#### **Interacción con Contenido**
+
+14. La función "Nearby" debe permitir descubrir información sobre ubicaciones cercanas en un mapa interactivo con puntos seleccionables.
+15. Al pulsar sobre un enlace en un artículo, la aplicación debe mostrar una vista previa sin cambiar de página.
+16. Manteniendo el dedo sobre un enlace, la aplicación debe abrirlo en una nueva pestaña.
+17. La aplicación debe permitir visualizar imágenes en pantalla completa y en alta resolución.
+18. Al deslizar el dedo, el usuario debe poder navegar entre imágenes adicionales.
+19. Manteniendo pulsada una palabra en un artículo, la aplicación debe ofrecer la opción de consultar su definición en Wikcionario.
+
+#### **Gestión de Comentarios y Reportes**
+
+20. El usuario debe poder enviar comentarios sobre la aplicación desde el menú "Settings" → "About the Wikipedia app" → "Enviar comentarios sobre la aplicación".
+21. La aplicación debe permitir la transmisión automática de informes de fallos a un servicio de terceros.
+22. El usuario debe poder desactivar el envío de informes de fallos en la configuración de privacidad.
+
+---
+
+### **Requisitos No Funcionales**
+
+#### **Rendimiento y Usabilidad**
+
+1. La búsqueda de artículos debe devolver resultados en menos de 2 segundos.
+2. La carga de imágenes en la galería debe realizarse sin retrasos perceptibles, optimizando la calidad según la conexión disponible.
+3. La aplicación debe ser intuitiva y fácil de usar, con una navegación clara y accesible.
+4. Los cambios en la personalización (modo de visualización, idioma, tamaño del texto) deben reflejarse de inmediato sin necesidad de reiniciar la aplicación.
+
+#### **Compatibilidad y Accesibilidad**
+
+5. La aplicación debe ser compatible con dispositivos Android en versiones X o superiores.
+6. La aplicación debe ser accesible para usuarios con discapacidad visual, soportando lectores de pantalla y opciones de alto contraste.
+7. El reconocimiento de voz debe funcionar con la configuración predeterminada del dispositivo Android.
+
+#### **Seguridad y Privacidad**
+
+8. La aplicación no debe recolectar ni almacenar datos personales del usuario sin su consentimiento.
+9. La sincronización de listas de lectura debe realizarse mediante un protocolo seguro (HTTPS).
+10. La opción de desactivar informes de fallos debe estar disponible y accesible en la configuración de privacidad.
+
+#### **Mantenibilidad y Código Abierto**
+
+11. La aplicación debe ser de código abierto y estar disponible para contribuciones de la comunidad.
+12. El código fuente debe seguir las mejores prácticas de desarrollo en Java y el SDK de Android.
+13. Se deben proporcionar instrucciones claras para que los desarrolladores puedan contribuir con mejoras o correcciones.
+
+Con estos requisitos, se define un marco claro y detallado para el desarrollo y la mejora de la aplicación Wikipedia para Android.

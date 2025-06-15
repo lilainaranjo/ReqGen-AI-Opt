@@ -1,0 +1,26 @@
+Here are the extracted **functional** and **non-functional** requirements for the described system:
+
+---
+
+### **Functional Requirements**:
+1. The system shall provide a user interface with menus, graphics, and sounds.
+2. The system shall allow users to interact with the game using a keyboard and mouse.
+3. The system shall display a graphical interface with a minimum resolution of 800x600.
+4. The system shall provide gameplay that addresses a specific headache (e.g., problem-solving or relaxation).
+5. The system shall support players of varying skill levels, from beginners (age 8+) to advanced players (adults).
+6. The system shall run as a standalone application without requiring an internet connection or external dependencies.
+
+---
+
+### **Non-Functional Requirements**:
+1. **Usability**: The system shall be easy to use for individuals with basic computer operation skills.
+2. **Performance**: The system shall respond to user inputs (keyboard and mouse) with minimal latency.
+3. **Compatibility**: The system shall be compatible with standard operating systems that support graphical displays, keyboards, and mice.
+4. **Accessibility**: The system shall be accessible to users aged 8 and above.
+5. **Reliability**: The system shall operate without crashes or errors during normal usage.
+6. **Scalability**: The system shall handle varying levels of user interaction without performance degradation.
+7. **Portability**: The system shall be deployable as a standalone application on multiple platforms (e.g., Windows, macOS, Linux).
+
+---
+
+These requirements capture the core functionality and quality attributes of the described computerized game system.

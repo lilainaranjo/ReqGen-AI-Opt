@@ -1,0 +1,57 @@
+ **Functional Requirements:**
+
+1. **User Interface (UI):**
+   - The UI should be intuitive, user-friendly, and visually appealing to attract and engage sixth-grade students.
+   - The UI should include clear navigation, with options to start a new game, view past games, and access feedback.
+   - The UI should display the current fraction problem, the student's answer, and the correct answer.
+   - The UI should provide immediate feedback on each answer, indicating whether it is correct or incorrect.
+   - The UI should keep track of the student's score during the game.
+
+2. **Game Mechanics:**
+   - The game should present fraction problems in various formats (e.g., adding, subtracting, multiplying, dividing, simplifying, comparing).
+   - The game should increase in difficulty as the student progresses, starting with simple problems and gradually introducing more complex ones.
+   - The game should include a time limit for each problem to encourage quick thinking and prevent prolonged hesitation.
+   - The game should have a scoring system that rewards correct answers and penalizes incorrect ones.
+   - The game should have a system for tracking the student's progress and performance over multiple games.
+
+3. **Feedback System:**
+   - The feedback system should provide detailed explanations for each correct and incorrect answer.
+   - The feedback system should offer tips and strategies for improving fraction-solving skills.
+   - The feedback system should allow students to reattempt problems they found difficult.
+   - The feedback system should provide an overall score and performance analysis at the end of each game.
+
+4. **Umbrella Menu System:**
+   - The umbrella menu system should allow users to easily navigate between different games.
+   - The umbrella menu system should provide a brief description of each game, including its difficulty level and focus area (e.g., adding fractions, comparing fractions, etc.).
+   - The umbrella menu system should allow users to track their progress and performance across all games.
+
+**Non-Functional Requirements:**
+
+1. **Performance:**
+   - The system should be able to handle a large number of concurrent users without significant performance degradation.
+   - The system should load quickly and respond to user interactions promptly.
+
+2. **Usability:**
+   - The system should be easy to use, with minimal learning curve for students.
+   - The system should be accessible on various devices (e.g., desktops, laptops, tablets, smartphones) and web browsers.
+   - The system should be compatible with assistive technologies to cater to students with disabilities.
+
+3. **Security:**
+   - The system should protect user data, ensuring privacy and confidentiality.
+   - The system should implement measures to prevent unauthorized access and data breaches.
+
+4. **Maintainability:**
+   - The system should be designed for easy maintenance and updates, allowing for the addition of new games and features over time.
+   - The system should be scalable to accommodate future growth in user base and content.
+
+5. **Reliability:**
+   - The system should be reliable, with minimal downtime and high availability.
+   - The system should have a robust error handling mechanism to ensure smooth operation even in the event of unexpected issues.
+
+6. **Compatibility:**
+   - The system should be compatible with common web standards and technologies.
+   - The system should be designed to work seamlessly with modern web browsers (e.g., Chrome, Firefox, Safari, Edge).
+
+7. **Localization:**
+   - The system should support multiple languages to cater to a diverse user base.
+   - The system should allow for easy localization and translation of content.

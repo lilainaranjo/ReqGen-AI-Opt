@@ -1,0 +1,155 @@
+Functional Requirements (FR)
+FR1: The system will allow students to play different fractions games.
+FR2: The system will provide a web-based menu system allowing the user to choose between the games.
+FR3: The system will provide a web-based, interactive game that teaches students to solve fractions.
+FR4: The system will provide a web-based, interactive game that tests students' fraction-solving skills.
+FR5: The system will provide a web-based, interactive game that evaluates students' understanding of fractions.
+FR6: The system will allow students to play different fractions games.
+FR7: The system will provide a web-based, interactive game that teaches students to solve fractions.
+FR8: The system will provide a web-based, interactive game that tests students' fraction-solving skills.
+FR9: The system will provide a web-based, interactive game that evaluates students' understanding of fractions.
+FR10: The system will allow students to play different fractions games.
+FR11: The system will provide a web-based, interactive game that evaluates students' understanding of fractions.
+FR12: The system will provide a web-based, interactive game that tests students' fraction-solving skills.
+FR13: The system will provide a web-based, interactive game that teaches students to solve fractions.
+FR14: The system will allow students to play different fractions games.
+FR15: The system will provide a web-based, interactive game that tests students' fraction-solving skills.
+FR16: The system will provide a web-based, interactive game that evaluates students' understanding of fractions.
+FR17: The system will allow students to play different fractions games.
+FR18: The system will provide a web-based, interactive game that teaches students to solve fractions.
+FR19: The system will provide a web-based, interactive game that tests students' fraction-solving skills.
+FR20: The system will provide a web-based, interactive game that evaluates students' understanding of fractions.
+
+Non-Functional Requirements (NFR)
+NFR1: The system will be accessible to all users, regardless of their age or technical skills.
+NFR2: The system will be compatible with all web browsers.
+NFR3: The system will be compatible with all operating systems.
+NFR4: The system will be compatible with all devices.
+NFR5: The system will be compatible with all devices, including desktops, laptops, and mobile devices.
+NFR6: The system will be compatible with all devices, including desktops, laptops, and mobile devices.
+NFR7: The system will be compatible with all devices, including desktops, laptops, and mobile devices.
+NFR8: The system will be compatible with all devices, including desktops, laptops, and mobile devices.
+NFR9: The system will be compatible with all devices, including desktops, laptops, and mobile devices.
+NFR10: The system will be compatible with all devices, including desktops, laptops, and mobile devices.
+NFR11: The system will be compatible with all devices, including desktops, laptops, and mobile devices.
+NFR12: The system will be compatible with all devices, including desktops, laptops, and mobile devices.
+NFR13: The system will be compatible with all devices, including desktops, laptops, and mobile devices.
+NFR14: The system will be compatible with all devices, including desktops, laptops, and mobile devices.
+NFR15: The system will provide a minimum of 4 GB of storage space.
+NFR16: The system will provide a minimum of 4 GB of storage space.
+NFR17: The system will provide a minimum of 4 GB of storage space.
+NFR18: The system will provide a minimum of 4 GB of storage space.
+NFR19: The system will provide a minimum of 4 GB of storage space.
+NFR20: The system will provide a minimum of 4 GB of storage space.
+
+Non-Functional Functional Requirements (NFRF)
+NFRF1: The system will allow students to play different fractions games.
+NFRF2: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF3: The system will provide a minimum of 10 seconds to complete each fraction game.
+NFRF4: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF5: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF6: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF7: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF8: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF9: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF10: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF11: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF12: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF13: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF14: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF15: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF16: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF17: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF18: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF19: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF20: The system will provide a minimum of 1 second to complete each fraction game.
+
+NFRF2: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF3: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF4: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF5: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF6: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF7: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF8: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF9: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF10: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF11: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF12: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF13: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF14: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF15: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF16: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF17: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF18: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF19: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF20: The system will provide a minimum of 4 seconds to complete each fraction game.
+
+NFRF3: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF4: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF5: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF6: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF7: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF8: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF9: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF10: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF11: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF12: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF13: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF14: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF15: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF16: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF17: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF18: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF19: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF20: The system will provide a minimum of 4 seconds to complete each fraction game.
+
+NFRF4: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF5: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF6: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF7: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF8: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF9: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF10: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF11: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF12: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF13: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF14: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF15: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF16: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF17: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF18: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF19: The system will provide a minimum of 4 seconds to complete each fraction game.
+NFRF20: The system will provide a minimum of 4 seconds to complete each fraction game.
+
+NFRF5: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF6: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF7: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF8: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF9: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF10: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF11: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF12: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF13: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF14: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF15: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF16: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF17: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF18: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF19: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF20: The system will provide a minimum of 1 second to complete each fraction game.
+
+NFRF6: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF7: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF8: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF9: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF10: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF11: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF12: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF13: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF14: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF15: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF16: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF17: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF18: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF19: The system will provide a minimum of 1 second to complete each fraction game.
+NFRF20: The system will provide a minimum of 1 second to complete

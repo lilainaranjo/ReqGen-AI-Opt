@@ -1,0 +1,237 @@
+ Functional Requirements (FR):
+
+FR1: The system shall provide a web-based, interactive game for improving fraction-solving skills for sixth-grade students.
+
+FR2: The system shall allow users to play multiple games within the Space Fractions project.
+
+FR3: The system shall display a main menu upon launching, which allows users to select a game from the Space Fractions project.
+
+FR4: The system shall display a game selection screen listing all available games within the Space Fractions project.
+
+FR5: The system shall display a game's title, description, and recommended grade level on the game selection screen.
+
+FR6: The system shall display a game's score history upon selecting it from the game selection screen.
+
+FR7: The system shall display a game's high score, average score, and number of plays upon selecting it from the game selection screen.
+
+FR8: The system shall display a game's instructions upon selecting it from the game selection screen.
+
+FR9: The system shall display a game's instructions in text format and include images where appropriate.
+
+FR10: The system shall display a game's instructions before starting the game.
+
+FR11: The system shall display a game's instructions after completing the game if the user chooses to view them again.
+
+FR12: The system shall display a game's instructions only once per session.
+
+FR13: The system shall display a game's instructions for 10 seconds before automatically closing them.
+
+FR14: The system shall display a game's instructions until the user clicks "Start Game."
+
+FR15: The system shall display a game's instructions until the user clicks "Close Instructions."
+
+FR16: The system shall display a game's instructions until the user clicks "Back" on the game selection screen.
+
+FR17: The system shall display a game's instructions until the user clicks "Home" on the main menu.
+
+FR18: The system shall display a game's instructions until the user clicks "Exit" on the main menu.
+
+FR19: The system shall display a game's instructions until the user clicks "Restart Game."
+
+FR20: The system shall display a game's instructions until the user clicks "Save Score."
+
+FR21: The system shall display a game's instructions until the user clicks "Quit."
+
+FR22: The system shall display a game's instructions until the user clicks "Help."
+
+FR23: The system shall display a game's instructions until the user clicks "About."
+
+FR24: The system shall display a game's instructions until the user clicks "Back" on the about page.
+
+FR25: The system shall display a game's instructions until the user clicks "Home" on the main menu.
+
+FR26: The system shall display a game's instructions until the user clicks "Exit" on the main menu.
+
+FR27: The system shall display a game's instructions until the user clicks "Restart Game."
+
+FR28: The system shall display a game's instructions until the user clicks "Save Score."
+
+FR29: The system shall display a game's instructions until the user clicks "Quit."
+
+FR30: The system shall display a game's instructions until the user clicks "Help."
+
+FR31: The system shall display a game's instructions until the user clicks "About."
+
+FR32: The system shall display a game's instructions until the user clicks "Back" on the about page.
+
+FR33: The system shall display a game's instructions until the user clicks "Home" on the main menu.
+
+FR34: The system shall display a game's instructions until the user clicks "Exit" on the main menu.
+
+FR35: The system shall display a game's instructions until the user clicks "Restart Game."
+
+FR36: The system shall display a game's instructions until the user clicks "Save Score."
+
+FR37: The system shall display a game's instructions until the user clicks "Quit."
+
+FR38: The system shall display a game's instructions until the user clicks "Help."
+
+FR39: The system shall display a game's instructions until the user clicks "About."
+
+FR40: The system shall display a game's instructions until the user clicks "Back" on the about page.
+
+FR41: The system shall display a game's instructions until the user clicks "Home" on the main menu.
+
+FR42: The system shall display a game's instructions until the user clicks "Exit" on the main menu.
+
+FR43: The system shall display a game's instructions until the user clicks "Restart Game."
+
+FR44: The system shall display a game's instructions until the user clicks "Save Score."
+
+FR45: The system shall display a game's instructions until the user clicks "Quit."
+
+FR46: The system shall display a game's instructions until the user clicks "Help."
+
+FR47: The system shall display a game's instructions until the user clicks "About."
+
+FR48: The system shall display a game's instructions until the user clicks "Back" on the about page.
+
+FR49: The system shall display a game's instructions until the user clicks "Home" on the main menu.
+
+FR50: The system shall display a game's instructions until the user clicks "Exit" on the main menu.
+
+FR51: The system shall display a game's instructions until the user clicks "Restart Game."
+
+FR52: The system shall display a game's instructions until the user clicks "Save Score."
+
+FR53: The system shall display a game's instructions until the user clicks "Quit."
+
+FR54: The system shall display a game's instructions until the user clicks "Help."
+
+FR55: The system shall display a game's instructions until the user clicks "About."
+
+FR56: The system shall display a game's instructions until the user clicks "Back" on the about page.
+
+FR57: The system shall display a game's instructions until the user clicks "Home" on the main menu.
+
+FR58: The system shall display a game's instructions until the user clicks "Exit" on the main menu.
+
+FR59: The system shall display a game's instructions until the user clicks "Restart Game."
+
+FR60: The system shall display a game's instructions until the user clicks "Save Score."
+
+FR61: The system shall display a game's instructions until the user clicks "Quit."
+
+FR62: The system shall display a game's instructions until the user clicks "Help."
+
+FR63: The system shall display a game's instructions until the user clicks "About."
+
+FR64: The system shall display a game's instructions until the user clicks "Back" on the about page.
+
+FR65: The system shall display a game's instructions until the user clicks "Home" on the main menu.
+
+FR66: The system shall display a game's instructions until the user clicks "Exit" on the main menu.
+
+FR67: The system shall display a game's instructions until the user clicks "Restart Game."
+
+FR68: The system shall display a game's instructions until the user clicks "Save Score."
+
+FR69: The system shall display a game's instructions until the user clicks "Quit."
+
+FR70: The system shall display a game's instructions until the user clicks "Help."
+
+FR71: The system shall display a game's instructions until the user clicks "About."
+
+FR72: The system shall display a game's instructions until the user clicks "Back" on the about page.
+
+FR73: The system shall display a game's instructions until the user clicks "Home" on the main menu.
+
+FR74: The system shall display a game's instructions until the user clicks "Exit" on the main menu.
+
+FR75: The system shall display a game's instructions until the user clicks "Restart Game."
+
+FR76: The system shall display a game's instructions until the user clicks "Save Score."
+
+FR77: The system shall display a game's instructions until the user clicks "Quit."
+
+FR78: The system shall display a game's instructions until the user clicks "Help."
+
+FR79: The system shall display a game's instructions until the user clicks "About."
+
+FR80: The system shall display a game's instructions until the user clicks "Back" on the about page.
+
+FR81: The system shall display a game's instructions until the user clicks "Home" on the main menu.
+
+FR82: The system shall display a game's instructions until the user clicks "Exit" on the main menu.
+
+FR83: The system shall display a game's instructions until the user clicks "Restart Game."
+
+FR84: The system shall display a game's instructions until the user clicks "Save Score."
+
+FR85: The system shall display a game's instructions until the user clicks "Quit."
+
+FR86: The system shall display a game's instructions until the user clicks "Help."
+
+FR87: The system shall display a game's instructions until the user clicks "About."
+
+FR88: The system shall display a game's instructions until the user clicks "Back" on the about page.
+
+FR89: The system shall display a game's instructions until the user clicks "Home" on the main menu.
+
+FR90: The system shall display a game's instructions until the user clicks "Exit" on the main menu.
+
+FR91: The system shall display a game's instructions until the user clicks "Restart Game."
+
+FR92: The system shall display a game's instructions until the user clicks "Save Score."
+
+FR93: The system shall display a game's instructions until the user clicks "Quit."
+
+FR94: The system shall display a game's instructions until the user clicks "Help."
+
+FR95: The system shall display a game's instructions until the user clicks "About."
+
+FR96: The system shall display a game's instructions until the user clicks "Back" on the about page.
+
+FR97: The system shall display a game's instructions until the user clicks "Home" on the main menu.
+
+FR98: The system shall display a game's instructions until the user clicks "Exit" on the main menu.
+
+FR99: The system shall display a game's instructions until the user clicks "Restart Game."
+
+FR100: The system shall display a game's instructions until the user clicks "Save Score."
+
+FR101: The system shall display a game's instructions until the user clicks "Quit."
+
+FR102: The system shall display a game's instructions until the user clicks "Help."
+
+FR103: The system shall display a game's instructions until the user clicks "About."
+
+FR104: The system shall display a game's instructions until the user clicks "Back" on the about page.
+
+FR105: The system shall display a game's instructions until the user clicks "Home" on the main menu.
+
+FR106: The system shall display a game's instructions until the user clicks "Exit" on the main menu.
+
+FR107: The system shall display a game's instructions until the user clicks "Restart Game."
+
+FR108: The system shall display a game's instructions until the user clicks "Save Score."
+
+FR109: The system shall display a game's instructions until the user clicks "Quit."
+
+FR110: The system shall display a game's instructions until the user clicks "Help."
+
+FR111: The system shall display a game's instructions until the user clicks "About."
+
+FR112: The system shall display a game's instructions until the user clicks "Back" on the about page.
+
+FR113: The system shall display a game's instructions until the user clicks "Home" on the main menu.
+
+FR114: The system shall display a game's instructions until the user clicks "Exit" on the main menu.
+
+FR115: The system shall display a game's instructions until the user clicks "Restart Game."
+
+FR116: The system shall display a game's instructions until the user clicks "Save Score."
+
+FR117: The system shall display a game's instructions until the user clicks "Quit."
+
+FR1

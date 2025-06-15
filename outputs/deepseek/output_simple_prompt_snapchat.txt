@@ -1,0 +1,64 @@
+**Requisitos Funcionales:**  
+
+1. **Funcionalidades de SNAP:**  
+   - Acceso directo a la cámara al abrir la aplicación.  
+   - Captura de fotos con un toque y grabación de videos manteniendo presionado.  
+   - Personalización de snaps con lentes, filtros y Bitmoji.  
+   - Disponibilidad diaria de nuevos lentes creados por la comunidad.  
+
+2. **Funcionalidades de CHAT:**  
+   - Envío de mensajes en vivo y publicación en historias grupales.  
+   - Videochat grupal con capacidad para hasta 16 participantes.  
+   - Uso de lentes y filtros durante videochats.  
+   - Creación y uso de Friendmoji (Bitmoji exclusivos para usuarios y amigos).  
+
+3. **Funcionalidades de HISTORIAS:**  
+   - Visualización de historias de amigos y actualizaciones diarias.  
+   - Recomendación de historias comunitarias basadas en intereses del usuario.  
+   - Acceso a noticias actualizadas y programas exclusivos.  
+
+4. **Funcionalidades de DESTACADOS:**  
+   - Exhibición de contenido destacado seleccionado por Snapchat.  
+   - Opción para enviar snaps propios o visualizar contenido destacado.  
+   - Selección y compartición de snaps favoritos con amigos.  
+
+5. **Funcionalidades de MAPA:**  
+   - Compartición de ubicación en tiempo real con amigos.  
+   - Activación del modo Fantasma para ocultar ubicación.  
+   - Visualización de la ubicación y actividades de amigos en el mapa.  
+   - Exploración de historias en vivo de comunidades locales o globales.  
+
+---
+
+**Requisitos No Funcionales:**  
+
+1. **Rendimiento:**  
+   - Tiempo de apertura rápido de la cámara y respuesta ágil en la captura de fotos/videos.  
+   - Transmisión fluida de videochats grupales con hasta 16 participantes.  
+
+2. **Usabilidad:**  
+   - Interfaz intuitiva para acceder rápidamente a la cámara y funciones básicas.  
+   - Diseño accesible para aplicar filtros, lentes y Bitmoji con pocos pasos.  
+
+3. **Disponibilidad y Confiabilidad:**  
+   - Funcionamiento estable de mensajería en tiempo real y videochats.  
+   - Actualización constante de historias y contenido destacado sin retrasos.  
+
+4. **Seguridad:**  
+   - Control granular sobre la privacidad de la ubicación (modo Fantasma).  
+   - Protección de datos personales y contenido compartido.  
+
+5. **Escalabilidad:**  
+   - Soporte para alta demanda simultánea de videochats y uso de historias grupales.  
+
+6. **Compatibilidad:**  
+   - Funcionamiento uniforme en dispositivos móviles con diferentes sistemas operativos (iOS/Android).  
+   - Integración estable con herramientas de personalización (Bitmoji, lentes externos).  
+
+7. **Actualización Continua:**  
+   - Implementación diaria de nuevos lentes creados por la comunidad.  
+   - Actualización frecuente de noticias y contenido destacado.  
+
+8. **Personalización:**  
+   - Algoritmos de recomendación de historias basados en preferencias del usuario.  
+   - Adaptación de filtros y lentes según tendencias y eventos globales.

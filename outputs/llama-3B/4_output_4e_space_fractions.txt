@@ -1,0 +1,265 @@
+**Functional Requirements**
+
+1. **Game Selection**: The system will have a menu system that allows users to select between the Space Fractions game and the umbrella (menu of past games).
+2. **Game Start**: When the user selects the Space Fractions game, the system will start the game. The game will display a title screen with instructions and a start button.
+3. **Gameplay**: The game will display a series of fraction problems. Each problem will have a numerator, a denominator, and a result. The user will be asked to input their answer.
+4. **Answer Input**: The user will input their answer in the format "numerator/denominator". For example, if the problem is 1/2, the user would input "1/2".
+5. **Answer Validation**: The system will validate the user's answer. If the answer is correct, the system will display a success message. If the answer is incorrect, the system will display an error message.
+6. **Game Progress**: The system will keep track of the user's progress. The user will be able to view their score at the end of the game.
+7. **Game End**: The system will display a final score screen with the user's score and a message indicating whether they passed or failed.
+8. **Umbrella**: The system will have a menu system that allows users to select between the Space Fractions game and the umbrella.
+9. **Umbrella Game**: The umbrella will display a series of fraction problems. Each problem will have a numerator, a denominator, and a result. The user will be asked to input their answer.
+10. **Umbrella Answer Input**: The user will input their answer in the format "numerator/denominator". For example, if the problem is 1/2, the user would input "1/2".
+11. **Umbrella Answer Validation**: The system will validate the user's answer. If the answer is correct, the system will display a success message. If the answer is incorrect, the system will display an error message.
+12. **Umbrella Game Progress**: The system will keep track of the user's progress. The user will be able to view their score at the end of the game.
+13. **Umbrella Game End**: The system will display a final score screen with the user's score and a message indicating whether they passed or failed.
+
+**Non-Functional Requirements**
+
+1. **User Interface**: The system will have a user-friendly interface that is easy to navigate.
+2. **User Experience**: The system will provide a positive user experience that encourages users to continue playing.
+3. **Performance**: The system will be able to handle a large number of users and games without significant performance degradation.
+4. **Security**: The system will be secure and protect user data.
+5. **Scalability**: The system will be able to scale to meet the needs of a large number of users.
+6. **Usability**: The system will be easy to use and understand.
+7. **Accessibility**: The system will be accessible to users with disabilities.
+8. **Compatibility**: The system will be compatible with a variety of devices and browsers.
+9. **Reliability**: The system will be reliable and able to handle errors without significant impact.
+10. **Maintainability**: The system will be easy to maintain and update.
+
+**Assumptions**
+
+1. The system will be built using a web-based framework (e.g. React, Angular, Vue.js).
+2. The system will use a database to store user data and game progress.
+3. The system will use a web server to handle user requests and serve game content.
+4. The system will use a web browser to display the game interface.
+5. The system will use JavaScript to handle user input and game logic.
+6. The system will use HTML and CSS to create the game interface.
+7. The system will use a library to handle game logic and math operations.
+8. The system will use a library to handle user authentication and authorization.
+9. The system will use a library to handle database interactions.
+10. The system will use a library to handle web server interactions.
+
+**Example Use Cases**
+
+1. **Game Selection**: The user selects the Space Fractions game from the menu system.
+2. **Game Start**: The user starts the game and is presented with a title screen.
+3. **Gameplay**: The user plays the game and answers fraction problems.
+4. **Answer Input**: The user inputs their answer in the format "numerator/denominator".
+5. **Answer Validation**: The system validates the user's answer and displays a success or error message.
+6. **Game Progress**: The system keeps track of the user's progress and displays their score at the end of the game.
+7. **Game End**: The system displays a final score screen with the user's score and a message indicating whether they passed or failed.
+8. **Umbrella**: The user selects the umbrella from the menu system.
+9. **Umbrella Game**: The user plays the umbrella game and answers fraction problems.
+10. **Umbrella Answer Input**: The user inputs their answer in the format "numerator/denominator".
+11. **Umbrella Answer Validation**: The system validates the user's answer and displays a success or error message.
+12. **Umbrella Game Progress**: The system keeps track of the user's progress and displays their score at the end of the game.
+13. **Umbrella Game End**: The system displays a final score screen with the user's score and a message indicating whether they passed or failed.
+
+**System Components**
+
+1. **Frontend**: The frontend is responsible for handling user input and displaying the game interface.
+2. **Backend**: The backend is responsible for handling game logic and math operations.
+3. **Database**: The database is responsible for storing user data and game progress.
+4. **Web Server**: The web server is responsible for handling user requests and serving game content.
+5. **Web Browser**: The web browser is responsible for displaying the game interface.
+
+**System Flow**
+
+1. The user selects the Space Fractions game from the menu system.
+2. The system starts the game and displays a title screen.
+3. The user plays the game and answers fraction problems.
+4. The system validates the user's answer and displays a success or error message.
+5. The system keeps track of the user's progress and displays their score at the end of the game.
+6. The user selects the umbrella from the menu system.
+7. The system starts the umbrella game and displays a title screen.
+8. The user plays the umbrella game and answers fraction problems.
+9. The system validates the user's answer and displays a success or error message.
+10. The system keeps track of the user's progress and displays their score at the end of the game.
+
+**System Diagram**
+
+The system diagram will show the following components:
+
+1. Frontend
+2. Backend
+3. Database
+4. Web Server
+5. Web Browser
+
+The system diagram will also show the following relationships:
+
+1. The frontend is responsible for handling user input and displaying the game interface.
+2. The backend is responsible for handling game logic and math operations.
+3. The database is responsible for storing user data and game progress.
+4. The web server is responsible for handling user requests and serving game content.
+5. The web browser is responsible for displaying the game interface.
+
+**System Architecture**
+
+The system architecture will be a web-based architecture using a web framework (e.g. React, Angular, Vue.js).
+
+1. The frontend will be built using a web framework (e.g. React, Angular, Vue.js).
+2. The backend will be built using a web framework (e.g. Node.js, Express.js).
+3. The database will be a relational database (e.g. MySQL, PostgreSQL).
+4. The web server will be a web server (e.g. Apache, Nginx).
+5. The web browser will be a web browser (e.g. Google Chrome, Mozilla Firefox).
+
+**System Security**
+
+The system will be secure and protect user data.
+
+1. The system will use HTTPS to encrypt user data.
+2. The system will use a secure password hashing algorithm (e.g. bcrypt, PBKDF2).
+3. The system will use a secure authentication protocol (e.g. OAuth, OpenID Connect).
+4. The system will use a secure authorization protocol (e.g. JSON Web Tokens, OAuth).
+
+**System Performance**
+
+The system will be able to handle a large number of users and games without significant performance degradation.
+
+1. The system will use a load balancer to distribute user traffic.
+2. The system will use a caching mechanism to reduce database queries.
+3. The system will use a content delivery network (CDN) to reduce latency.
+4. The system will use a cloud-based infrastructure to scale horizontally.
+
+**System Usability**
+
+The system will be easy to use and understand.
+
+1. The system will have a user-friendly interface.
+2. The system will have clear and concise instructions.
+3. The system will have a simple and intuitive navigation menu.
+4. The system will have a responsive design that adapts to different screen sizes and devices.
+
+**System Accessibility**
+
+The system will be accessible to users with disabilities.
+
+1. The system will have a screen reader compatible interface.
+2. The system will have a keyboard-navigable interface.
+3. The system will have a high contrast color scheme.
+4. The system will have a clear and concise font size.
+
+**System Compatibility**
+
+The system will be compatible with a variety of devices and browsers.
+
+1. The system will be compatible with desktop and laptop computers.
+2. The system will be compatible with mobile devices (e.g. smartphones, tablets).
+3. The system will be compatible with web browsers (e.g. Google Chrome, Mozilla Firefox).
+4. The system will be compatible with different operating systems (e.g. Windows, macOS, Linux).
+
+**System Reliability**
+
+The system will be reliable and able to handle errors without significant impact.
+
+1. The system will have a backup system to ensure data integrity.
+2. The system will have a failover system to ensure system availability.
+3. The system will have a monitoring system to detect errors and anomalies.
+4. The system will have a logging system to track errors and anomalies.
+
+**System Maintainability**
+
+The system will be easy to maintain and update.
+
+1. The system will have a modular design that makes it easy to update and maintain.
+2. The system will have a clear and concise documentation.
+3. The system will have a version control system to track changes.
+4. The system will have a testing framework to ensure quality and reliability.
+
+**System Deployment**
+
+The system will be deployed on a cloud-based infrastructure.
+
+1. The system will be deployed on a cloud provider (e.g. Amazon Web Services, Microsoft Azure).
+2. The system will be deployed on a virtual machine (VM) or container.
+3. The system will be deployed on a load balancer to distribute traffic.
+4. The system will be deployed on a content delivery network (CDN) to reduce latency.
+
+**System Monitoring**
+
+The system will be monitored to detect errors and anomalies.
+
+1. The system will have a monitoring system to track errors and anomalies.
+2. The system will have a logging system to track errors and anomalies.
+3. The system will have a alerting system to notify administrators of errors and anomalies.
+4. The system will have a reporting system to provide insights and recommendations.
+
+**System Maintenance**
+
+The system will be maintained to ensure quality and reliability.
+
+1. The system will have a maintenance schedule to ensure regular updates and maintenance.
+2. The system will have a testing framework to ensure quality and reliability.
+3. The system will have a version control system to track changes.
+4. The system will have a documentation system to provide clear and concise instructions.
+
+**System Support**
+
+The system will have support to ensure user satisfaction.
+
+1. The system will have a support ticket system to track user requests.
+2. The system will have a knowledge base to provide answers to common questions.
+3. The system will have a documentation system to provide clear and concise instructions.
+4. The system will have a training program to provide users with the necessary skills and knowledge.
+
+**System Documentation**
+
+The system will have documentation to provide clear and concise instructions.
+
+1. The system will have a user manual to provide instructions for users.
+2. The system will have a technical manual to provide technical information for administrators.
+3. The system will have a release notes document to track changes and updates.
+4. The system will have a FAQ document to provide answers to common questions.
+
+**System Release**
+
+The system will be released to ensure user satisfaction.
+
+1. The system will be released to the public after thorough testing and quality assurance.
+2. The system will be released to the public after receiving feedback and testing from users.
+3. The system will be released to the public after receiving approval from administrators.
+4. The system will be released to the public after receiving certification from a third-party auditor.
+
+**System Evaluation**
+
+The system will be evaluated to ensure user satisfaction.
+
+1. The system will be evaluated based on user feedback and testing.
+2. The system will be evaluated based on user satisfaction and engagement.
+3. The system will be evaluated based on user retention and loyalty.
+4. The system will be evaluated based on user advocacy and word-of-mouth.
+
+**System Review**
+
+The system will be reviewed to ensure quality and reliability.
+
+1. The system will be reviewed based on user feedback and testing.
+2. The system will be reviewed based on user satisfaction and engagement.
+3. The system will be reviewed based on user retention and loyalty.
+4. The system will be reviewed based on user advocacy and word-of-mouth.
+
+**System Revision**
+
+The system will be revised to ensure quality and reliability.
+
+1. The system will be revised based on user feedback and testing.
+2. The system will be revised based on user satisfaction and engagement.
+3. The system will be revised based on user retention and loyalty.
+4. The system will be revised based on user advocacy and word-of-mouth.
+
+**System Update**
+
+The system will be updated to ensure quality and reliability.
+
+1. The system will be updated based on user feedback and testing.
+2. The system will be updated based on user satisfaction and engagement.
+3. The system will be updated based on user retention and loyalty.
+4. The system will be updated based on user advocacy and word-of-mouth.
+
+**System Maintenance**
+
+The system will be maintained to ensure quality and reliability.
+
+1. The system

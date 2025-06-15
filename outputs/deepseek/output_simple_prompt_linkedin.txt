@@ -1,0 +1,62 @@
+Based on the detailed description of LinkedIn's features and purpose, here's a breakdown of the functional and non-functional requirements:
+
+**Requisitos Funcionales (Qué debe hacer el sistema):**
+
+1.  **Gestión de Perfil Profesional:**
+    *   Crear y mantener un perfil profesional detallado (experiencia, logros, aptitudes).
+    *   Utilizar el perfil como currículum virtual para solicitar empleos.
+    *   Destacar experiencia, logros y aptitudes para la búsqueda de empleo.
+
+2.  **Búsqueda y Recomendación de Empleo:**
+    *   Buscar empleos activamente utilizando filtros (tipo de contrato, ubicación, etc.).
+    *   Recibir recomendaciones personalizadas de empleos basadas en perfil e intereses.
+    *   Solicitar empleos directamente a través de la plataforma usando el perfil.
+    *   Recibir alertas cuando empresas seguidas publiquen nuevas vacantes.
+
+3.  **Gestión de Red de Contactos (Networking):**
+    *   Conectar con otros profesionales, empresas y líderes de la industria.
+    *   Buscar y encontrar profesionales o empresas específicas basadas en objetivos.
+    *   Ampliar la red profesional local o globalmente.
+    *   Unirse a grupos profesionales con intereses u objetivos afines.
+
+4.  **Gestión y Consumo de Contenido:**
+    *   Seguir a empresas y líderes de la industria para recibir sus actualizaciones.
+    *   Acceder a nuevo contenido (artículos, noticias, publicaciones) de contactos y entidades seguidas.
+    *   Recibir las últimas noticias y tendencias del sector (Noticias Empresariales).
+    *   Compartir artículos, noticias, publicaciones y actualizaciones propias con la red y contactos.
+
+5.  **Promoción Empresarial:**
+    *   Promocionar negocios o productos para generar nuevas oportunidades (Networking para empresas).
+
+6.  **Verificación de Identidad:**
+    *   Ofrecer a los usuarios la opción de verificar su identidad mediante documentos oficiales o selfies en vivo a través de socios autorizados.
+
+7.  **Gestión de Suscripciones (Premium):**
+    *   Ofrecer y gestionar suscripciones Premium para acceso a herramientas exclusivas.
+
+8.  **Gestión de Permisos:**
+    *   Solicitar y gestionar permisos necesarios para el funcionamiento de la aplicación (con enlace a explicación).
+
+**Requisitos No Funcionales (Cualidades y Restricciones del sistema):**
+
+1.  **Escalabilidad:** El sistema debe manejar una comunidad masiva (más de 1.000 millones de usuarios) y su crecimiento, garantizando rendimiento bajo carga.
+2.  **Seguridad:**
+    *   Protección robusta de datos personales y profesionales de los usuarios.
+    *   Seguridad en el proceso de verificación de identidad con socios de confianza.
+    *   Gestión segura de documentos de identidad subidos o selfies en vivo.
+    *   Cumplimiento normativo (ej. GDPR, CCPA) en el manejo de datos.
+3.  **Usabilidad:**
+    *   Interfaz intuitiva y fácil de usar para realizar búsquedas, gestionar conexiones y publicar contenido.
+    *   Funcionalidades accesibles con pocos clics (ej., "buscar oportunidades con un solo clic").
+    *   Diseño claro para gestionar un perfil complejo.
+4.  **Fiabilidad (Confiabilidad):** Alta disponibilidad del servicio para usuarios globales. Las alertas de empleo y actualizaciones deben funcionar de manera consistente.
+5.  **Rendimiento:**
+    *   Tiempos de respuesta rápidos en búsquedas, carga de perfiles y noticias.
+    *   Entrega eficiente de recomendaciones personalizadas y alertas.
+6.  **Mantenibilidad:** Diseño que permita actualizaciones, adición de nuevas funcionalidades (como Premium) y corrección de errores de manera eficiente.
+7.  **Interoperabilidad:**
+    *   Integración segura con socios externos para la verificación de identidad.
+    *   (Implícito) Posible integración con sistemas de contratación (ATS) de empresas para la aplicación a empleos.
+8.  **Precisión:** Los algoritmos de recomendación de empleos y contenido deben ser relevantes para los intereses y perfil del usuario.
+9.  **Privacidad:** Control claro para el usuario sobre qué información de su perfil es visible y a quién. Transparencia en el uso de datos (enlaces proporcionados a políticas).
+10. **Capacidad:** Almacenamiento suficiente y gestión eficiente para perfiles (incluyendo potencialmente documentos), grandes volúmenes de publicaciones, conexiones y datos de empresas.

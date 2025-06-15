@@ -1,0 +1,57 @@
+Based on the system description provided for the **Space Fractions** project, here are the extracted **functional** and **non-functional requirements**:
+
+---
+
+### ✅ **Functional Requirements**
+
+(These describe what the system **should do** — the features and behaviors)
+
+1. **Interactive Fraction Game:**
+
+   * The system must provide a web-based, interactive game designed to improve fraction-solving skills.
+
+2. **Target Audience Functionality:**
+
+   * The game must be suitable for sixth-grade students in terms of difficulty and content.
+
+3. **Game Feedback:**
+
+   * After gameplay, the system must provide feedback to students based on their game scores.
+
+4. **Menu System (Umbrella for Past Games):**
+
+   * The system must include a web-based menu that allows users to choose from previously created games.
+
+---
+
+### ✅ **Non-Functional Requirements**
+
+(These define how the system performs, such as constraints and qualities)
+
+1. **Web-Based Platform:**
+
+   * The system must be accessible via a web browser (i.e., platform-independent and online).
+
+2. **Usability:**
+
+   * The interface must be user-friendly and intuitive for sixth-grade students.
+
+3. **Performance:**
+
+   * The game should load and respond promptly to user actions to maintain engagement.
+
+4. **Scalability:**
+
+   * The umbrella/menu system should be capable of supporting additional games in the future.
+
+5. **Compatibility:**
+
+   * The system should work on commonly used browsers and devices (e.g., desktops, Chromebooks used in schools).
+
+6. **Maintainability:**
+
+   * The architecture should allow easy updates to the game or the menu system (for adding or modifying games).
+
+---
+
+Would you like this formatted in a table or software requirement specification (SRS) style?

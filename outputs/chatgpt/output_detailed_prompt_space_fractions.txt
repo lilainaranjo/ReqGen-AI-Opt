@@ -1,0 +1,193 @@
+To successfully implement the **Space Fractions** project and its associated umbrella system, we will distill the system description into **complete and unambiguous functional and non-functional requirements**, along with assumptions and concrete examples to eliminate vagueness. These will guide developers, designers, and testers.
+
+---
+
+# ✅ **Functional Requirements (FR)**
+
+## 🧩 1. Game Functionality – “Space Fractions”
+
+### FR1.1: Game Type
+
+* The system shall implement an **interactive, web-based game** designed to teach and reinforce **fraction-solving skills** appropriate for **sixth-grade students (ages \~11–12)**.
+
+### FR1.2: Gameplay Mechanics
+
+* The game shall present **fraction problems** (e.g., simplify 4/8, convert improper to mixed fractions, add/subtract/multiply/divide fractions).
+* The system shall offer **visual aids**, such as fraction circles, bars, or number lines.
+* Students shall interact using:
+
+  * Mouse clicks (e.g., to select answers or move characters)
+  * Keyboard input (e.g., to type numerical answers or navigate)
+
+#### Assumption A1:
+
+* Each game session consists of **10 questions** chosen randomly from a question bank.
+* The bank contains at least **50 unique problems**.
+
+### FR1.3: Game Theme and Engagement
+
+* The system shall use a **space theme** (e.g., planets, rockets, astronauts).
+* Correct answers shall advance the user in a space-themed journey (e.g., visiting a new planet).
+* Incorrect answers shall trigger feedback or opportunities to retry.
+
+### FR1.4: Scoring and Feedback
+
+* Each correct answer gives **10 points**, totaling a max of 100.
+* At game end, system shall display:
+
+  * Total score (0–100)
+  * Number of correct/incorrect answers
+  * Time taken (formatted as mm\:ss)
+  * Encouraging message based on performance:
+
+    * 90–100: "Outstanding Astronaut!"
+    * 70–89: "Great Job, Space Explorer!"
+    * 50–69: "Keep Practicing, Cadet!"
+    * <50: "Don't Give Up! Try Again!"
+
+#### Assumption A2:
+
+* The feedback screen also includes **a ‘Play Again’ and ‘Return to Menu’ button**.
+
+### FR1.5: Game Access
+
+* The game shall be **accessible from standard desktop and tablet browsers**.
+
+---
+
+## 🗂️ 2. Umbrella Menu System
+
+### FR2.1: Web-Based Menu Interface
+
+* The umbrella system shall be a **web-based menu**.
+* It shall list **all games created previously**, including Space Fractions.
+* Each game shall be represented with:
+
+  * A title (e.g., "Space Fractions")
+  * A thumbnail image
+  * A short description (max 100 characters)
+  * A “Play” button
+
+### FR2.2: Game Launch
+
+* Clicking "Play" launches the selected game in **the same browser window** or a **new tab**, depending on configuration.
+
+#### Assumption A3:
+
+* A simple configuration option (e.g., setting in a JSON config or admin panel) controls whether the game opens in a new tab or not.
+
+### FR2.3: Responsive Design
+
+* The menu system shall support **responsive layouts** for devices including:
+
+  * Desktops (min 1024px width)
+  * Tablets (min 768px width)
+
+---
+
+## 🛡️ 3. User Experience and Accessibility
+
+### FR3.1: Accessibility Compliance
+
+* The system shall conform to **WCAG 2.1 Level AA** accessibility standards:
+
+  * All text shall have sufficient contrast
+  * All interactions shall be accessible via keyboard navigation
+  * ARIA labels shall be used for screen reader compatibility
+
+### FR3.2: Audio Feedback (Optional)
+
+* The game shall play **simple sound effects**:
+
+  * Correct/incorrect answer
+  * Game completion
+
+#### Assumption A4:
+
+* A mute/unmute toggle is available in-game.
+
+---
+
+## ⚙️ 4. Configuration and Extensibility
+
+### FR4.1: Game List Configuration
+
+* The umbrella system shall retrieve the list of available games from a **JSON file or database**.
+* Each game entry includes:
+
+  ```json
+  {
+    "id": "space_fractions",
+    "title": "Space Fractions",
+    "description": "Solve space-themed fraction challenges!",
+    "thumbnail": "images/space_fractions_thumb.png",
+    "url": "games/space_fractions/index.html"
+  }
+  ```
+
+### FR4.2: Adding New Games
+
+* New games can be added without code changes, by updating the configuration.
+
+---
+
+# ❌ Non-Functional Requirements (NFR)
+
+## 🌐 NFR1: Platform and Technology
+
+* The product shall be implemented using **HTML5, CSS3, and JavaScript**.
+* Frameworks such as **React**, **Vue.js**, or **Vanilla JS** may be used.
+* Backend (if used for configuration or score tracking) shall use **Node.js with Express** or **a static hosting approach (e.g., GitHub Pages)**.
+
+## 📱 NFR2: Performance
+
+* The menu system shall load in **<2 seconds** on a standard broadband connection (5 Mbps).
+* Each game shall load in **<3 seconds** under the same conditions.
+
+## 🔒 NFR3: Security
+
+* The site shall use **HTTPS**.
+* Input validation must prevent XSS and injection attacks.
+* No sensitive data is collected; compliance with **COPPA** is still advised if targeting children under 13.
+
+## 🧪 NFR4: Testability
+
+* The system shall include:
+
+  * **Unit tests** for game logic
+  * **Integration tests** for menu and navigation
+  * **User acceptance tests (UAT)** for core workflows
+
+## 🌍 NFR5: Internationalization
+
+* All game content and UI labels shall be defined in a language file to allow for future **multi-language support**.
+
+---
+
+# 📝 Example Usage Flow
+
+1. A student accesses `https://learnfractions.com/menu`.
+2. They see:
+
+   * Space Fractions
+   * Galaxy Geometry (example past game)
+3. They click "Play" on Space Fractions.
+4. Game starts, displays instructions.
+5. They solve 10 fraction problems.
+6. They see a score of 80, with feedback: "Great Job, Space Explorer!"
+7. They click "Return to Menu".
+
+---
+
+# 🔄 Assumptions Summary
+
+| Assumption ID | Description                                  |
+| ------------- | -------------------------------------------- |
+| A1            | 10-question gameplay with 50-question bank   |
+| A2            | Feedback screen includes replay/menu options |
+| A3            | Menu links open in-tab or new tab by config  |
+| A4            | Audio feedback optional and toggleable       |
+
+---
+
+Let me know if you'd like a wireframe, database schema, API spec, or component diagram next.

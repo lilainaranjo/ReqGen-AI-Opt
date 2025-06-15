@@ -1,0 +1,76 @@
+### **Requisitos del sistema de Snapchat**
+
+#### **Requisitos Funcionales**
+
+1. **Captura de contenido:**
+
+   * El sistema debe abrirse directamente en la cámara.
+   * Permitir tomar fotos con un solo toque.
+   * Permitir grabar videos manteniendo presionado el botón.
+   * Ofrecer lentes, filtros y Bitmoji para personalizar fotos y videos.
+   * Integrar lentes creados por la comunidad.
+
+2. **Mensajería y comunicación:**
+
+   * Permitir el envío de mensajes en vivo entre usuarios.
+   * Soportar la creación y visualización de historias grupales.
+   * Ofrecer la opción de realizar videollamadas con hasta 16 personas.
+   * Permitir el uso de lentes y filtros en videollamadas.
+   * Integrar Friendmoji para personalizar interacciones con amigos.
+
+3. **Historias y contenido:**
+
+   * Permitir la visualización de historias de amigos.
+   * Mostrar historias de la comunidad basadas en intereses del usuario.
+   * Proporcionar acceso a noticias y programas exclusivos.
+
+4. **Destacados:**
+
+   * Mostrar contenido seleccionado de Snapchat.
+   * Permitir a los usuarios enviar sus Snaps a la sección de Destacados.
+   * Posibilitar la selección y compartición de Snaps favoritos.
+
+5. **Mapa de Snapchat:**
+
+   * Permitir compartir la ubicación con amigos.
+   * Ofrecer el modo Fantasma para ocultar la ubicación.
+   * Mostrar la ubicación de amigos que han decidido compartirla.
+   * Facilitar la exploración de historias en directo en distintas ubicaciones.
+
+---
+
+#### **Requisitos No Funcionales**
+
+1. **Usabilidad:**
+
+   * La aplicación debe ser intuitiva y fácil de usar, con una interfaz minimalista.
+   * La captura y edición de contenido deben realizarse en pocos pasos.
+
+2. **Rendimiento:**
+
+   * La aplicación debe abrirse en la cámara en menos de 2 segundos.
+   * El envío de mensajes y Snaps debe realizarse en tiempo real con baja latencia.
+   * El videollamado debe soportar hasta 16 usuarios sin interrupciones.
+
+3. **Seguridad:**
+
+   * Ofrecer el modo Fantasma para ocultar la ubicación del usuario.
+   * Proteger la privacidad de los mensajes y Snaps con cifrado.
+   * Asegurar que las historias privadas solo sean visibles por los destinatarios autorizados.
+
+4. **Compatibilidad:**
+
+   * La aplicación debe ser compatible con iOS y Android.
+   * Debe funcionar en dispositivos de diferentes gamas sin afectar el rendimiento.
+
+5. **Escalabilidad:**
+
+   * Soportar un alto volumen de usuarios simultáneos sin degradación del servicio.
+   * Garantizar que los servidores puedan manejar el tráfico global en momentos de alta demanda.
+
+6. **Mantenimiento y actualizaciones:**
+
+   * Recibir actualizaciones periódicas para mejorar funcionalidades y seguridad.
+   * Soportar la integración de nuevas características sin afectar la experiencia del usuario.
+
+Estos requisitos permiten entender cómo debe funcionar Snapchat y qué aspectos técnicos deben garantizar su rendimiento y experiencia de usuario. 🚀

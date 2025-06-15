@@ -1,0 +1,311 @@
+**Functional Requirements**
+
+1. **Game Interface**
+   - User can navigate through different levels (games) using menus provided by the interface.
+   - Each level has multiple screens displaying various elements such as score display, progress bar, hints, and final results.
+
+2. **Level Selection**
+   - Users select one of several available games from the main menu.
+   - Games include math problems ranging from basic addition/subtraction to more complex algebraic expressions.
+   - Game difficulty increases gradually throughout each level.
+
+3. **Gameplay**
+   - Players take turns solving mathematical equations displayed on screen.
+   - Correct answers earn points; incorrect ones deduct them.
+   - Time limits apply during some levels where players must solve all questions within a certain timeframe before moving forward.
+
+4. **Feedback System**
+   - After completing a level, users receive immediate feedback:
+     * Score update displays current total score earned so far.
+     * Progress bars show how much farther they have gone compared to previous attempts at similar challenges.
+     * Hints provide additional guidance if needed.
+     * Final result shows whether player achieved correct answer(s), wrong answer(s), or neither.
+
+5. **User Profile Management**
+   - Users create profiles containing personal data like name, email address, and preferred language settings.
+   - Profiles allow administrators to manage access rights for individual accounts across all platforms.
+
+6. **Multiplayer Support**
+   - For online multiplayer mode, two players interact simultaneously via real-time communication channels.
+   - Communication includes sending messages, sharing files, and participating in discussions.
+
+7. **Error Handling**
+   - Error handling mechanisms ensure smooth gameplay even under unexpected situations such as invalid input errors or network connectivity issues.
+   - These systems prevent crashes while maintaining overall stability.
+
+8. **Security Measures**
+   - All interactions involving sensitive user data require encryption to protect against unauthorized access.
+   - Secure servers store collected data securely behind firewalls and other security measures.
+
+9. **Accessibility Features**
+    - Web accessibility standards comply with WAI-ARIA guidelines ensuring equal opportunities for people with disabilities.
+    - Screen readers support text-to-speech functionality enhancing usability for visually impaired individuals.
+
+10. **System Updates**
+    - Regular updates maintain compatibility with changing technologies and fix bugs preventing performance degradation over time.
+    - New features are added incrementally rather than requiring complete overhaul every few months.
+
+11. **Data Storage**
+    - Data storage solutions adhere to industry-standard practices protecting confidentiality and integrity of stored content.
+    - Access controls limit who can view, edit, delete, or modify user-generated content.
+
+12. **Backup Strategy**
+    - Automated backups occur regularly to safeguard critical data against loss due to hardware failure, software corruption, human error, or natural disasters.
+    - Backup locations vary depending on business needs and geographical constraints.
+
+13. **Monitoring Performance**
+    - Real-time monitoring tools track server load, response times, and resource utilization metrics.
+    - Alerts notify IT staff about potential performance bottlenecks enabling prompt resolution.
+
+14. **Compliance**
+    - Adherence to relevant regulations ensures compliance with laws governing digital services, including GDPR, HIPAA, PCI-DSS, and others.
+    - Compliance documentation maintains transparency regarding adherence to regulatory requirements.
+
+15. **Testing Protocols**
+    - Thorough testing procedures cover both internal validation processes and external integration tests.
+    - Test cases aim to simulate diverse scenarios minimizing risk associated with new functionalities.
+
+16. **Documentation**
+    - Comprehensive technical guides document development methodologies used throughout the lifecycle.
+    - Documentation provides detailed explanations of code structures, algorithms, and design decisions facilitating future maintenance efforts.
+
+17. **Code Review Process**
+    - Code review involves peer evaluation followed by constructive comments addressing areas needing improvement.
+    - Peer reviews foster collaboration among team members promoting knowledge-sharing and quality assurance.
+
+18. **Continuous Integration/Continuous Deployment (CI/CD) Pipeline**
+    - CI/CD pipelines automate build, test, deployment, and rollback operations streamlining release cycles.
+    - Pipelines leverage version control systems integrating automated workflows into existing infrastructure.
+
+19. **Infrastructure Security**
+    - Infrastructure protection strategies prioritize securing physical facilities, networks, and devices connected to public internet.
+    - Network segmentation isolates production environments from live traffic reducing attack surface exposure.
+
+20. **Network Architecture**
+    - A scalable architecture supports growth by adding nodes dynamically according to demand.
+    - Load balancing distributes incoming requests evenly across multiple instances optimizing responsiveness.
+
+21. **Database Schema Design**
+    - Database schema designs accommodate varying query patterns supporting scalability and flexibility.
+    - Indexing techniques optimize database queries improving efficiency.
+
+22. **API Development Guidelines**
+    - API developers follow established best practices adhering to RESTful principles and secure authentication methods.
+    - APIs integrate seamlessly with backend applications fostering seamless interaction.
+
+23. **Frontend Frameworks**
+    - Front-end frameworks enable rapid prototyping and iteration building responsive interfaces quickly.
+    - Libraries enhance UI components' customization capabilities expanding creative possibilities.
+
+24. **Backends Services**
+    - Backends handle persistent state management storing application-specific data locally.
+    - Service discovery protocols facilitate efficient service registration and invocation.
+
+25. **Authentication Mechanisms**
+    - Authentication schemes employ multi-factor verification increasing security robustness.
+    - Session persistence protects session IDs after logout sessions remain active until manually cleared.
+
+26. **Authorization Policies**
+    - Authorization policies define rules controlling what actions authorized personnel can perform.
+    - Role-based access control enables fine-grained permissions granting precise privileges.
+
+27. **Logging and Auditing Tools**
+    - Logging mechanisms record events occurring within the system capturing essential details.
+    - Audit logs monitor changes made to configuration files, databases, and other resources tracking modifications.
+
+28. **Configuration File Format**
+    - Configuration file formats conform to standard XML syntax making it easy to read/write.
+    - Files contain key-value pairs defining parameters required for operation.
+
+29. **Environment Variables**
+    - Environment variables encapsulate platform-specific configurations influencing behavior.
+    - Variable names use lowercase letters separated by underscores indicating variable types.
+
+30. **Deployment Scripts**
+    - Scripted tasks execute automatically upon deployment initiating setup activities.
+    - Scripts verify dependencies resolve conflicts, install packages, and configure environment.
+
+31. **Release Planning**
+    - Release planning documents scope, timeline, budget, risks, and stakeholders involved.
+    - Project managers coordinate effort allocating resources efficiently toward achieving objectives.
+
+32. **Change Control Processes**
+    - Change control processes establish clear approval paths documenting decision-making authority.
+    - Approval sequences identify responsible parties enforcing change consistency.
+
+33. **Risk Assessment**
+    - Risk assessment identifies vulnerabilities assessing likelihood and impact of identified threats.
+    - Prioritization helps allocate limited resources effectively mitigating high-risk items first.
+
+34. **Incident Response Plan**
+    - Incident response plans outline steps taken immediately following incident occurrence.
+    - Procedures involve notification teams coordinating responses, containment, eradication, recovery, post-incident analysis, and lessons learned.
+
+35. **Training Programs**
+    - Training programs educate employees on roles responsibilities, safety protocols, and company policies.
+    - In-house training enhances employee engagement contributing positively to organizational success.
+
+36. **Performance Monitoring Metrics**
+    - Key performance indicators measure operational effectiveness evaluating output versus inputs.
+    - Dashboards present up-to-date statistics visualizing trends helping inform strategic decisions.
+
+37. **Reporting Systems**
+    - Reporting systems generate reports detailing usage analytics insights identifying trends and anomalies.
+    - Reports serve as evidence of successful implementation aligning with goals.
+
+38. **Customer Feedback Collection**
+    - Customer feedback collection instruments gather opinions on products, services, and experiences.
+    - Insights derived from customer feedback guide improvements driving satisfaction enhancement.
+
+39. **Market Research Studies**
+    - Market research studies analyze consumer preferences gathering market intelligence.
+    - Findings inform marketing strategy adjustments targeting evolving target audiences.
+
+40. **Competitor Analysis**
+    - Competitor analysis evaluates competitors’ strengths weaknesses and market positioning.
+    - Competitive landscape informs differentiation strategies focusing on unique selling propositions.
+
+41. **Marketing Campaign Strategies**
+    - Marketing campaign strategies develop targeted promotional tactics engaging desired audience segments.
+    - Budget allocation prioritizes most effective campaigns maximizing ROI.
+
+42. **Public Relations Efforts**
+    - Public relations initiatives cultivate positive media coverage highlighting achievements successes stories.
+    - Crisis communications prepare spokespeople responding promptly to emerging crises.
+
+43. **Social Media Engagement**
+    - Social media presence fosters brand awareness interacting directly with followers.
+    - Content creation promotes thought leadership showcasing expertise.
+
+44. **Content Creation**
+    - High-quality content serves educational purposes informing learners about topics related to space fractions.
+    - Educational materials cater to diverse age groups adapting instructional approaches accordingly.
+
+45. **Digital Asset Management**
+    - Digital asset management systems organize multimedia assets organizing images videos audio podcasts.
+    - Assets are easily accessible for reuse creating consistent branding appearances.
+
+46. **Search Engine Optimization (SEO)**
+    - SEO improves search engine rankings boosting visibility organically.
+    - Keyword optimization targets long-tail phrases attracting organic traffic.
+
+47. **Email Marketing Automation**
+    - Email marketing automation facilitates personalized messaging tailored to recipient interests.
+    - Automations streamline routine emails eliminating manual intervention.
+
+48. **Inbound Sales Channels**
+    - Inbound sales channels focus on acquiring leads generating interest prospects inquiries.
+    - Lead nurturing automates outreach establishing relationships prior to conversion.
+
+49. **Outbound Sales Calls**
+    - Outbound calls engage customers reaching out to initiate conversations.
+    - Call recording captures valuable conversation history preserving context.
+
+50. **Sales Enablement Platforms**
+    - Sales enablement platforms empower sales representatives leveraging CRM integrations.
+    - Customizable dashboards offer actionable insights guiding sales professionals.
+
+51. **Account-Based Selling**
+    - Account-based selling focuses on understanding buyer personas tailoring offerings.
+    - Personalized recommendations drive lead generation strengthening revenue streams.
+
+52. **Customer Success Programmes**
+    - Customer success programmes deliver ongoing value enhancing customer retention rates.
+    - Proactive support addresses concerns resolving issues proactively.
+
+53. **Product Roadmapping**
+    - Product roadmaps visualize roadmap milestones outlining priorities timelines budgets.
+    - Stakeholders collaborate refining vision clarifying direction.
+
+54. **Project Portfolio Management**
+    - Project portfolio management optimizes investment allocations selecting projects aligned with organisational goals.
+    - Resource allocation balances competing demands meeting stakeholder expectations.
+
+55. **Portfolio Governance**
+    - Portfolio governance establishes accountability overseeing financial investments.
+    - Decision-making authority defines ownership structure assigning responsibility.
+
+56. **Financial Forecasting Models**
+    - Financial forecasting models predict future cash flows estimating revenues expenses costs.
+    - Predictive analytics refine forecasts incorporating historical data trend analysis.
+
+57. **Budgeting and Cost Estimation**
+    - Budgeting and cost estimation tools calculate projected expenditures accurately.
+    - Variance reporting highlights discrepancies revealing areas for reduction.
+
+58. **Cost Structure Analysis**
+    - Cost structure analysis examines breakdowns categorising fixed vs variable costs.
+    - Identifiable savings suggest opportunities for process re-engineering.
+
+59. **Supply Chain Visibility**
+    - Supply chain visibility tracks inventory movements sourcing suppliers managing logistics.
+    - Inventory management optimises stock levels predicting demand fluctuations.
+
+60. **Inventory Management Software**
+61. **Warehouse Management Systems**
+62. **Transportation Management Systems**
+63. **Procurement Sourcing Solutions**
+64. **Scheduling and Workforce Planning**
+65. **Human Resources Information Systems**
+66. **Employee Benefits Administration**
+67. **Time Tracking and Attendance Management**
+68. **HR Analytics and Business Intelligence**
+69. **Talent Acquisition and Recruitment**
+70. **Recruitment Marketing and Advertising**
+71. **Event Management and Conference Organization**
+72. **Travel Booking and Expense Management**
+73. **Online Course Platform and Learning Management**
+74. **E-learning Authoring Tool and Content Delivery**
+75. **Virtual Event Hosting and Live Streaming**
+76. **Webinar and Online Meeting Platform**
+77. **Video Production and Editing Suite**
+78. **Audio Post-production Studio Equipment Rental**
+79. **Photography and Videography Equipment Rentals**
+80. **Software Licensing and Subscription Model Implementation**
+81. **Cloud Computing Migration and Virtualisation**
+82. **Cybersecurity Threat Detection and Prevention**
+83. **Firewall and Intrusion Detection Solution Installation**
+84. **Secure Remote Desktop Protocol (RDP) Server Setup**
+85. **VPN and Cloud VPN Gateway Configuration**
+86. **Identity and Access Management (IAM) System Implementation**
+87. **Single Sign-On (SSO) and Single Logout (SLO) Solution**
+88. **Mobile Device Management (MDM) and Mobile Application Management (MAM)** 
+89. **Artificial Intelligence (AI) and Machine Learning (ML) Adoption**
+90. **Blockchain Technology Implementation**
+91. **Internet of Things (IoT) Connectivity and Edge Computing**
+92. **Big Data Analytics and Visualization**
+93. **Business Intelligence and Data Warehousing**
+94. **DevOps and Continuous Integration/Continuous Deployment (CI/CD) Practices**
+95. **Containerization and Orchestration Technologies**
+96. **Serverless Compute and Function-as-a-Service (FaaS) Offerings**
+97. **Microservices Architecture and Containerization**
+98. **Full Stack Development Methodologies**
+99. **Agile Methodology and Scrum Certification**
+100. **Test-Driven Development (TDD) and Behavior Driven Development (BDD) Principles**
+101. **Automated Testing and Quality Assurance**
+102. **Continuous Integration and Continuous Deployment (CI/CD) Pipelines**
+103. **Version Control Systems and Git Workflow**
+104. **Source Code Management and Version History**
+105. **Build and Deploy Continuous Integration (CI) Pipelines**
+106. **Package Managers and Dependency Resolution**
+107. **Dependency Injection Containers and Microservices**
+108. **Docker Swarm and Kubernetes Cluster Management**
+109. **Load Balancing and Auto Scaling Techniques**
+110. **Networking Fundamentals and Best Practices**
+111. **Caching and Content Delivery Networks (CDNs)**
+112. **Application Servers and Load Balancers**
+113. **Database Clustering and Scalability**
+114. **High Availability and Disaster Recovery**
+115. **Security and Encryption Standards**
+116. **Regular Maintenance and Patching Schedule**
+117. **Disaster Recovery and Business Continuity Plans**
+118. **Vendor Management and Contract Negotiation**
+119. **ITIL Foundation Certificate**
+120. **ISO 27001 and ISO 9001 Certifications**
+121. **PCI DSS and Payment Card Industry Data Security Standard**
+122. **HIPAA and Health Insurance Portability and Accountability Act**
+123. **GDPR and General Data Protection Regulation**
+124. **NIST Cybersecurity Framework**
+125. **OWASP Top Ten Vulnerabilities**
+126. **Open Source Software Licenses**
+127. **Free and Open-source Alternatives

@@ -1,0 +1,146 @@
+**Functional Requirements**
+
+1. **User Registration and Login**
+   - The system should allow users to register and log in to the e-store.
+   - Registration should include a username, password, email address, and a unique identifier.
+   - Login should be secure, using a password-based authentication system.
+   - Users should be able to create a profile with a personal name, email address, and password.
+   - Users should be able to change their password and email address.
+   - Users should be able to view their profile information, including their username, email address, and password.
+
+2. **Product Management**
+   - The system should allow users to create, edit, and delete products.
+   - Products should have a unique identifier, a name, description, price, and a category.
+   - Products should be able to be added, edited, and deleted from the product catalog.
+   - Products should be able to be assigned to a specific category.
+   - Products should be able to be added, edited, and deleted from the product catalog.
+
+3. **Product Categorization**
+   - The system should allow users to create, edit, and delete product categories.
+   - Categories should have a unique identifier, a name, and a description.
+   - Categories should be able to be added, edited, and deleted from the category catalog.
+   - Categories should be able to be assigned to products.
+
+4. **Search Facility**
+   - The system should allow users to search for products by name, description, price, and category.
+   - Search results should be displayed in a list, with the product name, description, price, and category.
+   - Users should be able to filter search results by category, price, and name.
+
+5. **Customer Profile**
+   - The system should allow users to create, edit, and delete customer profiles.
+   - Customer profiles should have a unique identifier, a name, email address, and a password.
+   - Customer profiles should be able to be added, edited, and deleted from the customer catalog.
+   - Customer profiles should be able to be assigned to a specific email address.
+
+6. **Customer Support**
+   - The system should allow users to create, edit, and delete customer support tickets.
+   - Customer support tickets should have a unique identifier, a customer ID, a subject, and a description.
+   - Customer support tickets should be able to be added, edited, and deleted from the customer support catalog.
+   - Customer support tickets should be able to be assigned to a specific customer.
+
+7. **Shopping Cart**
+   - The system should allow users to create, edit, and delete shopping carts.
+   - Shopping carts should have a unique identifier, a customer ID, and a list of products.
+   - Shopping carts should be able to be added, edited, and deleted from the shopping cart catalog.
+   - Shopping carts should be able to be assigned to a specific customer.
+
+8. **Multiple Shipping Methods**
+   - The system should allow users to create, edit, and delete shipping methods.
+   - Shipping methods should have a unique identifier, a name, and a description.
+   - Shipping methods should be able to be added, edited, and deleted from the shipping method catalog.
+   - Shipping methods should be able to be assigned to products.
+
+9. **Online Tracking**
+   - The system should allow users to track the status of their shipments.
+   - Shipment tracking should be displayed in a list, with the shipment ID, customer ID, and tracking number.
+   - Users should be able to view the status of their shipments.
+
+10. **Tax Calculations**
+    - The system should calculate the tax amount for each product based on the product price and tax rate.
+    - Tax calculations should be displayed in a list, with the product ID, product name, price, and tax amount.
+    - Users should be able to view the tax calculations for all products.
+
+11. **Multiple Payment Methods**
+    - The system should allow users to create, edit, and delete payment methods.
+    - Payment methods should have a unique identifier, a name, and a description.
+    - Payment methods should be able to be added, edited, and deleted from the payment method catalog.
+    - Payment methods should be able to be assigned to products.
+
+12. **Detailed Sitemap**
+    - The system should display a detailed sitemap of the e-store, including product categories, product details, and customer profiles.
+    - The sitemap should be displayed in a table format, with the product ID, product name, category, and customer ID.
+    - Users should be able to view the sitemap.
+
+**Non-Functional Requirements**
+
+1. **Security**
+   - The system should use secure protocols for data transmission and storage.
+   - The system should use encryption to protect sensitive data.
+   - The system should use secure authentication and authorization mechanisms.
+   - The system should use secure password storage mechanisms.
+
+2. **Performance**
+   - The system should be able to handle a large number of users and products.
+   - The system should be able to handle a large number of transactions per second.
+   - The system should be able to handle a large number of products and customers.
+   - The system should be able to handle a large number of searches and queries.
+
+3. **Usability**
+   - The system should be user-friendly and easy to navigate.
+   - The system should provide clear and concise instructions for users.
+   - The system should provide feedback to users on their actions.
+   - The system should provide options for users to customize the system.
+
+4. **Scalability**
+   - The system should be able to scale to handle a large number of users and products.
+   - The system should be able to handle a large number of transactions per second.
+   - The system should be able to handle a large number of searches and queries.
+   - The system should be able to handle a large number of products and customers.
+
+5. **Reliability**
+   - The system should be able to recover from failures and errors.
+   - The system should be able to handle unexpected events and errors.
+   - The system should be able to provide error messages and notifications to users.
+   - The system should be able to provide alerts and notifications to administrators.
+
+6. **Maintainability**
+   - The system should be easy to maintain and update.
+   - The system should be able to be updated and modified without affecting the system.
+   - The system should be able to be debugged and fixed without affecting the system.
+   - The system should be able to be tested and validated without affecting the system.
+
+7. **Testability**
+   - The system should be easy to test and validate.
+   - The system should be able to be tested and validated without affecting the system.
+   - The system should be able to be automated and scripted.
+   - The system should be able to be tested and validated using automated testing tools.
+
+8. **Documentation**
+   - The system should have clear and concise documentation.
+   - The documentation should be up-to-date and accurate.
+   - The documentation should be accessible to all users.
+   - The documentation should be easy to understand and navigate.
+
+9. **Training**
+   - The system should provide training and support for users.
+   - The system should provide instructions and tutorials for users.
+   - The system should provide feedback and support for users.
+   - The system should provide options for users to customize the system.
+
+10. **Security Audits**
+    - The system should be audited for security vulnerabilities.
+    - The system should be tested for security vulnerabilities.
+    - The system should be updated and patched to fix security vulnerabilities.
+    - The system should be audited for security vulnerabilities again.
+
+11. **Compliance**
+    - The system should comply with relevant regulations and laws.
+    - The system should be audited for compliance.
+    - The system should be updated and patched to fix compliance issues.
+    - The system should be audited for compliance again.
+
+12. **Certification**
+    - The system should be certified by a third-party organization.
+    - The system should be tested and validated by a third-party organization.
+    - The system should be updated and patched to fix certification issues.
+    - The system should be certified again.

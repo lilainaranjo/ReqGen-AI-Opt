@@ -1,0 +1,76 @@
+### Functional Requirements:
+1. **Data Collection and Analysis**:
+   - The system must collect and analyze data to support the identification and containment of health events or bioterrorism acts.
+   - It should capture data related to:
+     - Cases
+     - Contacts
+     - Investigations
+     - Exposures
+     - Relationships
+     - Clinical and environmental specimens/samples
+     - Laboratory results
+     - Vaccinations and treatments
+     - Travel history
+     - Conveyance information
+
+2. **Configurability**:
+   - The system must be configurable to meet the needs of different types of health events.
+
+3. **Dynamic Object Creation**:
+   - The system should allow for the definition and creation of new objects during the course of an investigation.
+
+4. **Traceable Links**:
+   - The system must create traceable links between all relevant entities (e.g., cases, exposures, contacts, etc.).
+   - It should support tracing the mechanism of transmission and identifying the source of the health event.
+
+5. **Integration with Other Systems**:
+   - The system must integrate with systems supporting:
+     - Early event detection
+     - Countermeasure administration
+     - Laboratory systems
+     - Surveillance systems
+
+6. **Support for Investigation and Management**:
+   - The system should support the investigation, monitoring, management, analysis, and reporting of health events or bioterrorism acts.
+
+7. **Reporting**:
+   - The system must provide reporting capabilities to support decision-making and response efforts.
+
+---
+
+### Non-Functional Requirements:
+1. **Scalability**:
+   - The system should be scalable to handle varying volumes of data and users during different phases of an outbreak or health event.
+
+2. **Performance**:
+   - The system must perform efficiently, even during high-demand scenarios, to ensure timely data collection, analysis, and reporting.
+
+3. **Reliability**:
+   - The system must be highly reliable to ensure continuous operation during critical health events.
+
+4. **Security**:
+   - The system must ensure data security and confidentiality, especially when handling sensitive health information.
+
+5. **Usability**:
+   - The system should be user-friendly and intuitive to ensure ease of use for public health professionals and response staff.
+
+6. **Interoperability**:
+   - The system must support interoperability with other PHIN systems and external health information systems.
+
+7. **Configurability**:
+   - The system should allow for easy configuration to adapt to different types of health events and evolving requirements.
+
+8. **Maintainability**:
+   - The system should be designed for easy maintenance and updates to accommodate changing public health needs.
+
+9. **Availability**:
+   - The system must be highly available, with minimal downtime, to support continuous monitoring and response efforts.
+
+10. **Compliance**:
+    - The system must comply with relevant public health standards, regulations, and guidelines.
+
+11. **Data Integrity**:
+    - The system must ensure the accuracy and consistency of data throughout its lifecycle.
+
+12. **Auditability**:
+    - The system should provide audit trails to track changes and actions taken during the management of health events.

@@ -1,0 +1,132 @@
+### **Functional Requirements**  
+
+#### **1. Umbrella System (Game Menu)**  
+- **Centralized Menu**: Implement a web-based menu as the entry point. Users must see a grid or list of available games, each represented by a visually distinct tile (e.g., with game title, thumbnail, and brief description).  
+  - *Example*: Tiles for "Space Fractions," "Fraction Galaxy," and "Decimal Quest."  
+- **Game Launch**: Clicking a game tile must redirect the user to the standalone game URL.  
+- **Navigation**: Include a persistent "Return to Menu" button in the header/footer of all games to navigate back to the umbrella menu.  
+- **Dynamic Game Management**: Use a centralized configuration file (e.g., `games.json`) to manage game metadata. Adding/removing a game requires only updating this file.  
+  ```json
+  // Example games.json  
+  [
+    {
+      "id": "space-fractions",
+      "title": "Space Fractions",
+      "description": "Solve fraction problems in space!",
+      "thumbnailUrl": "/assets/space-fractions-thumbnail.png",
+      "gameUrl": "/games/space-fractions/index.html"
+    },
+    // ... other games
+  ]
+  ```  
+- **Responsive Layout**: The menu must adapt to desktop (≥1024px), tablet (768px–1023px), and mobile (<768px) screens. Tablet/mobile views show 2 tiles per row; desktop shows 4.  
+
+#### **2. Space Fractions Game**  
+- **Game Flow**:  
+  1. **Start Screen**: Display game title, "Start" button, and brief instructions (e.g., "Solve 10 fraction problems to save the spaceship!").  
+  2. **Problem-Solving Phase**:  
+     - Present one problem at a time.  
+     - Progress indicator (e.g., "Question 3/10").  
+  3. **Scoring**: Award 10 points per correct answer. No penalties for wrong answers.  
+  4. **End Screen**: Show final score (0–100 points) and feedback.  
+- **Fraction Problems**:  
+  - **Content**: Generate problems for sixth-grade standards (e.g., `2/3 + 1/4`, `3/5 × 2/7`, simplifying `12/16`).  
+  - **Interaction**: Support multiple-choice (4 options) or fill-in-the-blank input.  
+    - *Example*: "What is 1/2 + 1/3? [A] 2/5 [B] 5/6 [C] 1/6 [D] 3/5".  
+  - **Validation**: Immediately validate answers and provide visual feedback (e.g., green check for correct, red "X" for incorrect).  
+- **Feedback Mechanism**:  
+  - Map scores to feedback messages:  
+    - 0–40 points: "Keep practicing! Try again."  
+    - 41–70 points: "Good effort! Review mixed fractions."  
+    - 71–99 points: "Great job! You’re mastering fractions!"  
+    - 100 points: "Perfect! You’re a fraction expert!"  
+- **Exit Options**:  
+  - "Back to Menu" button visible during gameplay (e.g., top-left corner).  
+  - Post-game screen includes "Play Again" and "Back to Menu" buttons.  
+
+#### **3. Cross-Game Consistency**  
+- **Shared UI Elements**:  
+  - All games must use the same "Return to Menu" button design (e.g., blue button with a house icon).  
+  - Implement a unified color scheme (e.g., space-themed: dark background, stars).  
+- **Session Handling**: Games run independently. No login or saved progress between sessions.  
+
+---
+
+### **Non-Functional Requirements**  
+
+#### **1. Usability & Accessibility**  
+- **Target Audience**: Sixth-grade students (ages 11–12).  
+  - Use simple language (e.g., "Solve this problem" instead of "Compute the quotient").  
+  - Avoid complex interactions (e.g., no drag-and-drop for mobile).  
+- **Accessibility (WCAG 2.1)**:  
+  - Support screen readers (alt text for images, ARIA labels).  
+  - Color contrast ratio ≥ 4.5:1 (e.g., white text on dark blue).  
+  - Keyboard navigation (Tab to select answers, Enter to submit).  
+
+#### **2. Performance**  
+- **Load Time**:  
+  - Umbrella menu loads in ≤2 seconds on 4G networks.  
+  - Games load in ≤3 seconds.  
+- **Responsiveness**:  
+  - Buttons/inputs respond within 100ms.  
+  - Animations run at 60fps.  
+
+#### **3. Compatibility**  
+- **Browsers**: Chrome, Firefox, Safari, Edge (latest versions).  
+- **Devices**:  
+  - Desktop: Mouse/keyboard support.  
+  - Mobile/Tablet: Touch-friendly buttons (min 44×44px).  
+- **Resolutions**: Support down to 320px width (e.g., iPhone SE).  
+
+#### **4. Security**  
+- **Sanitization**: Validate/sanitize all user inputs (e.g., for fill-in-the-blank answers) to prevent XSS attacks.  
+- **HTTPS**: Serve all content over HTTPS.  
+
+#### **5. Maintainability & Scalability**  
+- **Modularity**:  
+  - Umbrella and games are separate codebases.  
+  - Games communicate with the umbrella via URL parameters (e.g., `?game=space-fractions`).  
+- **Adding New Games**:  
+  1. Add game metadata to `games.json`.  
+  2. Place game files in `/games/<game-id>/`.  
+  3. Thumbnails in `/assets/`.  
+- **Scalability**:  
+  - Static hosting (e.g., AWS S3, Netlify) suffices for ≤10,000 monthly users.  
+
+#### **6. Reliability**  
+- **Error Handling**:  
+  - Game crashes → Display "Oops! Something went wrong. Return to Menu."  
+  - Missing game → Umbrella menu shows "Game Unavailable."  
+- **Testing**:  
+  - Unit tests for scoring logic (e.g., `score=70 → "Great job!"`).  
+  - Cross-browser/device testing via BrowserStack.  
+
+---
+
+### **Assumptions & Examples**  
+1. **Time Limits**: No time constraints for problems.  
+   - *Why*: Reduces pressure on learners.  
+2. **Game Duration**: Space Fractions has exactly 10 problems.  
+   - *Why*: Matches sixth-grade attention spans (≤15 minutes).  
+3. **Device Connections**:  
+   - No external hardware (e.g., gamepads). Touch/mouse/keyboard only.  
+4. **Scoring Feedback**: Feedback tiers based on predefined ranges (see above).  
+5. **Data Privacy**: No user accounts → No personal data collected.  
+6. **Offline Use**: Not supported. Requires internet access.  
+
+--- 
+
+### **Implementation Deliverables**  
+1. **Umbrella System**:  
+   - Menu page (`index.html`) that reads `games.json` and renders tiles.  
+   - CSS for responsive grids.  
+2. **Space Fractions Game**:  
+   - Standalone folder (`/games/space-fractions/`) with:  
+     - `index.html` (game structure).  
+     - `game.js` (problem generation, scoring).  
+     - `styles.css` (UI).  
+3. **Shared Assets**:  
+   - Icons (e.g., "Return to Menu" button).  
+   - Error/feedback message templates.  
+
+This specification ensures unambiguous, actionable guidance for developers while addressing potential ambiguities from the original description.

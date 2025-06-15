@@ -1,0 +1,15 @@
+### Functional Requirements:
+
+1. **GUI-Based Interaction:** The system provides a graphical user interface with menus, graphics, and sounds.
+2. **Standalone Application:** The game runs as a standalone application without requiring an internet connection.
+3. **User Interaction:** The system requires both a keyboard and a mouse for user input.
+4. **Game Progression:** The system supports different player levels, from beginner (age 8) to advanced players.
+5. **Display Requirements:** The game adapts to and fully utilizes a graphical display of at least 800×600 resolution.
+
+### Non-Functional Requirements:
+
+1. **Usability:** The system should be easy to operate for users aged 8 and above.
+2. **Performance:** The system must function efficiently without noticeable delays in processing user input.
+3. **Portability:** The system should run independently without additional software dependencies beyond its runtime environment.
+4. **Graphics & Audio:** The system should include visually appealing graphics and sound to enhance gameplay.
+5. **Compatibility:** The system should support different hardware configurations that meet the minimum display resolution requirement (800×600).

@@ -1,0 +1,101 @@
+**Functional Requirements**
+
+1. **Game Selection**: 
+    - The system shall allow users to select from a list of available games.
+    - Each game shall have a unique title and description.
+    - Users can view all available games by clicking on "Umbrella" button.
+
+2. **Game Start**: 
+    - When a user selects a game, they shall be taken to the game's start page.
+    - On the start page, the user shall be presented with instructions on how to play the game.
+    - The user shall be able to start playing the game by clicking on a "Start Game" button.
+
+3. **Gameplay**: 
+    - The system shall display a series of fraction problems to the user.
+    - Each problem shall include two fractions and a question (e.g., which fraction is larger?).
+    - The user shall be able to input their answer to each problem.
+    - After submitting an answer, the system shall provide feedback on whether the answer is correct or incorrect.
+
+4. **Scorekeeping**: 
+    - The system shall keep track of the user's score throughout the game.
+    - For each correct answer, the user shall receive points.
+    - For each incorrect answer, the user shall lose points.
+    - The total score shall be displayed at the end of the game.
+
+5. **Game Completion**: 
+    - Once the user has completed all the problems in the game, they shall be presented with a summary of their performance.
+    - The system shall display the user's final score and provide feedback on areas where they need improvement.
+
+6. **Feedback**: 
+    - The system shall provide detailed feedback on the user's answers, including explanations for correct and incorrect answers.
+    - Feedback shall be provided in a clear and concise manner, using simple language and visual aids.
+
+7. **User Profile Management**: 
+    - The system shall allow users to create profiles and log in to access their game history and statistics.
+    - Users shall be able to view their previous game results, including scores and feedback.
+
+8. **System Administration**: 
+    - The system administrator shall be able to manage the game library, adding new games and modifying existing ones.
+    - Administrators shall be able to view game statistics, including player scores and game completion rates.
+
+9. **Error Handling**: 
+    - The system shall handle errors and exceptions in a user-friendly manner.
+    - Errors shall be displayed clearly, along with suggestions for resolving the issue.
+
+10. **Accessibility**: 
+    - The system shall be accessible to users with disabilities, following Web Content Accessibility Guidelines (WCAG 2.1).
+    - The system shall use semantic HTML, CSS, and JavaScript to ensure compatibility with assistive technologies.
+
+11. **Security**: 
+    - The system shall protect user data and prevent unauthorized access.
+    - User passwords shall be stored securely, using industry-standard encryption methods.
+
+12. **Maintenance**: 
+    - The system shall be regularly updated to ensure compatibility with changing technology standards.
+    - Updates shall be made available to users through a secure download process.
+
+**Non-Functional Requirements**
+
+1. **Performance**: 
+    - The system shall respond to user interactions within 2 seconds.
+    - The system shall load pages within 3 seconds.
+    - The system shall render graphics and animations smoothly, without lagging or freezing.
+
+2. **Usability**: 
+    - The system shall be easy to navigate, with intuitive menus and clear instructions.
+    - The system shall provide clear and concise feedback to users, using simple language and visual aids.
+    - The system shall be accessible to users with disabilities, following Web Content Accessibility Guidelines (WCAG 2.1).
+
+3. **Scalability**: 
+    - The system shall be able to handle a large number of concurrent users, without compromising performance.
+    - The system shall scale horizontally, adding more servers as needed to meet increasing demand.
+
+4. **Reliability**: 
+    - The system shall operate continuously, without downtime or interruptions.
+    - The system shall recover quickly from failures, minimizing downtime and ensuring minimal impact on users.
+
+5. **Maintainability**: 
+    - The system shall be easy to maintain, with modular code and clear documentation.
+    - The system shall be flexible, allowing for easy updates and modifications.
+
+6. **Testability**: 
+    - The system shall be testable, with clear and well-defined interfaces.
+    - The system shall be easy to debug, with clear error messages and logging mechanisms.
+
+7. **Compatibility**: 
+    - The system shall be compatible with a wide range of browsers and devices.
+    - The system shall support multiple operating systems, including Windows, macOS, and Linux.
+
+8. **Data Integrity**: 
+    - The system shall ensure data integrity, preventing unauthorized changes or deletions.
+    - The system shall store data securely, using industry-standard encryption methods.
+
+9. **Data Security**: 
+    - The system shall protect user data, preventing unauthorized access or disclosure.
+    - The system shall comply with relevant data protection regulations, such as GDPR and CCPA.
+
+10. **Support**: 
+    - The system shall provide comprehensive support, including documentation, tutorials, and customer service.
+    - The system shall offer technical support, including email, phone, and chat support.
+
+By meeting these functional and non-functional requirements, the Space Fractions project shall provide a high-quality, engaging, and effective learning tool for sixth-grade students.

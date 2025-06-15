@@ -1,0 +1,92 @@
+### Functional and Non-Functional Requirements for the Public Health Information Network (PHIN) Outbreak Management (OM) System
+
+#### **Functional Requirements:**
+
+1. **Data Collection and Analysis:**
+   - **OM-1:** The system must support the collection and analysis of data to identify and contain health events or acts of bioterrorism.
+   - **OM-2:** The system must capture data related to:
+     - Cases
+     - Contacts
+     - Investigations
+     - Exposures
+     - Relationships
+     - Clinical and environmental specimens/samples
+     - Laboratory results
+     - Vaccinations and treatments
+     - Travel history
+     - Conveyance information
+   - **OM-3:** The system must allow for the creation of traceable links between cases, exposures, and other relevant entities to trace the mechanism of transmission and identify the source of the health event.
+
+2. **Configurability:**
+   - **OM-4:** The system must be configurable to meet the needs of different types of health events (e.g., infectious disease outbreaks, bioterrorism events).
+
+3. **Dynamic Object Creation:**
+   - **OM-5:** The system must allow for the definition and creation of new objects during the course of an investigation.
+
+4. **Integration with Other Systems:**
+   - **OM-6:** The system must integrate with systems supporting:
+     - Early event detection
+     - Countermeasure administration
+     - Laboratory systems
+     - Surveillance systems
+   - **OM-7:** The system must support the primary goal of managing the response to and mitigating the effects of a health event through integration with other PHIN systems.
+
+5. **Reporting and Monitoring:**
+   - **OM-8:** The system must support the monitoring, management, analysis, and reporting of health events.
+   - **OM-9:** The system must generate reports that include data on cases, exposures, and the effectiveness of containment measures.
+
+6. **User Interaction:**
+   - **OM-10:** The system must provide an interface for response staff to input, update, and query data related to health events.
+   - **OM-11:** The system must allow users to trace links between cases and exposures in real-time.
+
+7. **Data Security and Access Control:**
+   - **OM-12:** The system must ensure that sensitive health data is securely stored and accessed only by authorized personnel.
+   - **OM-13:** The system must provide role-based access control to ensure that users can only access data relevant to their role in the outbreak management process.
+
+8. **Data Export and Sharing:**
+   - **OM-14:** The system must allow for the export of data to other public health systems and stakeholders in a standardized format.
+   - **OM-15:** The system must support data sharing with external entities (e.g., CDC, WHO) while maintaining data integrity and security.
+
+#### **Non-Functional Requirements:**
+
+1. **Scalability:**
+   - **OM-NF1:** The system must be scalable to handle large volumes of data during major health events or outbreaks.
+   - **OM-NF2:** The system must support multiple concurrent users without degradation in performance.
+
+2. **Performance:**
+   - **OM-NF3:** The system must provide real-time data processing and analysis capabilities to support rapid decision-making during health events.
+   - **OM-NF4:** The system must have a response time of less than 2 seconds for most user interactions.
+
+3. **Reliability and Availability:**
+   - **OM-NF5:** The system must have an uptime of 99.9% to ensure continuous availability during critical health events.
+   - **OM-NF6:** The system must have robust backup and disaster recovery mechanisms to prevent data loss.
+
+4. **Usability:**
+   - **OM-NF7:** The system must provide an intuitive user interface that requires minimal training for public health professionals.
+   - **OM-NF8:** The system must be accessible to users with varying levels of technical expertise.
+
+5. **Interoperability:**
+   - **OM-NF9:** The system must comply with PHIN standards and support interoperability with other public health systems and data exchange protocols (e.g., HL7, FHIR).
+   - **OM-NF10:** The system must support integration with external laboratory information systems (LIS) and electronic health records (EHR).
+
+6. **Security:**
+   - **OM-NF11:** The system must comply with HIPAA and other relevant data privacy regulations to protect sensitive health information.
+   - **OM-NF12:** The system must implement encryption for data at rest and in transit.
+
+7. **Maintainability:**
+   - **OM-NF13:** The system must be designed to allow for easy updates and maintenance without significant downtime.
+   - **OM-NF14:** The system must provide logging and monitoring capabilities to assist in troubleshooting and performance optimization.
+
+8. **Compliance:**
+   - **OM-NF15:** The system must comply with all relevant public health regulations and standards, including those set by the CDC and WHO.
+   - **OM-NF16:** The system must support audit trails to track data access and modifications for compliance purposes.
+
+9. **Portability:**
+   - **OM-NF17:** The system must be capable of running on multiple platforms (e.g., Windows, Linux) to support diverse IT environments in public health agencies.
+
+10. **Extensibility:**
+    - **OM-NF18:** The system must be designed to allow for the addition of new features and modules as public health needs evolve.
+
+---
+
+This breakdown provides a comprehensive list of functional and non-functional requirements for the PHIN Outbreak Management system, ensuring it meets the needs of public health professionals in managing and responding to health events effectively.

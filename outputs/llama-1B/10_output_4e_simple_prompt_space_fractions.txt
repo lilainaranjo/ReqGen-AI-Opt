@@ -1,0 +1,78 @@
+**Functional Requirements:**
+
+1. The Space Fractions game will be a web-based, interactive game.
+2. The game will be accessible through a web-based menu system.
+3. The game will provide feedback to students based on their game scores.
+4. The game will allow users to choose between different games.
+5. The game will be user-friendly and easy to navigate.
+6. The game will be accessible on various devices, including desktops, laptops, and mobile devices.
+7. The game will be compatible with different browsers and operating systems.
+8. The game will be updated regularly with new features and content.
+9. The game will be secure and protected from unauthorized access.
+10. The game will be accessible to users with disabilities.
+
+**Non-Functional Requirements:**
+
+1. **Performance Requirements:**
+   - The game will be able to handle a large number of users simultaneously.
+   - The game will be able to handle a large number of game sessions.
+   - The game will be able to handle a large number of game saves.
+   - The game will be able to handle a large number of game updates.
+   - The game will be able to handle a large number of game requests.
+
+2. **Security Requirements:**
+   - The game will be able to protect user data.
+   - The game will be able to prevent unauthorized access.
+   - The game will be able to prevent data breaches.
+   - The game will be able to detect and prevent malware.
+
+3. **Usability Requirements:**
+   - The game will be easy to use.
+   - The game will be intuitive and user-friendly.
+   - The game will be accessible to users with disabilities.
+   - The game will be accessible on various devices.
+
+4. **Reliability Requirements:**
+   - The game will be able to function correctly.
+   - The game will be able to recover from errors.
+   - The game will be able to handle system crashes.
+   - The game will be able to handle network connectivity issues.
+
+5. **Maintainability Requirements:**
+   - The game will be easy to maintain.
+   - The game will be able to be updated regularly.
+   - The game will be able to be modified without affecting the user experience.
+   - The game will be able to be supported for a long time.
+
+6. **Scalability Requirements:**
+   - The game will be able to scale to meet growing user demand.
+   - The game will be able to handle a large number of users.
+   - The game will be able to handle a large number of game sessions.
+   - The game will be able to handle a large number of game saves.
+   - The game will be able to handle a large number of game updates.
+
+7. **Cost Requirements:**
+   - The game will be cost-effective.
+   - The game will be able to be developed at a low cost.
+   - The game will be able to be maintained at a low cost.
+   - The game will be able to be updated at a low cost.
+   - The game will be able to be supported for a long time.
+
+8. **Quality Requirements:**
+   - The game will be of high quality.
+   - The game will be well-designed and user-friendly.
+   - The game will be free of bugs and errors.
+   - The game will be free of security vulnerabilities.
+   - The game will be free of usability issues.
+
+9. **Reliability Requirements:**
+   - The game will be able to function correctly.
+   - The game will be able to recover from errors.
+   - The game will be able to handle system crashes.
+   - The game will be able to handle network connectivity issues.
+
+10. **Maintainability Requirements:**
+    - The game will be easy to maintain.
+    - The game will be able to be updated regularly.
+    - The game will be able to be modified without affecting the user experience.
+    - The game will be able to be supported for a long time.

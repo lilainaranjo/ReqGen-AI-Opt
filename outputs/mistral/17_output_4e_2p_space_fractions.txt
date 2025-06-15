@@ -1,0 +1,27 @@
+ Functional Requirements (FR):
+
+FR1: The application shall provide a login page where users can create new accounts or log into existing ones using email addresses.
+FR2: Users who have logged in successfully shall be able to access the main menu, which includes options such as "Play Game," "Leaderboard," "Settings," and "Logout."
+FR3: When selecting "Play Game" from the main menu, the player shall be taken to the game selection screen, displaying all available games within the Space Fractions collection.
+FR4: Players shall select one of the displayed games by clicking its title. Once selected, they shall be redirected to the game's landing page.
+FR5: Each game's landing page shall contain instructions about how to play the game, along with a button labeled "Start Game." Clicking this button shall initiate the game.
+FR6: During each game, players shall solve various math problems related to fractions. For every correct answer, they shall receive points. Incorrect answers shall result in point deductions.
+FR7: After completing a level, players shall be presented with a summary screen showing their score, total number of questions answered correctly/incorrectly, and the percentage of questions answered correctly. They shall then be prompted to continue playing or return to the main menu.
+FR8: Upon returning to the main menu, players shall be shown a leaderboard listing the top 10 highest scoring players across all games.
+FR9: The settings section shall allow users to change their account password, view their current high scores, and reset their progress in all games.
+FR10: The application shall support multiple languages, including English, Spanish, French, German, Italian, Dutch, Russian, Chinese, Japanese, Korean, Arabic, Hebrew, and Portuguese.
+FR11: The application shall store data locally on the client side using cookies. This data shall include the user's name, email address, language preference, and saved game progress.
+FR12: The application shall save game progress after each question answered during a game session. Progress shall only be saved if the user has provided a valid email address upon logging in.
+FR13: The application shall use JavaScript, HTML, CSS, and PHP for development purposes. It shall run on modern browsers like Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari, Opera, and others.
+
+Non-Functional Requirements (NFR):
+
+NFR1: The application shall be designed to work seamlessly on desktop computers, laptops, tablets, smartphones, and other devices capable of running modern web browsers.
+NFR2: The application shall be accessible via a standard web browser at no cost to the user. No downloads or installations shall be required.
+NFR3: The application shall be compatible with Windows, macOS, Linux, Android, iOS, and other operating systems.
+NFR4: The application shall be optimized for performance, ensuring fast load times and minimal latency while interacting with the interface.
+NFR5: The application shall be easy to navigate, with intuitive controls and clear visual indicators guiding users through the experience.
+NFR6: The application shall be visually appealing, utilizing color schemes, font styles, and graphics consistent with the Space Fractions brand.
+NFR7: The application shall be secure against unauthorized access, protecting sensitive user data stored both locally and remotely.
+NFR8: The application shall comply with relevant privacy laws and regulations, collecting and storing only essential personal data needed to facilitate functionality.
+NFR9: The application shall be tested extensively before release, verifying compatibility with supported platforms and browsers, ensuring optimal performance, and identifying and resolving bugs.

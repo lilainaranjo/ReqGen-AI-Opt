@@ -1,0 +1,19 @@
+**Functional Requirements:**
+
+1. **Interactive Game**: The Space Fractions game will be an interactive web-based game that allows students to learn and practice fraction-solving skills.
+2. **User Interface**: The game will have a user-friendly interface that is easy to navigate and understand.
+3. **Feedback System**: The game will provide feedback to students based on their game scores, helping them improve their skills.
+4. **Menu System**: The game will have a web-based menu system that allows users to choose between different games.
+5. **Game Progression**: The game will allow students to progress through different levels and challenges, providing a sense of accomplishment and motivation.
+6. **User Authentication**: The game will require user authentication to prevent unauthorized access and ensure that only registered users can play the game.
+7. **Game Statistics**: The game will collect and store game statistics, such as scores, to provide a record of progress and improvement.
+
+**Non-Functional Requirements:**
+
+1. **Security**: The game will be designed with security in mind, ensuring that user data and game content are protected from unauthorized access.
+2. **Accessibility**: The game will be accessible to users with disabilities, following web accessibility guidelines and standards.
+3. **Performance**: The game will be optimized for performance, ensuring that it loads quickly and runs smoothly on various devices and browsers.
+4. **User Experience**: The game will provide a positive user experience, with clear instructions, engaging gameplay, and a sense of accomplishment.
+5. **Scalability**: The game will be designed to scale with the number of users, ensuring that it remains stable and functional even with a large number of players.
+6. **Maintenance**: The game will be regularly maintained and updated to ensure that it remains secure, stable, and functional.
+7. **Compliance**: The game will comply with relevant regulations and standards, such as those related to data protection, accessibility, and user experience.

@@ -1,0 +1,34 @@
+Based on the description provided, here are the **functional** and **non-functional** requirements extracted from the system:
+
+---
+
+### **Functional Requirements**:
+1. The system must display an interface for solving a specific headache (game objective).
+2. The system must run as a standalone application.
+3. The system must provide a user interface that includes:
+   - Menus for navigation.
+   - Graphics for visual interaction.
+   - Sounds for auditory feedback.
+4. The system must allow user interaction via:
+   - A keyboard.
+   - A mouse.
+5. The system must support a graphical display with a minimum resolution of 800x600.
+
+---
+
+### **Non-Functional Requirements**:
+1. **Usability**:
+   - The system must be easy to use for players aged 8 and above, including beginners and advanced players.
+   - The interface should be intuitive for users with basic computer operation knowledge.
+2. **Performance**:
+   - The system must run smoothly on hardware that supports the minimum graphical resolution (800x600).
+3. **Accessibility**:
+   - The system should accommodate users of varying skill levels, from beginners to advanced players.
+4. **Compatibility**:
+   - The system must function as a standalone application without requiring additional software dependencies.
+5. **User Experience**:
+   - The system should provide an engaging experience through the use of graphics and sounds.
+
+---
+
+This breakdown separates the **functional requirements** (what the system must do) from the **non-functional requirements** (how well the system should perform or behave).

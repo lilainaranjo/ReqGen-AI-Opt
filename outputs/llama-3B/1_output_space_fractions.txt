@@ -1,0 +1,189 @@
+**Functional Requirements:**
+
+1. **Gameplay:**
+	* The system will consist of a series of interactive fraction-based games.
+	* Each game will have a unique set of rules and objectives.
+	* The system will display a menu of available games at the start of the game.
+	* The user will select a game to play, and the system will load the corresponding game.
+	* The game will consist of a series of questions or challenges that the user must complete to progress.
+	* The system will keep track of the user's score and provide feedback at the end of the game.
+2. **Game Selection:**
+	* The system will have a menu system that allows the user to select between different games.
+	* The menu system will display the names of available games and their corresponding descriptions.
+	* The user will select a game by clicking on its name or icon.
+	* The system will load the selected game and display its rules and objectives.
+3. **Game Progression:**
+	* The system will keep track of the user's progress through the game.
+	* The system will display the user's current score and the number of questions completed.
+	* The system will provide feedback on the user's performance, such as correct answers, incorrect answers, and time taken to complete each question.
+4. **Feedback and Scoring:**
+	* The system will provide feedback on the user's performance at the end of the game.
+	* The feedback will include the user's final score, the number of correct answers, and the number of incorrect answers.
+	* The system will display a summary of the user's performance, including their strengths and weaknesses.
+5. **Umbrella Menu System:**
+	* The system will have a menu system that allows the user to select between different games.
+	* The menu system will display the names of available games and their corresponding descriptions.
+	* The user will select a game by clicking on its name or icon.
+	* The system will load the selected game and display its rules and objectives.
+
+**Non-Functional Requirements:**
+
+1. **Performance:**
+	* The system will respond to user input within 2 seconds.
+	* The system will process user input within 1 second.
+	* The system will display game results within 3 seconds.
+2. **Security:**
+	* The system will use HTTPS encryption to secure user data.
+	* The system will store user data in a secure database.
+	* The system will use strong passwords and authentication mechanisms to protect user accounts.
+3. **Usability:**
+	* The system will be accessible on desktop and mobile devices.
+	* The system will have a user-friendly interface that is easy to navigate.
+	* The system will provide clear and concise instructions and feedback.
+4. **Accessibility:**
+	* The system will be accessible to users with disabilities.
+	* The system will provide alternative text for images and audio descriptions for visually impaired users.
+	* The system will provide closed captions for video content.
+5. **Scalability:**
+	* The system will be able to handle a large number of users simultaneously.
+	* The system will be able to handle a large number of games and questions.
+	* The system will be able to scale up or down as needed.
+
+**Assumptions and Dependencies:**
+
+1. **Database:**
+	* The system will use a relational database management system (RDBMS) such as MySQL or PostgreSQL.
+	* The database will store user data, game data, and question data.
+	* The system will use SQL queries to retrieve and update data in the database.
+2. **Front-end Framework:**
+	* The system will use a front-end framework such as React or Angular.
+	* The framework will provide a user interface for the system.
+	* The framework will handle user input and display game results.
+3. **Back-end Framework:**
+	* The system will use a back-end framework such as Node.js or Django.
+	* The framework will handle server-side logic and database interactions.
+	* The framework will provide a RESTful API for the system.
+4. **Device Connections:**
+	* The system will be accessible on desktop and mobile devices.
+	* The system will use HTML5 and CSS3 to provide a responsive design.
+	* The system will use JavaScript to handle user input and display game results.
+
+**Example Use Cases:**
+
+1. **User Logs In:**
+	* The user enters their username and password.
+	* The system authenticates the user and loads their game history.
+	* The system displays the user's current score and game progress.
+2. **User Selects Game:**
+	* The user selects a game from the menu system.
+	* The system loads the selected game and displays its rules and objectives.
+	* The system provides feedback on the user's performance.
+3. **User Completes Game:**
+	* The user completes a game and submits their score.
+	* The system displays the user's final score and game results.
+	* The system provides feedback on the user's performance.
+
+**Example Code:**
+
+**Front-end (React):**
+```jsx
+import React, { useState, useEffect } from'react';
+import axios from 'axios';
+
+function App() {
+  const [games, setGames] = useState([]);
+  const [selectedGame, setSelectedGame] = useState(null);
+
+  useEffect(() => {
+    axios.get('/api/games')
+     .then(response => {
+        setGames(response.data);
+      })
+     .catch(error => {
+        console.error(error);
+      });
+  }, []);
+
+  const handleGameSelect = (game) => {
+    setSelectedGame(game);
+  };
+
+  return (
+    <div>
+      <h1>Space Fractions</h1>
+      <ul>
+        {games.map((game) => (
+          <li key={game.id}>
+            <button onClick={() => handleGameSelect(game)}>{game.name}</button>
+          </li>
+        ))}
+      </ul>
+      {selectedGame && (
+        <div>
+          <h2>{selectedGame.name}</h2>
+          <p>{selectedGame.description}</p>
+          <button onClick={() => handleGameSelect(null)}>Back</button>
+        </div>
+      )}
+    </div>
+  );
+}
+
+export default App;
+```
+
+**Back-end (Node.js):**
+```javascript
+const express = require('express');
+const app = express();
+const mysql = require('mysql');
+
+const db = mysql.createConnection({
+  host: 'localhost',
+  user: 'username',
+  password: 'password',
+  database: 'database'
+});
+
+app.get('/api/games', (req, res) => {
+  db.query('SELECT * FROM games', (error, results) => {
+    if (error) {
+      console.error(error);
+      res.status(500).send({ message: 'Error fetching games' });
+    } else {
+      res.send(results);
+    }
+  });
+});
+
+app.get('/api/game/:id', (req, res) => {
+  const id = req.params.id;
+  db.query(`SELECT * FROM games WHERE id = ${id}`, (error, results) => {
+    if (error) {
+      console.error(error);
+      res.status(500).send({ message: 'Error fetching game' });
+    } else {
+      res.send(results[0]);
+    }
+  });
+});
+
+app.post('/api/game/:id/submit', (req, res) => {
+  const id = req.params.id;
+  const score = req.body.score;
+  db.query(`UPDATE games SET score = ${score} WHERE id = ${id}`, (error, results) => {
+    if (error) {
+      console.error(error);
+      res.status(500).send({ message: 'Error submitting game' });
+    } else {
+      res.send({ message: 'Game submitted successfully' });
+    }
+  });
+});
+
+app.listen(3000, () => {
+  console.log('Server listening on port 3000');
+});
+```
+
+Note: This is a simplified example and may not cover all the requirements and edge cases.

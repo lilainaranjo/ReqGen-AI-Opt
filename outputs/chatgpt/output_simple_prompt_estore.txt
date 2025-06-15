@@ -1,0 +1,123 @@
+Based on the system description, we can extract the **Functional** and **Non-Functional Requirements** as follows:
+
+---
+
+### ✅ **Functional Requirements**
+
+These describe **what** the system should do:
+
+1. **Product Configuration and Sales**
+
+   * Users can configure and purchase products online.
+
+2. **Product Details and Categorization**
+
+   * The system provides comprehensive product details.
+   * Products are categorized for easier browsing.
+
+3. **Search Functionality**
+
+   * Users can search for products using various criteria.
+
+4. **Customer Profile and Personalization**
+
+   * Customers can create and manage their profiles.
+   * System offers personalization options based on the profile.
+
+5. **Customer Support**
+
+   * Support is available through the system (possibly chat, ticketing, FAQs).
+
+6. **Shopping Cart**
+
+   * Customers can add, remove, and update products in a shopping cart.
+
+7. **Shipping Methods**
+
+   * The system offers multiple shipping options.
+
+8. **Shipment Tracking**
+
+   * Customers can track their shipments online.
+
+9. **Tax Calculations**
+
+   * Taxes are calculated based on location or other rules.
+
+10. **Payment Methods**
+
+    * Multiple online payment methods are supported (e.g., credit card, PayPal).
+
+11. **Sitemap**
+
+    * A detailed sitemap is available for easier navigation.
+
+12. **Order Modification**
+
+    * Customers can change or cancel orders online.
+
+13. **Product Reviews and Ratings**
+
+    * Customers can leave reviews and rate products.
+
+14. **Email Confirmation**
+
+    * Customers receive email confirmations for orders and possibly other events.
+
+15. **Promotions and Rewards**
+
+    * The system provides online promotions and rewards programs.
+
+16. **Financing Options**
+
+    * Financing plans for purchases are available.
+
+---
+
+### ⚙️ **Non-Functional Requirements**
+
+These describe **how** the system should perform:
+
+1. **Usability**
+
+   * The interface must be user-friendly and intuitive for customers of varying tech literacy.
+
+2. **Performance**
+
+   * The system must respond quickly to user actions, especially in search and checkout processes.
+
+3. **Availability**
+
+   * The system should have high uptime, ensuring 24/7 accessibility.
+
+4. **Scalability**
+
+   * The system must scale to handle increasing numbers of users and products.
+
+5. **Security**
+
+   * User data and payment information must be securely handled (e.g., SSL, encryption).
+
+6. **Maintainability**
+
+   * The system should be modular and easy to maintain or upgrade.
+
+7. **Reliability**
+
+   * Functions like order processing and shipment tracking must work correctly and consistently.
+
+8. **Compatibility**
+
+   * The system should work across major browsers and devices (desktop, mobile).
+
+9. **Localization**
+
+   * Support for multiple currencies and regional settings (taxes, shipping, etc.) may be implied.
+
+10. **Compliance**
+
+    * The system must comply with legal regulations (e.g., data protection laws, tax regulations).
+
+---
+
+Would you like this turned into a table or formatted for documentation (e.g., Software Requirements Specification)?

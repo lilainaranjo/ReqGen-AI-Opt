@@ -1,0 +1,137 @@
+**Functional Requirements:**
+
+1. **Game Selection Menu:**
+   - The system will have a web-based menu system that allows users to select between different games.
+   - The menu will display a list of available games, including the Space Fractions game and any other games created under the umbrella.
+   - Each game will have a unique title and a brief description.
+   - The menu will allow users to filter games by category (e.g., math, science, etc.) or by difficulty level (e.g., easy, medium, hard).
+   - The menu will also allow users to sort games by popularity or by release date.
+
+2. **Space Fractions Game:**
+   - The Space Fractions game will be an interactive web-based game designed for sixth-grade students to improve their fraction-solving skills.
+   - The game will consist of multiple levels, each with a set of fraction problems to solve.
+   - Each level will have a unique theme, such as space exploration, and will include visual aids to help students understand the fraction concepts.
+   - The game will provide immediate feedback to students on their answers, including correct or incorrect responses and explanations for the correct answers.
+   - The game will also keep track of the student's score and provide a final score at the end of the game.
+
+3. **Gameplay Mechanics:**
+   - The game will have a timer that starts when the student begins the game and ends when the student completes the last level or runs out of time.
+   - The game will have a set of rules for scoring, including bonus points for completing levels quickly and penalty points for incorrect answers.
+   - The game will have a feature to allow students to review their answers and explanations for each level.
+
+4. **User Account Management:**
+   - The system will allow users to create an account to save their progress and access their game history.
+   - Users will be able to log in to their account to access their saved games and view their scores.
+   - Users will be able to reset their password and update their account information.
+
+5. **Game History and Statistics:**
+   - The system will keep track of each user's game history, including the games they have played, their scores, and the time it took to complete each game.
+   - The system will provide users with statistics on their game performance, including their average score, completion time, and most difficult levels.
+
+6. **Accessibility Features:**
+   - The system will be designed to be accessible to users with disabilities, including screen readers and keyboard-only navigation.
+   - The system will provide high contrast mode and font size adjustment options.
+
+**Non-Functional Requirements:**
+
+1. **Performance:**
+   - The system will be designed to handle a large number of concurrent users without significant performance degradation.
+   - The system will respond to user input within 2 seconds.
+   - The system will have a maximum response time of 5 seconds for complex operations.
+
+2. **Security:**
+   - The system will use HTTPS to encrypt user data and protect against eavesdropping and tampering.
+   - The system will use secure password storage and will not store passwords in plaintext.
+   - The system will have a robust authentication and authorization system to prevent unauthorized access.
+
+3. **Usability:**
+   - The system will have a user-friendly interface that is easy to navigate and understand.
+   - The system will provide clear and concise instructions and feedback to users.
+   - The system will have a consistent design and layout throughout.
+
+4. **Scalability:**
+   - The system will be designed to scale horizontally to handle increased traffic and user growth.
+   - The system will use a load balancer to distribute traffic across multiple servers.
+   - The system will use a database that can handle large amounts of data and scale horizontally.
+
+5. **Maintenance:**
+   - The system will have a modular design that allows for easy maintenance and updates.
+   - The system will have a robust testing framework to ensure that changes do not break existing functionality.
+   - The system will have a clear and well-documented codebase that is easy to understand and maintain.
+
+**Assumptions:**
+
+1. **User Roles:**
+   - We assume that there will be two user roles: students and administrators.
+   - Students will have access to the game selection menu and will be able to play games.
+   - Administrators will have access to the game selection menu and will also have additional features to manage games, users, and analytics.
+
+2. **Game Categories:**
+   - We assume that games will be categorized by subject (e.g., math, science, etc.) and by difficulty level (e.g., easy, medium, hard).
+   - We assume that games will have a unique title and a brief description.
+
+3. **User Data:**
+   - We assume that users will have a unique username and password.
+   - We assume that users will have a profile that includes their name, email address, and other demographic information.
+
+4. **Game Progress:**
+   - We assume that game progress will be saved for each user, including their score, completion time, and most difficult levels.
+   - We assume that game progress will be stored in a database and will be accessible to users through their account.
+
+5. **Analytics:**
+   - We assume that the system will collect analytics data on user behavior, including game completion rates, average scores, and most difficult levels.
+   - We assume that analytics data will be stored in a database and will be accessible to administrators through a dashboard.
+
+**Example Use Cases:**
+
+1. **Student Plays Game:**
+   - A student logs in to their account and selects the Space Fractions game.
+   - The student completes the game and receives feedback on their answers.
+   - The student's score and completion time are saved to their account.
+
+2. **Administrator Manages Games:**
+   - An administrator logs in to their account and selects the game selection menu.
+   - The administrator creates a new game and sets its title, description, and difficulty level.
+   - The administrator saves the game and it becomes available to students.
+
+3. **User Reviews Game:**
+   - A student logs in to their account and selects the Space Fractions game.
+   - The student completes the game and reviews their answers and explanations.
+   - The student provides feedback on the game and suggests improvements.
+
+**Database Schema:**
+
+The database schema will consist of the following tables:
+
+1. **users:**
+   - id (primary key)
+   - username
+   - password
+   - name
+   - email
+   - demographic information
+
+2. **games:**
+   - id (primary key)
+   - title
+   - description
+   - difficulty level
+   - category
+
+3. **game_progress:**
+   - id (primary key)
+   - user_id (foreign key referencing users)
+   - game_id (foreign key referencing games)
+   - score
+   - completion time
+   - most difficult levels
+
+4. **analytics:**
+   - id (primary key)
+   - user_id (foreign key referencing users)
+   - game_id (foreign key referencing games)
+   - completion rate
+   - average score
+   - most difficult levels
+
+Note: This is a simplified database schema and may need to be modified based on the specific requirements of the system.

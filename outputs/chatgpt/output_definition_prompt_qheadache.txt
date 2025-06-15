@@ -1,0 +1,17 @@
+### **Functional Requirements:**
+
+1. The system must display an interface for solving a specific headache (game functionality).
+2. The product must run as a standalone application.
+3. The user interface must include menus, graphics, and sounds.
+4. The product must support user interaction via a keyboard and a mouse.
+5. The system must allow players of different skill levels, ranging from beginners (age 8) to advanced players.
+
+### **Non-Functional Requirements:**
+
+1. The product must operate as a standalone application without requiring an external system.
+2. The graphical display must support a minimum resolution of **800×600**.
+3. The interface must be user-friendly for both children (age 8 and above) and adults.
+4. The system must provide a visually and audibly engaging experience using graphics and sounds.
+5. The system must ensure smooth interaction with input devices (keyboard and mouse).
+
+Would you like to refine or add more details to the requirements? 😊

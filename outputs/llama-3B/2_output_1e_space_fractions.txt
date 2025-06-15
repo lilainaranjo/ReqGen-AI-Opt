@@ -1,0 +1,157 @@
+**Functional Requirements:**
+
+1. **Gameplay:**
+   - The system will consist of a series of interactive fraction-based games.
+   - Each game will have a unique set of rules and objectives.
+   - The system will display a menu of available games at the start of the game.
+   - The user will be able to select a game from the menu and play it.
+   - The system will provide feedback on the user's performance after completing a game.
+   - The feedback will include the user's score, correct answers, and incorrect answers.
+
+2. **Game Selection:**
+   - The system will have a web-based menu system that allows users to select from a list of available games.
+   - The menu system will display the name of each game, a brief description, and a "Play" button.
+   - The user will be able to select a game by clicking the "Play" button.
+   - The system will display the selected game's rules and objectives.
+
+3. **Gameplay Interface:**
+   - The system will display the game's interface, which will include:
+     - A set of fraction-based problems.
+     - A text input field for the user to enter their answer.
+     - A "Submit" button to submit the answer.
+     - A "Hint" button to provide a hint for the problem.
+     - A "Next" button to move to the next problem.
+   - The system will display the user's answer and provide feedback on whether it is correct or incorrect.
+
+4. **Feedback System:**
+   - The system will provide feedback on the user's performance after completing a game.
+   - The feedback will include the user's score, correct answers, and incorrect answers.
+   - The system will display the feedback in a clear and concise manner.
+
+5. **Umbrella System:**
+   - The system will have an umbrella system that allows users to access past games.
+   - The umbrella system will display a list of available games, along with a brief description and a "Play" button.
+   - The user will be able to select a game from the list and play it.
+
+6. **User Authentication:**
+   - The system will require users to log in before accessing the games.
+   - The system will use a username and password combination for authentication.
+   - The system will display a login form with fields for username and password.
+
+7. **Game Data Storage:**
+   - The system will store game data, including game rules, objectives, and feedback, in a database.
+   - The system will use a relational database management system (RDBMS) to store the data.
+   - The system will use SQL queries to retrieve and update data in the database.
+
+8. **User Data Storage:**
+   - The system will store user data, including user profiles and game history, in a database.
+   - The system will use a relational database management system (RDBMS) to store the data.
+   - The system will use SQL queries to retrieve and update data in the database.
+
+**Non-Functional Requirements:**
+
+1. **Performance:**
+   - The system will respond to user input within 2 seconds.
+   - The system will process game data and user data within 5 seconds.
+   - The system will display feedback within 3 seconds.
+
+2. **Security:**
+   - The system will use HTTPS encryption to secure user data.
+   - The system will use a secure password hashing algorithm to store user passwords.
+   - The system will validate user input to prevent SQL injection and cross-site scripting (XSS) attacks.
+
+3. **Usability:**
+   - The system will be accessible on desktop and mobile devices.
+   - The system will be compatible with modern web browsers.
+   - The system will have a clear and concise user interface.
+
+4. **Scalability:**
+   - The system will be able to handle 1000 concurrent users.
+   - The system will be able to store 1000 games and 1000 user profiles.
+
+5. **Maintainability:**
+   - The system will be written in a modular and reusable codebase.
+   - The system will use a version control system to track changes.
+   - The system will have a clear and concise documentation.
+
+**Assumptions:**
+
+1. **Time:** The system will be available 24/7, and users will be able to access the system at any time.
+2. **Device Connections:** The system will be accessible on desktop and mobile devices, and users will be able to access the system using a web browser.
+3. **User Behavior:** Users will play the games in a sequential manner, completing one game before moving on to the next.
+
+**Example Use Cases:**
+
+1. **User Logs In:**
+   - The user enters their username and password into the login form.
+   - The system validates the input and checks it against the stored data.
+   - If the input is valid, the system logs the user in and displays the game menu.
+
+2. **User Selects Game:**
+   - The user selects a game from the menu.
+   - The system displays the game's rules and objectives.
+   - The user plays the game and submits their answers.
+
+3. **User Receives Feedback:**
+   - The user completes the game and submits their answers.
+   - The system displays the user's score, correct answers, and incorrect answers.
+   - The user receives feedback on their performance.
+
+4. **User Accesses Past Games:**
+   - The user selects the umbrella system from the menu.
+   - The system displays a list of available games, along with a brief description and a "Play" button.
+   - The user selects a game from the list and plays it.
+
+**Example Code:**
+
+```python
+# Import required libraries
+from flask import Flask, render_template, request, redirect, url_for
+from flask_sqlalchemy import SQLAlchemy
+
+# Create a Flask application
+app = Flask(__name__)
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///database.db"
+db = SQLAlchemy(app)
+
+# Define a game model
+class Game(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(100), nullable=False)
+    rules = db.Column(db.Text, nullable=False)
+    objectives = db.Column(db.Text, nullable=False)
+
+# Define a user model
+class User(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    username = db.Column(db.String(100), nullable=False)
+    password = db.Column(db.String(100), nullable=False)
+
+# Define a game route
+@app.route("/game/<int:game_id>", methods=["GET", "POST"])
+def game(game_id):
+    game = Game.query.get(game_id)
+    if game:
+        if request.method == "POST":
+            # Process user input
+            pass
+        return render_template("game.html", game=game)
+    return redirect(url_for("index"))
+
+# Define a user route
+@app.route("/user/<int:user_id>", methods=["GET", "POST"])
+def user(user_id):
+    user = User.query.get(user_id)
+    if user:
+        if request.method == "POST":
+            # Process user input
+            pass
+        return render_template("user.html", user=user)
+    return redirect(url_for("index"))
+
+# Run the application
+if __name__ == "__main__":
+    app.run(debug=True)
+```
+
+This code provides a basic structure for the system, including game and user models, routes for game and user pages, and a simple login system. However, it does not include the full functionality of the system, including the gameplay interface, feedback system, and umbrella system.

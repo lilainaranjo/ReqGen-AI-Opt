@@ -1,0 +1,72 @@
+**Requisitos Funcionales:**  
+1. **Explorer Feed Personalizable:**  
+   - Mostrar contenidos recomendados (temas actuales, artículos destacados, efemérides, sugerencias basadas en historial).  
+   - Permitir personalización del tipo y orden de contenidos en el feed.  
+
+2. **Soporte Multilingüe:**  
+   - Visualizar contenido en varios idiomas (hasta 300).  
+   - Cambiar fácilmente de idioma durante búsquedas.  
+   - Seleccionar idioma predeterminado para el Explorer Feed.  
+
+3. **Listas de Lectura sin Conexión:**  
+   - Crear, organizar y sincronizar listas de lectura entre dispositivos.  
+   - Guardar artículos en listas personalizadas con nombres y descripciones.  
+
+4. **Personalización de Interfaz:**  
+   - Seleccionar temas (luminoso, oscuro, negro).  
+   - Ajustar tamaño del texto para mejor legibilidad.  
+
+5. **Búsqueda por Voz:**  
+   - Integrar reconocimiento de voz en la barra de búsqueda.  
+
+6. **Nearby (Ubicación):**  
+   - Mostrar artículos relacionados con la ubicación actual mediante un mapa interactivo.  
+
+7. **Vistas Previa y Pestañas:**  
+   - Previsualizar enlaces sin salir del artículo actual.  
+   - Abrir enlaces en nuevas pestañas para lectura posterior.  
+
+8. **Galería de Imágenes:**  
+   - Visualizar imágenes en alta resolución con navegación por gestos (swipe).  
+
+9. **Integración con Wikcionario:**  
+   - Mostrar definiciones de palabras resaltadas mediante toque prolongado.  
+
+10. **Envío de Comentarios:**  
+    - Permitir a los usuarios enviar feedback directamente desde la app.  
+
+---
+
+**Requisitos No Funcionales:**  
+1. **Disponibilidad Offline:**  
+   - Acceso a listas de lectura sin conexión con sincronización automática al recuperar conexión.  
+
+2. **Usabilidad:**  
+   - Interfaz personalizable (temas, tamaño de texto) para mejorar la experiencia de lectura.  
+
+3. **Privacidad:**  
+   - Opción para desactivar el envío automático de informes de fallos a terceros.  
+
+4. **Compatibilidad:**  
+   - Soporte para dispositivos Android con integración del SDK estándar.  
+
+5. **Rendimiento:**  
+   - Manejo eficiente de contenido multilingüe (300 idiomas) sin afectar velocidad.  
+
+6. **Escalabilidad:**  
+   - Capacidad para gestionar grandes volúmenes de artículos (40+ millones).  
+
+7. **Mantenibilidad:**  
+   - Código abierto (Java/Android SDK) para facilitar contribuciones externas.  
+
+8. **Seguridad:**  
+   - Transmisión segura de datos al sincronizar listas de lectura o enviar feedback.  
+
+9. **Integración con Terceros:**  
+   - Uso de servicios externos para reconocimiento de voz y reportes de errores.  
+
+10. **Portabilidad:**  
+    - Sincronización multiplataforma de listas de lectura mediante cuentas de Wikipedia.  
+
+11. **Internacionalización:**  
+    - Adaptación de contenidos y funcionalidades a múltiples idiomas y regiones.

@@ -1,0 +1,37 @@
+### **Functional Requirements**
+
+1. **Investigation and Monitoring**: The system should support the investigation, monitoring, and management of health events and bioterrorism acts.
+2. **Data Collection and Analysis**: The system should aid in collecting and analyzing data to identify and contain health events.
+3. **Configurable System**: The system should be configurable to accommodate different types of health events.
+4. **Data Capture**: The system should capture information related to:
+
+   * Cases
+   * Contacts
+   * Investigations
+   * Exposures
+   * Relationships
+   * Clinical and environmental specimens/samples
+   * Laboratory results
+   * Vaccinations and treatments
+   * Travel history
+   * Conveyance information
+5. **Dynamic Object Creation**: The application should allow for the definition and creation of new objects during an investigation.
+6. **Traceable Link Creation**: The system should enable the creation of traceable links between cases and exposures.
+7. **Transmission Tracking**: The system should facilitate tracing the mechanism of disease transmission to identify the source of the health event.
+8. **Integration with Other Systems**: The system should integrate with:
+
+   * Early event detection systems
+   * Countermeasure administration systems
+   * Laboratory systems
+   * Surveillance systems
+
+### **Non-Functional Requirements**
+
+1. **Scalability**: The system should be scalable to handle different sizes and scopes of health events.
+2. **Configurability**: It should be configurable to adapt to varying investigation needs and health event types.
+3. **Usability**: The application should provide an intuitive and user-friendly interface for public health professionals.
+4. **Security**: The system should ensure secure storage and processing of sensitive health data.
+5. **Performance**: It should efficiently process large amounts of data related to cases, exposures, and laboratory results.
+6. **Reliability**: The system should be highly available to support continuous outbreak management.
+7. **Interoperability**: It should support seamless integration with external healthcare and surveillance systems.
+8. **Auditability**: The system should maintain logs and traceable records for compliance and review.

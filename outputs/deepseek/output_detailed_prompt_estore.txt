@@ -1,0 +1,147 @@
+### **Functional Requirements**
+
+#### **1. Product Management**
+- **Product Details**:  
+  - Each product must display: name, unique SKU, detailed description, multiple high-resolution images (min 3, max 10), price (in USD), weight (lbs/kg), dimensions (inches/cm), stock quantity, manufacturer, and warranty.  
+  - *Example*: A laptop product shows: "MacBook Pro (SKU: MB2023), 16GB RAM, 1TB SSD, 16-inch Retina display, $1,999, 4.7 lbs, 14″ x 9.6″ x 0.64″, 85 units in stock, Apple Inc., 1-year warranty."  
+
+- **Categorization**:  
+  - Products organized into a 3-level hierarchy (e.g., `Electronics → Computers → Laptops`).  
+  - Each product assignable to ≤3 categories.  
+  - Admin interface for adding/editing categories.  
+
+#### **2. Search & Navigation**  
+- **Search Functionality**:  
+  - Full-text search across product names, descriptions, and SKUs.  
+  - Filters: price range ($0–$5,000), category, brand, ratings (1–5 stars), availability.  
+  - Autocomplete suggests products after 3 keystrokes.  
+- **Sitemap**:  
+  - Auto-generated XML sitemap for search engines.  
+  - HTML sitemap page for users, listing all top-level categories.  
+
+#### **3. User Profiles & Personalization**  
+- **Profile Creation**:  
+  - Mandatory: Email (verified), password (8+ chars, uppercase, number).  
+  - Optional: Name, phone, address, birthdate, profile picture.  
+- **Personalization**:  
+  - Recommend products based on purchase/browse history.  
+  - "Wishlist" to save items.  
+  - Email preferences (promotions: opt-in).  
+
+#### **4. Shopping Cart & Checkout**  
+- **Cart**:  
+  - Items persist for 30 days (logged-in users) / browser session (guests).  
+  - Real-time updates: quantity adjustments, item removal.  
+- **Checkout Process**:  
+  1. **Shipping**:  
+     - Address validation via USPS API.  
+     - Methods: Standard ($5, 5–7 days), Express ($15, 2 days), Overnight ($25).  
+  2. **Tax Calculation**:  
+     - 7% sales tax for orders shipped to California; 0% for Oregon. Updated via tax API quarterly.  
+  3. **Payment**:  
+     - Methods: Credit Card (Visa/Mastercard/Amex), PayPal, Store Credit.  
+     - Card processing via Stripe/PayPal (PCI-DSS compliant).  
+     - Financing: 6/12-month installments (0% APR for orders >$500).  
+  4. **Order Confirmation**:  
+     - Email sent ≤1 minute post-checkout with order summary and tracking link.  
+
+#### **5. Order Management**  
+- **Modifications**:  
+  - Orders cancellable within 1 hour of placement if status = "Processing".  
+  - Shipping address editable if status = "Processing" (≤2 changes).  
+- **Tracking**:  
+  - Real-time status via carrier API (e.g., FedEx: "Shipped", "In Transit", "Delivered").  
+  - Map showing delivery progress (if carrier supports).  
+
+#### **6. Reviews & Ratings**  
+- **Submission**:  
+  - Only verified purchasers can review ≤14 days post-delivery.  
+  - Required: 1–5 star rating, text review (10–500 chars), optional image upload (max 2).  
+- **Display**:  
+  - Average rating shown on product pages.  
+  - Sort by: newest, highest rating, most helpful (user-voted).  
+
+#### **7. Promotions & Rewards**  
+- **Promotions**:  
+  - Time-bound discounts (e.g., "FLAT20": 20% off laptops, valid 00:00–23:59 PST on Black Friday).  
+  - Auto-applied at checkout; one promo per order.  
+- **Rewards**:  
+  - $1 spent = 1 point; 100 points = $5 discount.  
+  - Points expire after 365 days.  
+
+#### **8. Customer Support**  
+- **Live Chat**:  
+  - Available 9 AM–6 PM PST (Mon–Fri).  
+  - Transcript emailed post-chat.  
+- **Contact Form**:  
+  - Response time ≤24 hours.  
+  - Categories: "Refund", "Technical Issue", "Product Query".  
+
+#### **9. Admin Operations**  
+- **Backend**:  
+  - Dashboard to add/edit products, manage orders (update status, cancel), and configure promotions.  
+  - Alerts for low stock (<10 units).  
+
+---
+
+### **Non-Functional Requirements**  
+
+#### **1. Performance**  
+- Page load: ≤2 seconds (95% of users).  
+- Search results: ≤1 second for queries <10 products.  
+- Concurrent users: Support 5,000+ during peak (Black Friday).  
+
+#### **2. Security**  
+- **Data**:  
+  - Passwords hashed (bcrypt).  
+  - Payment data never stored; use tokens (Stripe/PayPal).  
+- **Compliance**:  
+  - GDPR: User data deletion upon request.  
+  - PCI-DSS for payments.  
+
+#### **3. Reliability**  
+- Uptime: 99.9% (max 43m downtime/month).  
+- Backup: Daily DB backups; recovery point objective (RPO) = 1 hour.  
+
+#### **4. Usability**  
+- **Accessibility**: WCAG 2.1 AA compliant (e.g., alt text for images, keyboard navigation).  
+- **Mobile**: Responsive design (iOS/Android).  
+
+#### **5. Integrations**  
+- **APIs**:  
+  - Tax: Avalara (real-time rates).  
+  - Shipping: FedEx/USPS (costs + tracking).  
+  - Payments: Stripe/PayPal.  
+
+#### **6. Scalability**  
+- Horizontal scaling: Auto-add servers when CPU >80% for 5+ minutes.  
+- DB: Read replicas for search/catalog.  
+
+#### **7. Maintainability**  
+- Modular code (e.g., separate services for cart, payments).  
+- Full documentation (API endpoints, deployment scripts).  
+
+#### **8. Legal**  
+- Return policy: 30-day money-back guarantee.  
+- Terms of Service: Explicit consent checkbox at registration.  
+
+---
+
+### **Assumptions & Clarifications**  
+- **Currency**: USD only.  
+- **Shipping**: US-only initially; weight-based pricing (e.g., $0.5/lb for Standard).  
+- **Tax Nexus**: Only US states with physical warehouses (CA, NY, TX).  
+- **Fraud Detection**: Third-party tool (e.g., Signifyd) for high-risk orders (>$1,000).  
+- **Email Notifications**:  
+  - Order confirmation (immediate).  
+  - Shipping update (on status change).  
+  - Review reminder (3 days post-delivery).  
+- **Browser Support**: Chrome, Firefox, Safari, Edge (latest 2 versions).  
+
+### **Out of Scope**  
+- International shipping.  
+- Multi-vendor marketplace.  
+- AR/VR product previews.  
+
+---  
+This specification ensures unambiguous implementation. For edge cases (e.g., tax-exempt customers), admins can manually override in the backend.

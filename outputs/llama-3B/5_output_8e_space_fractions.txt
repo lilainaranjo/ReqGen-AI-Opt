@@ -1,0 +1,166 @@
+Functional Requirements:
+
+1. The system shall allow the user to select a game from the menu.
+2. The system shall display the game's title and a brief description.
+3. The system shall display the game's instructions.
+4. The system shall display the game's rules.
+5. The system shall display the game's objectives.
+6. The system shall display the game's score.
+7. The system shall display the game's results.
+8. The system shall display the game's feedback.
+9. The system shall display the game's statistics.
+10. The system shall display the game's history.
+11. The system shall display the game's high scores.
+12. The system shall display the game's low scores.
+13. The system shall display the game's average scores.
+14. The system shall display the game's total scores.
+15. The system shall display the game's total number of games played.
+16. The system shall display the game's total number of games won.
+17. The system shall display the game's total number of games lost.
+18. The system shall display the game's total number of games tied.
+19. The system shall display the game's total number of games played in the current session.
+20. The system shall display the game's total number of games won in the current session.
+21. The system shall display the game's total number of games lost in the current session.
+22. The system shall display the game's total number of games tied in the current session.
+23. The system shall display the game's total number of games played in the current session.
+24. The system shall display the game's total number of games won in the current session.
+25. The system shall display the game's total number of games lost in the current session.
+26. The system shall display the game's total number of games tied in the current session.
+27. The system shall display the game's total number of games played in the current session.
+28. The system shall display the game's total number of games won in the current session.
+29. The system shall display the game's total number of games lost in the current session.
+30. The system shall display the game's total number of games tied in the current session.
+31. The system shall display the game's total number of games played in the current session.
+32. The system shall display the game's total number of games won in the current session.
+33. The system shall display the game's total number of games lost in the current session.
+34. The system shall display the game's total number of games tied in the current session.
+35. The system shall display the game's total number of games played in the current session.
+36. The system shall display the game's total number of games won in the current session.
+37. The system shall display the game's total number of games lost in the current session.
+38. The system shall display the game's total number of games tied in the current session.
+39. The system shall display the game's total number of games played in the current session.
+40. The system shall display the game's total number of games won in the current session.
+41. The system shall display the game's total number of games lost in the current session.
+42. The system shall display the game's total number of games tied in the current session.
+43. The system shall display the game's total number of games played in the current session.
+44. The system shall display the game's total number of games won in the current session.
+45. The system shall display the game's total number of games lost in the current session.
+46. The system shall display the game's total number of games tied in the current session.
+47. The system shall display the game's total number of games played in the current session.
+48. The system shall display the game's total number of games won in the current session.
+49. The system shall display the game's total number of games lost in the current session.
+50. The system shall display the game's total number of games tied in the current session.
+51. The system shall display the game's total number of games played in the current session.
+52. The system shall display the game's total number of games won in the current session.
+53. The system shall display the game's total number of games lost in the current session.
+54. The system shall display the game's total number of games tied in the current session.
+55. The system shall display the game's total number of games played in the current session.
+56. The system shall display the game's total number of games won in the current session.
+57. The system shall display the game's total number of games lost in the current session.
+58. The system shall display the game's total number of games tied in the current session.
+59. The system shall display the game's total number of games played in the current session.
+60. The system shall display the game's total number of games won in the current session.
+61. The system shall display the game's total number of games lost in the current session.
+62. The system shall display the game's total number of games tied in the current session.
+63. The system shall display the game's total number of games played in the current session.
+64. The system shall display the game's total number of games won in the current session.
+65. The system shall display the game's total number of games lost in the current session.
+66. The system shall display the game's total number of games tied in the current session.
+67. The system shall display the game's total number of games played in the current session.
+68. The system shall display the game's total number of games won in the current session.
+69. The system shall display the game's total number of games lost in the current session.
+70. The system shall display the game's total number of games tied in the current session.
+71. The system shall display the game's total number of games played in the current session.
+72. The system shall display the game's total number of games won in the current session.
+73. The system shall display the game's total number of games lost in the current session.
+74. The system shall display the game's total number of games tied in the current session.
+75. The system shall display the game's total number of games played in the current session.
+76. The system shall display the game's total number of games won in the current session.
+77. The system shall display the game's total number of games lost in the current session.
+78. The system shall display the game's total number of games tied in the current session.
+79. The system shall display the game's total number of games played in the current session.
+80. The system shall display the game's total number of games won in the current session.
+81. The system shall display the game's total number of games lost in the current session.
+82. The system shall display the game's total number of games tied in the current session.
+83. The system shall display the game's total number of games played in the current session.
+84. The system shall display the game's total number of games won in the current session.
+85. The system shall display the game's total number of games lost in the current session.
+86. The system shall display the game's total number of games tied in the current session.
+87. The system shall display the game's total number of games played in the current session.
+88. The system shall display the game's total number of games won in the current session.
+89. The system shall display the game's total number of games lost in the current session.
+90. The system shall display the game's total number of games tied in the current session.
+91. The system shall display the game's total number of games played in the current session.
+92. The system shall display the game's total number of games won in the current session.
+93. The system shall display the game's total number of games lost in the current session.
+94. The system shall display the game's total number of games tied in the current session.
+95. The system shall display the game's total number of games played in the current session.
+96. The system shall display the game's total number of games won in the current session.
+97. The system shall display the game's total number of games lost in the current session.
+98. The system shall display the game's total number of games tied in the current session.
+99. The system shall display the game's total number of games played in the current session.
+100. The system shall display the game's total number of games won in the current session.
+101. The system shall display the game's total number of games lost in the current session.
+102. The system shall display the game's total number of games tied in the current session.
+103. The system shall display the game's total number of games played in the current session.
+104. The system shall display the game's total number of games won in the current session.
+105. The system shall display the game's total number of games lost in the current session.
+106. The system shall display the game's total number of games tied in the current session.
+107. The system shall display the game's total number of games played in the current session.
+108. The system shall display the game's total number of games won in the current session.
+109. The system shall display the game's total number of games lost in the current session.
+110. The system shall display the game's total number of games tied in the current session.
+111. The system shall display the game's total number of games played in the current session.
+112. The system shall display the game's total number of games won in the current session.
+113. The system shall display the game's total number of games lost in the current session.
+114. The system shall display the game's total number of games tied in the current session.
+115. The system shall display the game's total number of games played in the current session.
+116. The system shall display the game's total number of games won in the current session.
+117. The system shall display the game's total number of games lost in the current session.
+118. The system shall display the game's total number of games tied in the current session.
+119. The system shall display the game's total number of games played in the current session.
+120. The system shall display the game's total number of games won in the current session.
+121. The system shall display the game's total number of games lost in the current session.
+122. The system shall display the game's total number of games tied in the current session.
+123. The system shall display the game's total number of games played in the current session.
+124. The system shall display the game's total number of games won in the current session.
+125. The system shall display the game's total number of games lost in the current session.
+126. The system shall display the game's total number of games tied in the current session.
+127. The system shall display the game's total number of games played in the current session.
+128. The system shall display the game's total number of games won in the current session.
+129. The system shall display the game's total number of games lost in the current session.
+130. The system shall display the game's total number of games tied in the current session.
+131. The system shall display the game's total number of games played in the current session.
+132. The system shall display the game's total number of games won in the current session.
+133. The system shall display the game's total number of games lost in the current session.
+134. The system shall display the game's total number of games tied in the current session.
+135. The system shall display the game's total number of games played in the current session.
+136. The system shall display the game's total number of games won in the current session.
+137. The system shall display the game's total number of games lost in the current session.
+138. The system shall display the game's total number of games tied in the current session.
+139. The system shall display the game's total number of games played in the current session.
+140. The system shall display the game's total number of games won in the current session.
+141. The system shall display the game's total number of games lost in the current session.
+142. The system shall display the game's total number of games tied in the current session.
+143. The system shall display the game's total number of games played in the current session.
+144. The system shall display the game's total number of games won in the current session.
+145. The system shall display the game's total number of games lost in the current session.
+146. The system shall display the game's total number of games tied in the current session.
+147. The system shall display the game's total number of games played in the current session.
+148. The system shall display the game's total number of games won in the current session.
+149. The system shall display the game's total number of games lost in the current session.
+150. The system shall display the game's total number of games tied in the current session.
+151. The system shall display the game's total number of games played in the current session.
+152. The system shall display the game's total number of games won in the current session.
+153. The system shall display the game's total number of games lost in the current session.
+154. The system shall display the game's total number of games tied in the current session.
+155. The system shall display the game's total number of games played in the current session.
+156. The system shall display the game's total number of games won in the current session.
+157. The system shall display the game's total number of games lost in the current session.
+158. The system shall display the game's total number of games tied in the current session.
+159. The system shall display the game's total number of games played in the current session.
+160. The system shall display the game's total number of games won in the current session.
+161. The system shall display the game's total number of games lost in the current session.
+162. The system shall display the game's total number of games tied in the current session.
+163. The system shall display the game's total number of games played in the current session.
+164. The system shall display the game's total number of games won in

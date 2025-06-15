@@ -1,0 +1,243 @@
+ Functional Requirements (FR):
+
+FR1: The system shall provide a web-based, interactive game for sixth-grade students to improve their fraction-solving skills.
+
+FR2: The system shall allow students to play the game in a web browser.
+
+FR3: The system shall provide a web-based menu system for users to choose between games.
+
+FR4: The system shall provide a game that presents students with a series of fraction problems.
+
+FR5: The system shall present students with a fraction problem and allow them to enter their answer.
+
+FR6: The system shall provide feedback to students on their answers, including whether they are correct or incorrect.
+
+FR7: The system shall provide a score for each student based on their performance in the game.
+
+FR8: The system shall provide a web-based menu system for users to view their scores.
+
+FR9: The system shall provide a web-based menu system for users to view their game history.
+
+FR10: The system shall provide a web-based menu system for users to view their game statistics.
+
+FR11: The system shall provide a web-based menu system for users to view their game leaderboard.
+
+FR12: The system shall provide a web-based menu system for users to view their game achievements.
+
+FR13: The system shall provide a web-based menu system for users to view their game tips.
+
+FR14: The system shall provide a web-based menu system for users to view their game tutorials.
+
+FR15: The system shall provide a web-based menu system for users to view their game rules.
+
+FR16: The system shall provide a web-based menu system for users to view their game settings.
+
+FR17: The system shall provide a web-based menu system for users to view their game help.
+
+FR18: The system shall provide a web-based menu system for users to view their game about.
+
+FR19: The system shall provide a web-based menu system for users to view their game contact.
+
+FR20: The system shall provide a web-based menu system for users to view their game feedback.
+
+FR21: The system shall provide a web-based menu system for users to view their game terms of use.
+
+FR22: The system shall provide a web-based menu system for users to view their game privacy policy.
+
+FR23: The system shall provide a web-based menu system for users to view their game credits.
+
+FR24: The system shall provide a web-based menu system for users to view their game disclaimer.
+
+FR25: The system shall provide a web-based menu system for users to view their game copyright.
+
+FR26: The system shall provide a web-based menu system for users to view their game license.
+
+FR27: The system shall provide a web-based menu system for users to view their game source code.
+
+FR28: The system shall provide a web-based menu system for users to view their game documentation.
+
+FR29: The system shall provide a web-based menu system for users to view their game FAQ.
+
+FR30: The system shall provide a web-based menu system for users to view their game glossary.
+
+FR31: The system shall provide a web-based menu system for users to view their game support.
+
+FR32: The system shall provide a web-based menu system for users to view their game troubleshooting.
+
+FR33: The system shall provide a web-based menu system for users to view their game contact us.
+
+FR34: The system shall provide a web-based menu system for users to view their game feedback.
+
+FR35: The system shall provide a web-based menu system for users to view their game terms of use.
+
+FR36: The system shall provide a web-based menu system for users to view their game privacy policy.
+
+FR37: The system shall provide a web-based menu system for users to view their game credits.
+
+FR38: The system shall provide a web-based menu system for users to view their game disclaimer.
+
+FR39: The system shall provide a web-based menu system for users to view their game copyright.
+
+FR40: The system shall provide a web-based menu system for users to view their game license.
+
+FR41: The system shall provide a web-based menu system for users to view their game source code.
+
+FR42: The system shall provide a web-based menu system for users to view their game documentation.
+
+FR43: The system shall provide a web-based menu system for users to view their game FAQ.
+
+FR44: The system shall provide a web-based menu system for users to view their game glossary.
+
+FR45: The system shall provide a web-based menu system for users to view their game support.
+
+FR46: The system shall provide a web-based menu system for users to view their game troubleshooting.
+
+FR47: The system shall provide a web-based menu system for users to view their game contact us.
+
+FR48: The system shall provide a web-based menu system for users to view their game feedback.
+
+FR49: The system shall provide a web-based menu system for users to view their game terms of use.
+
+FR50: The system shall provide a web-based menu system for users to view their game privacy policy.
+
+FR51: The system shall provide a web-based menu system for users to view their game credits.
+
+FR52: The system shall provide a web-based menu system for users to view their game disclaimer.
+
+FR53: The system shall provide a web-based menu system for users to view their game copyright.
+
+FR54: The system shall provide a web-based menu system for users to view their game license.
+
+FR55: The system shall provide a web-based menu system for users to view their game source code.
+
+FR56: The system shall provide a web-based menu system for users to view their game documentation.
+
+FR57: The system shall provide a web-based menu system for users to view their game FAQ.
+
+FR58: The system shall provide a web-based menu system for users to view their game glossary.
+
+FR59: The system shall provide a web-based menu system for users to view their game support.
+
+FR60: The system shall provide a web-based menu system for users to view their game troubleshooting.
+
+FR61: The system shall provide a web-based menu system for users to view their game contact us.
+
+FR62: The system shall provide a web-based menu system for users to view their game feedback.
+
+FR63: The system shall provide a web-based menu system for users to view their game terms of use.
+
+FR64: The system shall provide a web-based menu system for users to view their game privacy policy.
+
+FR65: The system shall provide a web-based menu system for users to view their game credits.
+
+FR66: The system shall provide a web-based menu system for users to view their game disclaimer.
+
+FR67: The system shall provide a web-based menu system for users to view their game copyright.
+
+FR68: The system shall provide a web-based menu system for users to view their game license.
+
+FR69: The system shall provide a web-based menu system for users to view their game source code.
+
+FR70: The system shall provide a web-based menu system for users to view their game documentation.
+
+FR71: The system shall provide a web-based menu system for users to view their game FAQ.
+
+FR72: The system shall provide a web-based menu system for users to view their game glossary.
+
+FR73: The system shall provide a web-based menu system for users to view their game support.
+
+FR74: The system shall provide a web-based menu system for users to view their game troubleshooting.
+
+FR75: The system shall provide a web-based menu system for users to view their game contact us.
+
+FR76: The system shall provide a web-based menu system for users to view their game feedback.
+
+FR77: The system shall provide a web-based menu system for users to view their game terms of use.
+
+FR78: The system shall provide a web-based menu system for users to view their game privacy policy.
+
+FR79: The system shall provide a web-based menu system for users to view their game credits.
+
+FR80: The system shall provide a web-based menu system for users to view their game disclaimer.
+
+FR81: The system shall provide a web-based menu system for users to view their game copyright.
+
+FR82: The system shall provide a web-based menu system for users to view their game license.
+
+FR83: The system shall provide a web-based menu system for users to view their game source code.
+
+FR84: The system shall provide a web-based menu system for users to view their game documentation.
+
+FR85: The system shall provide a web-based menu system for users to view their game FAQ.
+
+FR86: The system shall provide a web-based menu system for users to view their game glossary.
+
+FR87: The system shall provide a web-based menu system for users to view their game support.
+
+FR88: The system shall provide a web-based menu system for users to view their game troubleshooting.
+
+FR89: The system shall provide a web-based menu system for users to view their game contact us.
+
+FR90: The system shall provide a web-based menu system for users to view their game feedback.
+
+FR91: The system shall provide a web-based menu system for users to view their game terms of use.
+
+FR92: The system shall provide a web-based menu system for users to view their game privacy policy.
+
+FR93: The system shall provide a web-based menu system for users to view their game credits.
+
+FR94: The system shall provide a web-based menu system for users to view their game disclaimer.
+
+FR95: The system shall provide a web-based menu system for users to view their game copyright.
+
+FR96: The system shall provide a web-based menu system for users to view their game license.
+
+FR97: The system shall provide a web-based menu system for users to view their game source code.
+
+FR98: The system shall provide a web-based menu system for users to view their game documentation.
+
+FR99: The system shall provide a web-based menu system for users to view their game FAQ.
+
+FR100: The system shall provide a web-based menu system for users to view their game glossary.
+
+FR101: The system shall provide a web-based menu system for users to view their game support.
+
+FR102: The system shall provide a web-based menu system for users to view their game troubleshooting.
+
+FR103: The system shall provide a web-based menu system for users to view their game contact us.
+
+FR104: The system shall provide a web-based menu system for users to view their game feedback.
+
+FR105: The system shall provide a web-based menu system for users to view their game terms of use.
+
+FR106: The system shall provide a web-based menu system for users to view their game privacy policy.
+
+FR107: The system shall provide a web-based menu system for users to view their game credits.
+
+FR108: The system shall provide a web-based menu system for users to view their game disclaimer.
+
+FR109: The system shall provide a web-based menu system for users to view their game copyright.
+
+FR110: The system shall provide a web-based menu system for users to view their game license.
+
+FR111: The system shall provide a web-based menu system for users to view their game source code.
+
+FR112: The system shall provide a web-based menu system for users to view their game documentation.
+
+FR113: The system shall provide a web-based menu system for users to view their game FAQ.
+
+FR114: The system shall provide a web-based menu system for users to view their game glossary.
+
+FR115: The system shall provide a web-based menu system for users to view their game support.
+
+FR116: The system shall provide a web-based menu system for users to view their game troubleshooting.
+
+FR117: The system shall provide a web-based menu system for users to view their game contact us.
+
+FR118: The system shall provide a web-based menu system for users to view their game feedback.
+
+FR119: The system shall provide a web-based menu system for users to view their game terms of use.
+
+FR120: The system shall provide a web-based menu system for users to view their game privacy policy.
+
+FR121: The system shall provide a web-based menu system for users to

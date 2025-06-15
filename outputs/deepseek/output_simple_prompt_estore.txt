@@ -1,0 +1,76 @@
+Based on the provided system description, here's a structured breakdown of the **functional requirements (FR)** and **non-functional requirements (NFR)**:
+
+---
+
+### **Functional Requirements (FR)**  
+*(What the system must do)*  
+
+1. **Product Management**  
+   - FR1: Allow configuration of products (customizable attributes).  
+   - FR2: Display comprehensive product details (e.g., descriptions, specifications, pricing).  
+   - FR3: Categorize products into hierarchical groups.  
+
+2. **Search & Navigation**  
+   - FR4: Provide a search facility for products.  
+   - FR5: Generate a detailed sitemap for navigation.  
+
+3. **User Management**  
+   - FR6: Support customer profile creation/management.  
+   - FR7: Offer personalization options (e.g., recommendations, saved preferences).  
+
+4. **Shopping & Ordering**  
+   - FR8: Provide a shopping cart for item aggregation.  
+   - FR9: Support multiple shipping methods (e.g., standard, express).  
+   - FR10: Calculate taxes dynamically during checkout.  
+   - FR11: Support multiple payment methods (e.g., credit card, PayPal).  
+   - FR12: Allow online order modification or cancellation.  
+   - FR13: Send automated email confirmations (e.g., order receipts, shipping updates).  
+
+5. **Post-Purchase Features**  
+   - FR14: Enable online shipment tracking.  
+   - FR15: Allow customers to submit product reviews and ratings.  
+
+6. **Promotions & Support**  
+   - FR16: Offer online promotions, rewards, and financing options.  
+   - FR17: Provide customer support (e.g., chat, FAQs, contact forms).  
+
+---
+
+### **Non-Functional Requirements (NFR)**  
+*(How the system should perform)*  
+
+1. **Usability**  
+   - NFR1: Intuitive navigation (supported by sitemap, search, and categorization).  
+   - NFR2: Personalization features must adapt to user preferences with minimal manual input.  
+
+2. **Reliability**  
+   - NFR3: Ensure accurate tax calculations across regions.  
+   - NFR4: Guarantee successful order processing and email confirmations.  
+   - NFR5: Maintain real-time accuracy in shipment tracking.  
+
+3. **Performance**  
+   - NFR6: Fast search results with relevant product listings.  
+   - NFR7: Responsive checkout process (e.g., <3-second load times).  
+
+4. **Security**  
+   - NFR8: Secure payment processing (PCI-DSS compliance).  
+   - NFR9: Protect customer profiles and personal data (e.g., encryption).  
+
+5. **Scalability**  
+   - NFR10: Handle high traffic during promotions or peak sales.  
+
+6. **Maintainability**  
+   - NFR11: Modular design to support updates (e.g., adding new payment/shipping methods).  
+
+7. **Compliance**  
+   - NFR12: Adhere to regional tax regulations.  
+   - NFR13: Comply with data privacy laws (e.g., GDPR, CCPA).  
+
+---
+
+### **Key Observations**  
+- **Functional requirements** focus on user actions (e.g., searching, purchasing, reviewing) and system capabilities (e.g., tax calculation, email automation).  
+- **Non-functional requirements** emphasize quality attributes like security, speed, reliability, and adaptability to ensure a seamless user experience.  
+- Implicit NFRs (e.g., **availability** for 24/7 access, **error tolerance** for payment failures) are inferred from the e-commerce context but not explicitly stated.  
+
+This extraction aligns with industry standards (e.g., ISO/IEC 25010 for NFRs) and best practices for e-commerce systems.

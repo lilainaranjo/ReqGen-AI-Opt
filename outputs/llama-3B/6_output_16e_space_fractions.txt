@@ -1,0 +1,221 @@
+Functional Requirements
+----------------------
+
+### User Interface
+
+1. The system shall display a main menu page with the following options:
+   - "Space Fractions Game"
+   - "Past Games"
+   - "Feedback"
+   - "Exit"
+2. The system shall display a game page with the following options:
+   - "Start Game"
+   - "Quit Game"
+3. The system shall display a game screen with the following options:
+   - "Next Question"
+   - "Previous Question"
+   - "Submit Answer"
+4. The system shall display a feedback page with the following options:
+   - "Back to Main Menu"
+5. The system shall display a past games page with the following options:
+   - "Back to Main Menu"
+
+### Game Logic
+
+1. The system shall display a random fraction on the game screen.
+2. The system shall display a multiple-choice question with the following options:
+   - "True"
+   - "False"
+   - "None"
+3. The system shall allow the user to select an answer.
+4. The system shall check the user's answer against the correct answer.
+5. If the user's answer is correct, the system shall display a success message.
+6. If the user's answer is incorrect, the system shall display an error message.
+7. The system shall display the next question after the user selects "Next Question".
+8. The system shall display the previous question after the user selects "Previous Question".
+9. The system shall display the final score after the user selects "Submit Answer".
+10. The system shall display a summary of the game, including the number of correct and incorrect answers, after the user selects "Submit Answer".
+11. The system shall display a summary of the game, including the number of correct and incorrect answers, after the user selects "Quit Game".
+12. The system shall display a summary of the game, including the number of correct and incorrect answers, after the user selects "Back to Main Menu".
+
+### Feedback
+
+1. The system shall display a summary of the user's game score, including the number of correct and incorrect answers.
+2. The system shall display a message indicating whether the user needs to practice more or if they are ready for the next level.
+3. The system shall display a message indicating whether the user needs to review the material or if they are ready for the next level.
+
+### Past Games
+
+1. The system shall display a list of past games, including the date and time of each game.
+2. The system shall allow the user to view the details of a specific game.
+3. The system shall allow the user to delete a specific game.
+4. The system shall allow the user to search for a specific game by date or time.
+
+### System Configuration
+
+1. The system shall allow the administrator to configure the game settings, including the number of questions and the difficulty level.
+2. The system shall allow the administrator to configure the feedback settings, including the number of messages and the message content.
+3. The system shall allow the administrator to configure the past games settings, including the number of games to display and the search criteria.
+
+Non-Functional Requirements
+-------------------------
+
+### Performance
+
+1. The system shall respond to user input within 2 seconds.
+2. The system shall display the game screen within 3 seconds of the user selecting "Start Game".
+3. The system shall display the feedback page within 2 seconds of the user selecting "Feedback".
+4. The system shall display the past games page within 3 seconds of the user selecting "Past Games".
+
+### Security
+
+1. The system shall require a username and password to access the main menu.
+2. The system shall require a username and password to access the game screen.
+3. The system shall require a username and password to access the feedback page.
+4. The system shall require a username and password to access the past games page.
+5. The system shall encrypt all user data, including passwords and game scores.
+6. The system shall use a secure connection (HTTPS) to transmit data between the client and server.
+
+### Compatibility
+
+1. The system shall be compatible with Internet Explorer 7 and later versions.
+2. The system shall be compatible with Mozilla Firefox 3.0 and later versions.
+3. The system shall be compatible with Google Chrome 5.0 and later versions.
+4. The system shall be compatible with Safari 4.0 and later versions.
+
+### Accessibility
+
+1. The system shall be accessible to users with visual impairments.
+2. The system shall be accessible to users with hearing impairments.
+3. The system shall be accessible to users with motor impairments.
+4. The system shall provide a text-only mode for users with visual impairments.
+5. The system shall provide a high contrast mode for users with visual impairments.
+6. The system shall provide a screen reader for users with visual and hearing impairments.
+
+### Environment
+
+1. The system shall be installed on a Windows 2000 or later operating system.
+2. The system shall be installed on a 64-bit processor.
+3. The system shall be installed on a 2 GB or larger hard drive.
+4. The system shall require a minimum of 256 MB of RAM.
+5. The system shall require a minimum of 128 MB of graphics memory.
+6. The system shall require a minimum of 128 MB of sound memory.
+7. The system shall require a minimum of 128 MB of video memory.
+8. The system shall require a minimum of 128 MB of disk space.
+9. The system shall require a minimum of 128 MB of network memory.
+10. The system shall require a minimum of 128 MB of database memory.
+
+### Support
+
+1. The system shall be supported by a technical support team.
+2. The system shall be supported by a user manual.
+3. The system shall be supported by a website.
+4. The system shall be supported by a phone number.
+5. The system shall be supported by an email address.
+
+### Testing
+
+1. The system shall be tested on a minimum of 10 different computers.
+2. The system shall be tested on a minimum of 10 different browsers.
+3. The system shall be tested on a minimum of 10 different operating systems.
+4. The system shall be tested on a minimum of 10 different network configurations.
+5. The system shall be tested on a minimum of 10 different database configurations.
+6. The system shall be tested on a minimum of 10 different database sizes.
+7. The system shall be tested on a minimum of 10 different data types.
+8. The system shall be tested on a minimum of 10 different data formats.
+9. The system shall be tested on a minimum of 10 different data sources.
+10. The system shall be tested on a minimum of 10 different data connections.
+11. The system shall be tested on a minimum of 10 different data queries.
+12. The system shall be tested on a minimum of 10 different data updates.
+13. The system shall be tested on a minimum of 10 different data deletions.
+14. The system shall be tested on a minimum of 10 different data imports.
+15. The system shall be tested on a minimum of 10 different data exports.
+16. The system shall be tested on a minimum of 10 different data backups.
+17. The system shall be tested on a minimum of 10 different data restores.
+18. The system shall be tested on a minimum of 10 different data migrations.
+19. The system shall be tested on a minimum of 10 different data conversions.
+20. The system shall be tested on a minimum of 10 different data transformations.
+21. The system shall be tested on a minimum of 10 different data aggregations.
+22. The system shall be tested on a minimum of 10 different data filtering.
+23. The system shall be tested on a minimum of 10 different data sorting.
+24. The system shall be tested on a minimum of 10 different data searching.
+25. The system shall be tested on a minimum of 10 different data reporting.
+26. The system shall be tested on a minimum of 10 different data analysis.
+27. The system shall be tested on a minimum of 10 different data visualization.
+28. The system shall be tested on a minimum of 10 different data simulation.
+29. The system shall be tested on a minimum of 10 different data modeling.
+30. The system shall be tested on a minimum of 10 different data design.
+31. The system shall be tested on a minimum of 10 different data development.
+32. The system shall be tested on a minimum of 10 different data deployment.
+33. The system shall be tested on a minimum of 10 different data maintenance.
+34. The system shall be tested on a minimum of 10 different data upgrades.
+35. The system shall be tested on a minimum of 10 different data patches.
+36. The system shall be tested on a minimum of 10 different data hotfixes.
+37. The system shall be tested on a minimum of 10 different data documentation.
+38. The system shall be tested on a minimum of 10 different data training.
+39. The system shall be tested on a minimum of 10 different data support.
+40. The system shall be tested on a minimum of 10 different data troubleshooting.
+41. The system shall be tested on a minimum of 10 different data debugging.
+42. The system shall be tested on a minimum of 10 different data testing.
+43. The system shall be tested on a minimum of 10 different data validation.
+44. The system shall be tested on a minimum of 10 different data verification.
+45. The system shall be tested on a minimum of 10 different data certification.
+46. The system shall be tested on a minimum of 10 different data licensing.
+47. The system shall be tested on a minimum of 10 different data compliance.
+48. The system shall be tested on a minimum of 10 different data security.
+49. The system shall be tested on a minimum of 10 different data backup.
+50. The system shall be tested on a minimum of 10 different data restore.
+51. The system shall be tested on a minimum of 10 different data migration.
+52. The system shall be tested on a minimum of 10 different data conversion.
+53. The system shall be tested on a minimum of 10 different data transformation.
+54. The system shall be tested on a minimum of 10 different data aggregation.
+55. The system shall be tested on a minimum of 10 different data filtering.
+56. The system shall be tested on a minimum of 10 different data sorting.
+57. The system shall be tested on a minimum of 10 different data searching.
+58. The system shall be tested on a minimum of 10 different data reporting.
+59. The system shall be tested on a minimum of 10 different data analysis.
+60. The system shall be tested on a minimum of 10 different data visualization.
+61. The system shall be tested on a minimum of 10 different data simulation.
+62. The system shall be tested on a minimum of 10 different data modeling.
+63. The system shall be tested on a minimum of 10 different data design.
+64. The system shall be tested on a minimum of 10 different data development.
+65. The system shall be tested on a minimum of 10 different data deployment.
+66. The system shall be tested on a minimum of 10 different data maintenance.
+67. The system shall be tested on a minimum of 10 different data upgrades.
+68. The system shall be tested on a minimum of 10 different data patches.
+69. The system shall be tested on a minimum of 10 different data hotfixes.
+70. The system shall be tested on a minimum of 10 different data documentation.
+71. The system shall be tested on a minimum of 10 different data training.
+72. The system shall be tested on a minimum of 10 different data support.
+73. The system shall be tested on a minimum of 10 different data troubleshooting.
+74. The system shall be tested on a minimum of 10 different data debugging.
+75. The system shall be tested on a minimum of 10 different data testing.
+76. The system shall be tested on a minimum of 10 different data validation.
+77. The system shall be tested on a minimum of 10 different data verification.
+78. The system shall be tested on a minimum of 10 different data certification.
+79. The system shall be tested on a minimum of 10 different data licensing.
+80. The system shall be tested on a minimum of 10 different data compliance.
+81. The system shall be tested on a minimum of 10 different data security.
+82. The system shall be tested on a minimum of 10 different data backup.
+83. The system shall be tested on a minimum of 10 different data restore.
+84. The system shall be tested on a minimum of 10 different data migration.
+85. The system shall be tested on a minimum of 10 different data conversion.
+86. The system shall be tested on a minimum of 10 different data transformation.
+87. The system shall be tested on a minimum of 10 different data aggregation.
+88. The system shall be tested on a minimum of 10 different data filtering.
+89. The system shall be tested on a minimum of 10 different data sorting.
+90. The system shall be tested on a minimum of 10 different data searching.
+91. The system shall be tested on a minimum of 10 different data reporting.
+92. The system shall be tested on a minimum of 10 different data analysis.
+93. The system shall be tested on a minimum of 10 different data visualization.
+94. The system shall be tested on a minimum of 10 different data simulation.
+95. The system shall be tested on a minimum of 10 different data modeling.
+96. The system shall be tested on a minimum of 10 different data design.
+97. The system shall be tested on a minimum of 10 different data development.
+98. The system shall be tested on a minimum of 10 different data deployment.
+99. The system shall be tested on a minimum of 10 different data maintenance.
+100. The system shall be tested on a minimum of 10 different data upgrades.
+101. The system shall be tested on a minimum of 10 different data patches.
+102. The system shall be tested on a minimum of 10 different data hotfixes.
+103. The system shall be tested on a minimum of 10 different data documentation.
+104. The system shall be tested on a minimum of 10 different data training
