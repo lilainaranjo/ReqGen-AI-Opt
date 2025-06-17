@@ -1,0 +1,85 @@
+**Functional Requirements:**
+
+1. **Game Selection:**
+   - The system shall allow users to select from a list of available games, including the default games (constructing, transforming, and marking).
+   - The system shall display the names of the available games in the graphical user interface (GUI).
+   - The system shall enable users to select a game by clicking on its name in the GUI.
+   - The system shall automatically update the game state and rules when a new game is selected.
+
+2. **Gameplay:**
+   - The system shall allow two players to play a game, either against each other or against the computer.
+   - The system shall display the current state of the triangular grid, including any lines or dots placed by the players.
+   - The system shall allow players to take turns placing lines or dots on the grid.
+   - The system shall enforce the rules of the selected game, including any restrictions on where lines or dots can be placed.
+
+3. **Game Types:**
+   - The system shall support the following game types:
+     - Constructing: Players take turns placing lines on the grid to create a path that connects three sides.
+     - Transforming: Players take turns placing dots on the grid to create a path that connects three sides.
+     - Marking: Players take turns placing lines or dots on the grid to create a path that connects three sides, with the goal of preventing their opponent from completing a path.
+
+4. **User Interface:**
+   - The system shall display a GUI that allows users to interact with the game.
+   - The GUI shall include buttons or menus for selecting games, starting a new game, and quitting the application.
+   - The GUI shall display the current state of the game, including the triangular grid and any lines or dots placed by the players.
+   - The GUI shall allow users to place lines or dots on the grid using the mouse or keyboard.
+
+5. **Game State Management:**
+   - The system shall manage the game state, including the current player, the state of the triangular grid, and any game-specific variables.
+   - The system shall update the game state after each player's turn.
+   - The system shall check for game over conditions, such as a player completing a path or the grid being filled.
+
+6. **Game Over Conditions:**
+   - The system shall check for the following game over conditions:
+     - A player completes a path that connects three sides of the grid.
+     - The grid is filled with lines or dots, and no player can place a new line or dot.
+   - The system shall display a message indicating the winner or a draw when a game over condition is met.
+
+7. **Adding New Games:**
+   - The system shall allow developers to add new games to the application without modifying the original code.
+   - The system shall provide a mechanism for developers to register new games with the application.
+   - The system shall automatically update the game selection list when a new game is added.
+
+**Non-Functional Requirements:**
+
+1. **Platform Independence:**
+   - The system shall be implemented using the Java-platform to ensure platform independence.
+   - The system shall be able to run on multiple environments without modification to the code.
+
+2. **User Experience:**
+   - The system shall provide a user-friendly GUI that is easy to navigate and understand.
+   - The system shall provide clear and concise feedback to users, including messages and notifications.
+
+3. **Performance:**
+   - The system shall be able to handle multiple games and players without significant performance degradation.
+   - The system shall respond quickly to user input and updates to the game state.
+
+4. **Security:**
+   - The system shall ensure that game data is stored securely and cannot be tampered with or accessed by unauthorized users.
+   - The system shall prevent cheating or hacking by implementing measures such as game state validation and user authentication.
+
+5. **Scalability:**
+   - The system shall be designed to scale with the number of users and games, without significant performance degradation.
+   - The system shall be able to handle a large number of concurrent users and games without crashing or freezing.
+
+**Assumptions:**
+
+1. **Grid Size:**
+   - The system shall assume a standard grid size of 10x10 for all games.
+   - The system shall provide an option for users to select a custom grid size, if desired.
+
+2. **Game Duration:**
+   - The system shall assume a standard game duration of 30 minutes for all games.
+   - The system shall provide an option for users to select a custom game duration, if desired.
+
+3. **User Authentication:**
+   - The system shall assume that users will authenticate themselves using a username and password.
+   - The system shall provide an option for users to authenticate themselves using other methods, such as social media or biometric authentication.
+
+4. **Network Connectivity:**
+   - The system shall assume that users will have a stable internet connection to play online games.
+   - The system shall provide an option for users to play offline games, if desired.
+
+5. **Device Compatibility:**
+   - The system shall assume that users will be playing on a desktop or laptop computer.
+   - The system shall provide an option for users to play on mobile devices, if desired.

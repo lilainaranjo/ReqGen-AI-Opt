@@ -1,0 +1,138 @@
+**Functional Requirements:**
+
+1. **Game Selection**: The system shall allow users to select from three pre-defined games: Constructing, Transforming, and Marking. New games can be added to the system without modifying the original code.
+2. **Game Mode**: The system shall support two game modes: Solo and Multiplayer. In Solo mode, the system shall generate a random triangular grid and allow the user to play against the system. In Multiplayer mode, the system shall allow two users to play against each other.
+3. **Grid Generation**: The system shall generate a random triangular grid for each game. The grid shall consist of a set of vertices and edges, with each vertex connected to two edges.
+4. **Gameplay**: The system shall allow users to place lines or dots on the grid, with the goal of preventing their opponent from completing a path while also trying to complete their own.
+5. **Path Completion**: The system shall detect when a player completes a path and notify the opponent.
+6. **User Input**: The system shall accept user input through a graphical user interface (GUI) that is mainly mouse-controlled but may also be used with a keyboard.
+7. **Game State Management**: The system shall manage the game state, including the current player, the grid, and the game history.
+8. **Game Over**: The system shall determine when a game is over, either when a player completes a path or when a predetermined number of moves have been made.
+
+**Non-Functional Requirements:**
+
+1. **Performance**: The system shall be able to generate and render a triangular grid with a reasonable number of vertices and edges within a reasonable time frame.
+2. **Scalability**: The system shall be able to handle a large number of users and games without significant performance degradation.
+3. **Usability**: The system shall have an intuitive GUI that is easy to use, with clear and concise instructions and feedback.
+4. **Security**: The system shall ensure that user input is validated and sanitized to prevent security vulnerabilities.
+5. **Reliability**: The system shall be able to recover from errors and exceptions without data loss or corruption.
+6. **Maintainability**: The system shall be designed with modularity and extensibility in mind, making it easy to add new games and features without modifying the original code.
+7. **Portability**: The system shall be able to run on multiple different environments without modification to the code, thanks to the Java platform.
+
+**Assumptions and Examples:**
+
+1. **Time**: The system shall generate a new triangular grid for each game, with a reasonable number of vertices and edges. For example, a grid with 10 vertices and 15 edges shall be generated for a game of Constructing.
+2. **Conditions**: The system shall detect when a player completes a path, regardless of the specific conditions of the game. For example, in a game of Constructing, the system shall detect when a player completes a path by connecting three vertices.
+3. **Device Connections**: The system shall use a standard mouse and keyboard connection, with no additional hardware required.
+4. **User Input**: The system shall accept mouse clicks and keyboard input, with the ability to select a vertex or edge on the grid by clicking on it.
+5. **Game State Management**: The system shall store the game state in memory, including the current player, the grid, and the game history. For example, the system shall store the current player as a variable, the grid as a data structure, and the game history as a list of moves.
+
+**Implementation Details:**
+
+1. **Java Platform**: The system shall be implemented using the Java platform, with a focus on modularity and extensibility.
+2. **GUI**: The system shall use a standard GUI library, such as Swing or JavaFX, to create a user-friendly interface.
+3. **Game Logic**: The system shall use a game logic library, such as Java's built-in `java.util` package, to manage the game state and detect path completion.
+4. **Data Structures**: The system shall use data structures, such as arrays and lists, to store the game state and game history.
+5. **Error Handling**: The system shall use try-catch blocks and error handling mechanisms to handle errors and exceptions, ensuring that the system remains reliable and secure.
+
+**Example Code:**
+
+Here is an example of how the system might be implemented in Java:
+```java
+import java.awt.*;
+import java.awt.event.*;
+import java.util.*;
+
+public class TriangularGames {
+    private JFrame frame;
+    private JPanel panel;
+    private Grid grid;
+    private Player player;
+    private Game game;
+
+    public TriangularGames() {
+        frame = new JFrame("Triangular Games");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(800, 600);
+
+        panel = new JPanel();
+        panel.setLayout(new BorderLayout());
+
+        grid = new Grid(10, 15);
+        panel.add(grid, BorderLayout.CENTER);
+
+        player = new Player();
+        panel.add(player, BorderLayout.NORTH);
+
+        game = new Game();
+        panel.add(game, BorderLayout.SOUTH);
+
+        frame.add(panel);
+        frame.setVisible(true);
+    }
+
+    public static void main(String[] args) {
+        new TriangularGames();
+    }
+}
+
+class Grid {
+    private int vertices;
+    private int edges;
+    private Vertex[] vertices;
+
+    public Grid(int vertices, int edges) {
+        this.vertices = vertices;
+        this.edges = edges;
+        this.vertices = new Vertex[vertices];
+        for (int i = 0; i < vertices; i++) {
+            vertices[i] = new Vertex(i);
+        }
+    }
+
+    public void draw() {
+        // Draw the grid
+    }
+}
+
+class Vertex {
+    private int index;
+
+    public Vertex(int index) {
+        this.index = index;
+    }
+
+    public void draw() {
+        // Draw the vertex
+    }
+}
+
+class Player {
+    private int index;
+
+    public Player() {
+        this.index = 0;
+    }
+
+    public void draw() {
+        // Draw the player
+    }
+}
+
+class Game {
+    private int moves;
+
+    public Game() {
+        this.moves = 0;
+    }
+
+    public void draw() {
+        // Draw the game state
+    }
+
+    public void update() {
+        // Update the game state
+    }
+}
+```
+This example code provides a basic structure for the system, including a GUI, game logic, and data structures. However, it is just a starting point, and additional features and functionality will need to be added to complete the system.

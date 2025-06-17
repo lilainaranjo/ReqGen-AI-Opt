@@ -11,5 +11,6 @@ El objetivo del TFG es automatizar la generación de requisitos funcionales y no
 ## Contenido del repositorio
 
 * `data/`: datset empleado durante el fine-tuning
+* `docs/`: documentos sobre el proyecto
 * `outputs/`: salidas generadas por los modelos
 * `scripts/`: scripts empleados para entrenamiento, inferencia y cálculo del alfa de Krippendorff

@@ -1,0 +1,67 @@
+**Requisitos Funcionales**
+
+**Para el Desarrollador**
+
+1. **Explorer Feed**:
+	* Debe ser capaz de mostrar contenidos recomendados de Wikipedia, incluyendo temas de actualidad, artículos de divulgación, efemérides, artículos sugeridos en base a lo que ya ha leído, y más.
+	* Debe ser personalizable, permitiendo al usuario seleccionar los tipos de contenidos que desea ver y cambiar el orden en el que aparecen diferentes tipos de contenidos.
+2. **Soporte Multilingüe**:
+	* Debe ser capaz de mostrar contenidos de Explorer Feed en varios idiomas.
+	* Debe permitir al usuario cambiar fácilmente entre idiomas en la búsqueda de artículos.
+	* Debe ser capaz de mostrar artículos en cualquiera de los casi 300 idiomas compatibles con Wikipedia.
+3. **Acceso a Listas de Lectura sin Conexión**:
+	* Debe permitir al usuario guardar y organizar los artículos que navega en listas de lectura.
+	* Debe ser capaz de acceder a las listas de lectura incluso cuando no haya conexión.
+	* Debe permitir al usuario crear tantas listas como desee, con nombres y descripciones personalizadas.
+4. **Motivos Coloridos**:
+	* Debe permitir al usuario seleccionar entre luminoso, oscuro y negro.
+	* Debe permitir al usuario seleccionar el tamaño del texto.
+5. **Reconocimiento de Voz**:
+	* Debe ser capaz de utilizar el reconocimiento de voz integrado en la búsqueda.
+	* Debe ser capaz de reconocer la voz del usuario y realizar la búsqueda correspondiente.
+6. **Nearby**:
+	* Debe ser capaz de mostrar artículos relacionados con la ubicación actual del usuario.
+	* Debe permitir al usuario seleccionar puntos en un mapa interactivo para obtener más información.
+7. **Vistas Previast de Enlaces y Pestañas de Artículos**:
+	* Debe permitir al usuario pulsar sobre un artículo para revelar la vista previa sin perder su lugar.
+	* Debe permitir al usuario mantener el dedo sobre un enlace para abrirlo en una pestaña y seguir leyendo.
+8. **Galería de Imágenes**:
+	* Debe permitir al usuario pulsar sobre una imagen para ver la imagen a pantalla completa.
+	* Debe permitir al usuario navegar por imágenes adicionales con opciones de pasar el dedo.
+9. **Definiciones de Wikcionario**:
+	* Debe permitir al usuario pulsar y sostener una palabra para resaltarla.
+	* Debe permitir al usuario pulsar el botón "Define" para ver la definición de Wiktionary.
+
+**Para el Usuario**
+
+1. **Búsqueda**:
+	* Debe ser capaz de realizar búsquedas rápidas de artículos específicos.
+	* Debe ser capaz de mostrar resultados de búsqueda relevantes y actualizados.
+2. **Explorer Feed**:
+	* Debe ser capaz de mostrar contenidos recomendados de Wikipedia en la Explorer Feed.
+	* Debe permitir al usuario personalizar la Explorer Feed según sus preferencias.
+3. **Listas de Lectura**:
+	* Debe permitir al usuario crear y gestionar listas de lectura.
+	* Debe permitir al usuario acceder a las listas de lectura incluso cuando no haya conexión.
+4. **Configuración**:
+	* Debe permitir al usuario configurar la aplicación según sus preferencias, incluyendo el idioma, el tamaño del texto y el tema de la aplicación.
+
+**Requisitos No Funcionales**
+
+**Para el Desarrollador**
+
+1. **Seguridad**:
+	* Debe ser capaz de proteger la información del usuario y mantener la integridad de la aplicación.
+	* Debe ser capaz de evitar la pérdida o acceso no autorizado a la información del usuario.
+2. **Compatibilidad**:
+	* Debe ser compatible con dispositivos Android y Java.
+	* Debe ser capaz de funcionar en diferentes versiones de Android y Java.
+3. **Escalabilidad**:
+	* Debe ser capaz de manejar un gran volumen de tráfico y usuarios.
+	* Debe ser capaz de adaptarse a cambios en la demanda y la cantidad de usuarios.
+
+**Para el Usuario**
+
+1. **Usabilidad**:
+	* Debe ser fácil de usar y navegar.
+	* Debe ser capaz de mostrar información de

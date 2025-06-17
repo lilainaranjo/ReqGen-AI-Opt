@@ -1,0 +1,156 @@
+**Functional Requirements**
+
+1. **Triangulation Game Implementation**
+	* The system should be able to create a new game with the following features:
+		+ Three sides of the triangular grid
+		+ Players take turns placing lines or dots on the grid
+		+ The objective is to create a path that connects three sides of the grid
+		+ The game should prevent the opponent from completing a path while trying to complete one's own
+	* The system should be able to handle multiple games simultaneously
+	* The system should be able to automatically select the game type (constructing, transforming, or marking) when a new game is started
+2. **User Interface**
+	* The system should have a graphical user interface (GUI) that is mainly mouse-controlled but can also be used with a keyboard
+	* The GUI should display the current game state, including the grid and the player's moves
+	* The system should be able to display the game over message when the game is finished
+3. **Game Selection**
+	* The system should be able to automatically select the game type when a new game is started
+	* The system should be able to display the available game types (constructing, transforming, or marking) to the user
+4. **Gameplay**
+	* The system should allow players to place lines or dots on the grid
+	* The system should prevent the opponent from completing a path while trying to complete one's own
+	* The system should keep track of the game state and update it accordingly
+5. **Game Over**
+	* The system should display the game over message when the game is finished
+	* The system should keep track of the game history and display it to the user
+
+**Non-Functional Requirements**
+
+1. **Performance**
+	* The system should be able to handle multiple games simultaneously without significant performance degradation
+	* The system should be able to handle large grids without significant performance degradation
+2. **Scalability**
+	* The system should be able to handle a large number of users without significant performance degradation
+	* The system should be able to handle a large number of games simultaneously without significant performance degradation
+3. **Security**
+	* The system should be able to prevent unauthorized access to the game data
+	* The system should be able to prevent data corruption or loss
+4. **Usability**
+	* The system should be easy to use and navigate for the user
+	* The system should provide clear and concise instructions for the user
+5. **Maintainability**
+	* The system should be easy to modify and update without significant changes to the code
+	* The system should be easy to debug and troubleshoot
+
+**Assumptions and Examples**
+
+* The system assumes that the user will place lines or dots on the grid in a way that creates a path that connects three sides of the grid.
+* The system assumes that the user will try to prevent their opponent from completing a path while trying to complete their own.
+* The system assumes that the game will be played for a finite number of moves, and that the game will end when one player has completed a path or blocked their opponent from completing a path.
+* The system assumes that the user will use the GUI to control the game, and that the system will automatically select the game type when a new game is started.
+
+**Example Code**
+
+Here is an example of how the system might be implemented in Java:
+```java
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class TriangulationGame extends JPanel {
+  private int[][] grid;
+  private int playerTurn;
+  private String gameType;
+
+  public TriangulationGame() {
+    setLayout(new BorderLayout());
+    grid = new int[3][3];
+    playerTurn = 0;
+    gameType = "constructing";
+  }
+
+  public void paintComponent(Graphics g) {
+    super.paintComponent(g);
+    for (int i = 0; i < 3; i++) {
+      for (int j = 0; j < 3; j++) {
+        if (grid[i][j] == 1) {
+          g.setColor(Color.BLACK);
+          g.fillRect(j * 50, i * 50, 50, 50);
+        } else if (grid[i][j] == 2) {
+          g.setColor(Color.WHITE);
+          g.fillRect(j * 50, i * 50, 50, 50);
+        }
+      }
+    }
+  }
+
+  public void handleMouseMotion(MouseEvent e) {
+    if (playerTurn == 0) {
+      int x = e.getX() / 50;
+      int y = e.getY() / 50;
+      if (grid[y][x] == 1) {
+        grid[y][x] = 2;
+        if (playerTurn == 1) {
+          playerTurn = 0;
+        } else {
+          playerTurn = 1;
+        }
+      }
+    }
+  }
+
+  public void handleMousePressed(MouseEvent e) {
+    if (playerTurn == 0) {
+      int x = e.getX() / 50;
+      int y = e.getY() / 50;
+      if (grid[y][x] == 1) {
+        grid[y][x] = 2;
+        if (playerTurn == 1) {
+          playerTurn = 0;
+        } else {
+          playerTurn = 1;
+        }
+      }
+    }
+  }
+
+  public void handleMouseReleased(MouseEvent e) {
+    if (playerTurn == 0) {
+      int x = e.getX() / 50;
+      int y = e.getY() / 50;
+      if (grid[y][x] == 1) {
+        grid[y][x] = 1;
+        if (playerTurn == 1) {
+          playerTurn = 0;
+        } else {
+          playerTurn = 1;
+        }
+      }
+    }
+  }
+
+  public void startGame() {
+    playerTurn = 0;
+    gameType = "constructing";
+    repaint();
+  }
+
+  public void endGame() {
+    playerTurn = 1;
+    repaint();
+  }
+
+  public void selectGameType(String type) {
+    gameType = type;
+  }
+
+  public static void main(String[] args) {
+    JFrame frame = new JFrame("Triangulation Game");
+    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    frame.add(new TriangulationGame());
+    frame.setSize(300, 300);
+    frame.setVisible(true);
+    frame.startGame();
+  }
+}
+```
+This is just one possible implementation of the system, and there are many ways to implement it. The key is to create a system that is easy to use and navigate, and that provides clear and concise instructions for the user.
