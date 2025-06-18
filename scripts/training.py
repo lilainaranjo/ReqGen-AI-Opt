@@ -34,7 +34,7 @@ def tokenize_with_chat_template(rows):
     return {"input_ids": batch_ids}
 
 # Dataset
-data = load_dataset('csv', data_files='data/dataset.csv', split='all', delimiter=';')
+data = load_dataset('csv', data_files='../data/dataset.csv', split='all', delimiter=';')
 data_train = data.map(tokenize_with_chat_template, batched=True, remove_columns=data.column_names)
 
 # Model configuration
@@ -58,7 +58,7 @@ model = get_peft_model(model, lora_config)
 
 # Training
 training_args = TrainingArguments(
-    output_dir = "./models/llama-1B-finetuned-8e",
+    output_dir = "models/llama-1B/llama-1B-finetuned-8e",
     overwrite_output_dir = True,
     num_train_epochs = total_epochs,
     eval_strategy = "no",
@@ -87,5 +87,5 @@ trainer = Trainer(
 trainer.train()
 
 # Save model
-trainer.save_model("./models/llama-1B-finetuned-8e")
-tokenizer.save_pretrained("./models/llama-1B-finetuned-8e")
+trainer.save_model("models/llama-1B/llama-1B-finetuned-8e")
+tokenizer.save_pretrained("models/llama-1B/llama-1B-finetuned-8e")

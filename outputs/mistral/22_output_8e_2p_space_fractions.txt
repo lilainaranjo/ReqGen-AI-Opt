@@ -1,0 +1,100 @@
+ Functional Requirements (FR):\\
+1. FR1: The application shall display a main screen where users can select one of two available games – "Space Invaders" or "Pong". Users can switch between these games at any point during play. \\
+2. FR2: When selecting either game, the application shall present a brief tutorial explaining how to play it. This tutorial shall appear only once per session. \\
+3. FR3: The Space Invaders game shall consist of three levels. In each level, the player controls a spaceship moving horizontally across the bottom of the screen while shooting upwards. The invading aliens move downward from the top of the screen towards the player's ship. Each alien represents a certain number of fractions. Shooting an alien destroys it, awarding points equal to its value. If an alien reaches the player's ship, they lose a life. Losing all lives ends the game. \\
+4. FR4: After completing a level, the player receives feedback about their performance in terms of accuracy and speed. They then proceed to the next level. \\
+5. FR5: The Pong game shall have four levels. Players control a paddle moving vertically along the left side of the screen, reflecting incoming balls back to the opponent's paddle. Each ball hit by both players awards points. Missed balls result in losing a point. If the opponent loses all points first, the player wins and moves onto the next level. \\
+6. FR6: After completing a level, the player receives feedback about their performance in terms of accuracy and speed. They then proceed to the next level. \\
+7. FR7: The application shall keep track of the total score achieved by the student throughout the entire gameplay session. It shall also record the highest score ever reached by the student. \\
+8. FR8: The application shall provide a results page showing the final score, the highest score ever recorded, and whether the score was above average, below average, or close to the average. \\
+9. FR9: The application shall allow multiple users to save their progress so they can continue playing later. However, saving data requires logging into an account. \\
+10. FR10: The application shall store saved data locally within the browser. Data loss occurs if the user clears their browsing history or switches devices/browsers. \\
+11. FR12: The application shall support English language only. \\
+Non-Functional Requirements (NFR):\\
+1. NFR1: The application shall run on modern desktop and mobile web browsers such as Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari, Opera Mini, and others. \\
+2. NFR2: The application shall use HTML5, CSS3, JavaScript ES6, WebGL, and other web technologies. \\
+3. NFR3: The application shall require a minimum screen resolution of 800x600 pixels. \\
+4. NFR4: The application shall work best on screens larger than 1024x768 pixels. \\
+5. NFR5: The application shall load quickly, taking no more than five seconds over a broadband connection (>1 Mbit/s). \\
+6. NFR6: The application shall be compatible with Windows, macOS, Linux, Android, iOS, and other operating systems. \\
+7. NFR7: The application shall be accessible via a URL, making it easy to share links with friends and teachers. \\
+8. NFR8: The application shall be free to use. No registration or login is required unless the user wants to save their progress. \\
+9. NFR9: The application shall be designed primarily for individual use rather than collaborative play. \\
+10. NFR10: The application shall be tested using automated unit tests, manual testing, and real-world usage scenarios. \\
+11. NFR11: The application shall be developed using agile methodologies, focusing on continuous improvement through regular updates. \\
+12. NFR12: The application shall comply with W3C accessibility guidelines (WCAG) version 2.1 Level AA. \\
+13. NFR13: The application shall ensure that all graphics and animations are optimized for fast loading times. \\
+14. NFR14: The application shall minimize network traffic and reduce CPU usage to maximize responsiveness. \\
+15. NFR15: The application shall protect against unauthorized access to stored data. \\
+16. NFR16: The application shall prevent users from modifying code or manipulating the game environment. \\
+17. NFR17: The application shall maintain privacy by not collecting personal data beyond what is needed for functionality. \\
+18. NFR18: The application shall be visually appealing and engaging to attract and retain users. \\
+19. NFR19: The application shall be intuitive and easy to navigate, requiring minimal instructions for newcomers. \\
+20. NFR20: The application shall be scalable to accommodate increasing numbers of users. \\
+21. NFR21: The application shall be robust enough to handle errors gracefully without crashing. \\
+22. NFR22: The application shall be secure against malicious attacks, including cross-site scripting, SQL injection, and denial-of-service attempts. \\
+23. NFR23: The application shall be resilient to failures caused by server downtime or internet connectivity issues. \\
+24. NFR24: The application shall be easily maintained and updated by developers. \\
+25. NFR25: The application shall be designed to meet the needs of target users, who are typically 11–12 years old. \\
+26. NFR26: The application shall be designed to facilitate self-paced learning, encouraging students to practice independently. \\
+27. NFR27: The application shall be designed to motivate students to achieve high scores and compete with peers. \\
+28. NFR28: The application shall be designed to provide immediate feedback after each round, helping students identify areas for improvement. \\
+29. NFR29: The application shall be designed to adapt difficulty levels dynamically according to the user's skill level. \\
+30. NFR30: The application shall be designed to encourage repeat visits by offering new challenges and opportunities for improvement. \\
+31. NFR31: The application shall be designed to promote fun and enjoyment, ensuring that students look forward to practicing math. \\
+32. NFR32: The application shall be designed to foster a sense of accomplishment and pride among students. \\
+33. NFR33: The application shall be designed to build confidence in students' ability to solve complex problems. \\
+34. NFR34: The application shall be designed to develop critical thinking and problem-solving skills. \\
+35. NFR35: The application shall be designed to enhance memory retention and recall abilities. \\
+36. NFR36: The application shall be designed to stimulate creativity and innovation. \\
+37. NFR37: The application shall be designed to engage students in active learning experiences. \\
+38. NFR38: The application shall be designed to cater to different learning styles, accommodating visual, auditory, and kinesthetic learners. \\
+39. NFR39: The application shall be designed to offer a safe and supportive online learning environment. \\
+40. NFR40: The application shall be designed to respect students' privacy and confidentiality. \\
+41. NFR41: The application shall be designed to adhere to educational standards and principles. \\
+42. NFR42: The application shall be designed to align with national curriculum objectives. \\
+43. NFR43: The application shall be designed to integrate seamlessly with existing classroom instruction methods. \\
+44. NFR44: The application shall be designed to complement traditional teaching techniques. \\
+45. NFR45: The application shall be designed to serve as a supplementary resource for educators. \\
+46. NFR46: The application shall be designed to assist teachers in assessing students' understanding of concepts. \\
+47. NFR47: The application shall be designed to enable teachers to monitor students' progress remotely. \\
+48. NFR48: The application shall be designed to provide teachers with tools to create custom assignments tailored to their classrooms. \\
+49. NFR49: The application shall be designed to support collaboration between students and teachers. \\
+50. NFR50: The application shall be designed to support communication between students and teachers. \\
+51. NFR51: The application shall be designed to support peer-to-peer interaction and competition. \\
+52. NFR52: The application shall be designed to support multiplayer gaming. \\
+53. NFR53: The application shall be designed to support offline mode for single-user activities. \\
+54. NFR54: The application shall be designed to support local storage for offline use. \\
+55. NFR55: The application shall be designed to support teacher accounts for managing classes and monitoring student progress. \\
+56. NFR56: The application shall be designed to support parent accounts for monitoring children's activity and progress. \\
+57. NFR57: The application shall be designed to support school administrator accounts for managing multiple teacher and student accounts. \\
+58. NFR58: The application shall be designed to support integration with Learning Management Systems (LMS), such as Blackboard, Canvas, Schoology, and Moodle. \\
+59. NFR59: The application shall be designed to support integration with Single Sign-On (SSO) solutions like Google Classroom, Clever, and ClassLink. \\
+60. NFR60: The application shall be designed to support integration with third-party assessment platforms for grading purposes. \\
+61. NFR61: The application shall be designed to support integration with third-party analytics services for tracking usage patterns and improving usability. \\
+62. NFR62: The application shall be designed to support integration with third-party content delivery networks (CDNs) for faster content distribution. \\
+63. NFR63: The application shall be designed to support integration with third-party APIs for enhancing features and expanding capabilities. \\
+64. NFR64: The application shall be designed to support integration with third-party payment gateways for purchasing premium features. \\
+65. NFR65: The application shall be designed to support integration with third-party social media platforms for sharing achievements. \\
+66. NFR66: The application shall be designed to support integration with third-party video conferencing software for remote tutoring sessions. \\
+67. NFR67: The application shall be designed to support integration with third-party virtual reality environments for immersive learning experiences. \\
+68. NFR68: The application shall be designed to support integration with third-party augmented reality applications for enhanced interactivity. \\
+69. NFR69: The application shall be designed to support integration with third-party gamification engines for rewarding achievement. \\
+70. NFR70: The application shall be designed to support integration with third-party machine learning algorithms for predicting student performance. \\
+71. NFR71: The application shall be designed to support integration with third-party artificial intelligence agents for intelligent tutoring. \\
+72. NFR72: The application shall be designed to support integration with third-party databases for storing and retrieving data. \\
+73. NFR73: The application shall be designed to support integration with third-party cloud storage providers for backup and recovery. \\
+74. NFR74: The application shall be designed to support integration with third-party programming languages for developing additional features. \\
+75. NFR75: The application shall be designed to support integration with third-party hardware peripherals for extended functionality. \\
+76. NFR76: The application shall be designed to support integration with third-party open source projects for contributing and collaborating. \\
+77. NFR77: The application shall be designed to support integration with third-party libraries for extending functionality. \\
+78. NFR78: The application shall be designed to support integration with third-party plugins for adding new features. \\
+79. NFR79: The application shall be designed to support integration with third-party themes for changing appearance. \\
+80. NFR80: The application shall be designed to support integration with third-party extensions for enhancing functionality. \\
+81. NFR81: The application shall be designed to support integration with third-party add-ons for expanding capabilities. \\
+82. NFR82: The application shall be designed to support integration with third-party widgets for embedding functions. \\
+83. NFR83: The application shall be designed to support integration with third-party modules for extending functionality. \\
+84. NFR84: The application shall be designed to support integration with third-party packages for adding new features. \\
+85. NFR85: The application shall be designed to support integration with third-party components for expanding functionality. \\
+86. NFR86: The application shall be designed to support integration with third-party frameworks for building upon core functionality. \\
+87. NFR87: The application shall be designed to

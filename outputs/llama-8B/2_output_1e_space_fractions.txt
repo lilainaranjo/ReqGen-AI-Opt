@@ -1,0 +1,84 @@
+**Functional Requirements:**
+
+1. **Game Selection Menu:**
+   - The system will have a web-based menu system that allows users to select between different games.
+   - The menu system will be accessible from the main page of the website.
+   - The menu system will display a list of available games, including the Space Fractions game.
+   - Each game will have a unique title and a brief description.
+   - Users will be able to select a game by clicking on its title.
+   - The system will display a loading animation while the game is being loaded.
+
+2. **Space Fractions Game:**
+   - The Space Fractions game will be an interactive game that helps improve fraction-solving skills for sixth-grade students.
+   - The game will consist of multiple levels, each with a set of fraction problems.
+   - Each level will have a unique theme, such as space exploration or alien encounters.
+   - The game will display a problem on the screen, and the user will have to solve it by selecting the correct answer from a list of options.
+   - The user will be able to submit their answer by clicking on the correct option.
+   - The system will display feedback on the user's answer, including whether it is correct or incorrect.
+   - The user will be able to move on to the next level by completing the current level.
+   - The game will keep track of the user's score and display it at the end of the game.
+
+3. **Gameplay Mechanics:**
+   - The game will have a time limit for each level, which will be 5 minutes.
+   - The user will have to complete as many problems as possible within the time limit.
+   - The user will earn points for each correct answer, with the points increasing as the level progresses.
+   - The user will lose points for each incorrect answer.
+   - The game will display a countdown timer to show the remaining time.
+
+4. **Feedback and Scoring:**
+   - At the end of the game, the system will display the user's final score.
+   - The score will be based on the number of correct answers and the time taken to complete the game.
+   - The system will also display a summary of the user's performance, including the number of correct and incorrect answers.
+   - The user will be able to view their past scores and performance summaries by accessing the menu system.
+
+5. **Gameplay Features:**
+   - The game will have a "Hint" feature that provides a subtle hint to the user when they are stuck on a problem.
+   - The game will have a "Skip" feature that allows the user to skip a problem and move on to the next one.
+   - The game will have a "Restart" feature that allows the user to restart the game from the beginning.
+
+6. **Accessibility Features:**
+   - The game will be accessible on a variety of devices, including desktop computers, laptops, tablets, and smartphones.
+   - The game will be compatible with a range of web browsers, including Google Chrome, Mozilla Firefox, and Safari.
+   - The game will have a high contrast mode that makes the game more accessible for users with visual impairments.
+
+7. **Security Features:**
+   - The game will have a secure login system that allows users to create an account and save their progress.
+   - The game will have a password reset feature that allows users to reset their password if they forget it.
+   - The game will have a data encryption feature that protects user data from unauthorized access.
+
+**Non-Functional Requirements:**
+
+1. **Performance:**
+   - The game will have a response time of less than 1 second for most user interactions.
+   - The game will have a loading time of less than 5 seconds for the game menu and game levels.
+   - The game will have a memory usage of less than 100 MB.
+
+2. **Usability:**
+   - The game will have a user-friendly interface that is easy to navigate.
+   - The game will have clear and concise instructions that guide the user through the gameplay.
+   - The game will have a consistent layout and design throughout the game.
+
+3. **Reliability:**
+   - The game will be available 24/7, with minimal downtime for maintenance and updates.
+   - The game will have a backup system that ensures data is not lost in case of a server failure.
+   - The game will have a disaster recovery plan that ensures the game can be restored in case of a catastrophic failure.
+
+4. **Scalability:**
+   - The game will be able to handle a large number of users without a significant decrease in performance.
+   - The game will be able to handle a large amount of data without a significant increase in memory usage.
+   - The game will be able to be easily updated and expanded to add new features and content.
+
+5. **Maintainability:**
+   - The game will have a modular design that makes it easy to update and maintain individual components.
+   - The game will have a clear and concise codebase that is easy to understand and modify.
+   - The game will have a testing framework that ensures the game is thoroughly tested before release.
+
+6. **Supportability:**
+   - The game will have a comprehensive user manual that provides instructions on how to use the game.
+   - The game will have a support system that provides assistance to users who are experiencing issues with the game.
+   - The game will have a feedback system that allows users to provide feedback and suggestions for improvement.
+
+7. **Compliance:**
+   - The game will comply with all relevant laws and regulations, including those related to data protection and accessibility.
+   - The game will comply with all relevant industry standards, including those related to game development and online safety.
+   - The game will have a clear and concise terms of service that outlines the user agreement and expectations.

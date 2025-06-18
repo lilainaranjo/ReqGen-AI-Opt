@@ -1,0 +1,72 @@
+ **Functional Requirements**
+
+1. **User Interface (UI)**
+   - The UI should be visually appealing and easy to navigate for sixth-grade students.
+   - The UI should include a menu system that allows users to select the Space Fractions game or any other past games.
+   - The UI should display the user's score, level, and progress throughout the game.
+   - The UI should provide clear and concise feedback to the user based on their performance.
+
+2. **Gameplay**
+   - The game should present the user with fraction problems that increase in difficulty as the user progresses.
+   - The user should be able to input their answers to the fraction problems using a text input field.
+   - The game should provide immediate feedback to the user, informing them whether their answer is correct or incorrect.
+   - The game should include a time limit for each question to encourage quick thinking and prevent users from spending too much time on a single question.
+   - The game should include a system for tracking the user's score, level, and progress throughout the game.
+
+3. **Umbrella Menu System**
+   - The umbrella menu system should allow users to select the Space Fractions game or any other past games.
+   - The umbrella menu system should provide a brief description of each game to help users make informed decisions.
+   - The umbrella menu system should keep track of the user's progress in each game, allowing them to pick up where they left off at a later time.
+
+**Non-Functional Requirements**
+
+1. **Performance**
+   - The system should be able to handle a large number of concurrent users without significant performance degradation.
+   - The system should be able to load quickly, with a maximum load time of 5 seconds.
+
+2. **Security**
+   - The system should protect user data by implementing appropriate security measures, such as encryption and secure connections.
+   - The system should not collect any personal information from users, such as names or email addresses.
+
+3. **Usability**
+   - The system should be easy to use for sixth-grade students, with minimal instructions required.
+   - The system should be accessible on a variety of devices, including desktops, laptops, tablets, and smartphones.
+
+4. **Maintainability**
+   - The system should be easy to maintain, with a modular design that allows for easy updates and bug fixes.
+   - The system should be scalable, allowing for the addition of new games and features in the future.
+
+5. **Reliability**
+   - The system should be reliable, with minimal downtime and a high availability rate.
+   - The system should be able to recover quickly from errors, with automatic error handling and recovery mechanisms in place.
+
+6. **Compatibility**
+   - The system should be compatible with all major web browsers, including Google Chrome, Mozilla Firefox, Microsoft Edge, and Apple Safari.
+   - The system should be compatible with all major operating systems, including Windows, macOS, Linux, iOS, and Android.
+
+7. **Accessibility**
+   - The system should be accessible to users with disabilities, with appropriate accommodations made for visual, auditory, and motor impairments.
+   - The system should be compatible with screen readers and other assistive technologies.
+
+8. **Localization**
+   - The system should be localized for multiple languages, with support for English, Spanish, French, German, and Mandarin.
+   - The system should automatically detect the user's language preference based on their browser settings.
+
+9. **Documentation**
+   - The system should include comprehensive documentation, including user manuals, developer guides, and API documentation.
+   - The documentation should be easy to understand and accessible to both technical and non-technical users.
+
+10. **Testing**
+    - The system should be thoroughly tested to ensure that it meets all functional and non-functional requirements.
+    - The system should be tested on a variety of devices and operating systems to ensure compatibility.
+    - The system should be tested for security vulnerabilities, performance issues, and usability problems.
+
+11. **Deployment**
+    - The system should be deployed to a cloud-based hosting service, such as Amazon Web Services (AWS) or Microsoft Azure.
+    - The system should be configured to automatically scale based on traffic demand.
+    - The system should be configured to automatically recover from errors and downtime.
+
+12. **Maintenance**
+    - The system should be regularly maintained to ensure that it remains secure, reliable, and up-to-date.
+    - The system should be regularly updated to add new features, fix bugs, and improve performance.
+    - The system should be regularly backed up to prevent data loss in the event of a disaster.

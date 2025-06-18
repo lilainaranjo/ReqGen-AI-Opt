@@ -1,0 +1,18 @@
+ Functional Requirements:
+1. The system should provide an interactive game for sixth-grade students to improve their fraction-solving skills.
+2. The system should allow students to play the game through a web-based interface.
+3. The system should provide feedback to students based on their game scores.
+4. The system should allow students to choose between different games from a web-based menu system.
+5. The system should provide an umbrella for past games created.
+
+Non-Functional Requirements:
+1. The system should be user-friendly and easy to navigate for sixth-grade students.
+2. The system should be accessible through a web browser on various devices such as desktops, laptops, tablets, and smartphones.
+3. The system should be secure and protect user data.
+4. The system should be scalable to accommodate a large number of users.
+5. The system should be responsive and provide quick feedback to users.
+6. The system should be reliable and available 24/7.
+7. The system should be maintainable and easy to update with new games and features.
+8. The system should be efficient and use minimal resources.
+9. The system should be compatible with various web browsers.
+10. The system should be visually appealing and engaging for students.

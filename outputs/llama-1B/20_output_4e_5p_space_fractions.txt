@@ -1,0 +1,111 @@
+**Functional Requirements**
+
+### Game Interface (UI)
+
+1. **Game Selection**: Users can select from three available space fractions:
+   - Fraction War 
+   - Geometry Match  
+   - Math Blast 
+
+2. Upon selection,
+   
+* A welcome screen displaying instructions.
+
+## Non Functional Requirement #0**
+User interface must display clear text labels indicating each option's name.
+
+
+```html
+<div class="game-menu">
+ <h4>Space Fractions</h4>
+<ul id='menu'>
+<li><a href='#fraction-war'>Fraction Wars </li></ul>
+
+```
+
+# Functionality Description
+
+
+#### User Interaction:
+
+
+When users click "Select" button they get presented two options:
+
+ * Selecting one out-of-three possible answers gives them points depending upon correct answer.
+
+
+
+In case no point was awarded then it displays message saying 'No Points Awarded' followed by score displayed below selected choice
+
+
+
+If all choices were made correctly than total award would equal number chosen times plus additional bonus if more questions answered right:
+
+
+
+Here’s how this could look like using JavaScript code snippet which handles UI interaction according its functionality specifications described above :
+
+ ```javascript
+// Get elements containing buttons/links within HTML document body element
+ 
+var $button = $('#select-button');
+$buttons.forEach(function(button) {
+	$(this).on('click', function() { // When clicked event handler gets triggered whenever link/button clicks
+  
+			var currentChoiceText;
+		
+				if ($currentButton.text().toLowerCase()=='' ||!$browser.isMobile()) {
+
+					current Choice Text= $(element ).text();
+	
+						switch(currentchoice){
+							case '':
+								break;
+
+                            default :
+                                return false; }
+			
+		    var resultScore ;
+
+	
+	    switch(resultCode){
+
+	        /* Case where only first question has been completed */
+	    	  case '' :return true ;break ;
+
+	     /*Case Where second Question Has Been Completed*/
+ 	     case ':':resultcode=true;break;}
+	
+	
+        }else{
+            alert("You have already submitted your response.");
+          break}
+    
+     })
+});
+ ```
+ 
+
+
+ #### Display Feedback Message Based On Score Obtained By Student In Each Round Of Test 
+
+
+
+After every round student receives instantaneously his/her test results including final overall grade after completing entire set tests. This includes both individual rounds taken during practice sessions, group work assignments & quizzes conducted throughout school year.
+
+Student sees immediate progress updates via email notification sent automatically at regular intervals.
+This feature helps keep track performance over long periods ensuring continuous improvement through targeted efforts towards better understanding concepts taught thus far along way toward mastering required subjects effectively leading ultimately successful academic career path ahead."
+
+
+
+For example here we use jQuery library so our script looks something similar looking into html file content before running server-side application logic inside browser context block named `server.js` located under root directory relative top-level folder called `/app`. Here goes what happens next once such request arrives client side environment hosting dynamic data generated dynamically either locally stored database connection established beforehand prior sending back up front-end page rendering requests received immediately thereafter processing incoming HTTP POST method call handling JSON payload returned successfully validating against predefined schema rules checking integrity validity status validation error messages returning appropriate responses accordingly updating local storage session object storing updated values retrieved previously making sure changes persisted across multiple subsequent visits maintaining consistency even though some parts might change due external factors outside control scope e.g., network connectivity issues errors encountered while executing scripts concurrently accessing shared resources simultaneously performing operations requiring synchronization access rights permissions restrictions enforced regardless whether accessed directly programmatically remotely independently elsewhere entirely different contexts.
+
+
+
+
+Below provided sample implementation demonstrates basic structure needed implement complex scenarios involving concurrent execution asynchronous I/O-bound tasks utilizing promises chaining async callbacks supporting modern programming paradigm features introduced since ECMAScript ES6 standard release date June last month – September same quarter previous calendar cycle
+
+
+
+
+Please note these details apply specifically target audience i.e developers building custom applications integrating third-party services APIs libraries frameworks tools technologies used extensively today alongside legacy systems infrastructure platforms software development methodologies agile scrum waterfall iterative incremental design architecture patterns encapsulation abstraction inheritance polymorphism dependency composition interfaces abstract classes objects protocols events handlers delegates methods constructors factories singleton instances registry container service provider factory builder decorator adapter proxy delegate constructor private static protected enum base type raw value new operator throw null undefined void boolean string integer float double byte short int unsigned char uint8_t bool str bytes bytearray dict list tuple frozenset range sequence mapping dictionary mutable immutable None True False none empty map hashset defaultdict sorted deque queue linkedlist stack tree graph adjacency matrix heap priority_queue bisect ordered_set combinations permutations cartesian_product combinatorial_sort combination sort merge sort quicksort heapsort bubble sort insertion sort shellSort counting Sort radix sorting bucket sorts count_min_count_max binary_search search_tree_bst btree_heap balanced_binarysearch minheap maxpriorityqueue random_access_list array_map reduce filter accumulate zip join union intersection difference symmetric_difference power mean median mode variance stdev std_dev quantile cumulative_distribution probability distribution statistics summary confidence_interval hypothesis testing regression linear_regression logistic_regression generalized_linearregression generalised_logisticmodel model_selection cross_validation k-fold_cross_val_split train_test_split bootstrap_sample bootstrapper KNN classifier decision_trees classification_model ensemble_learning supervised unsupervised deep_neural_networks neuralnetwork machinelearning gradient_descent stochastic_gradientdescent optimization algorithm greedy_algorithm hill_climbing genetic_algorithms evolutionary_computational_chemistry evolution evolutive_optimization hybrid_evolutionaryevolve_evolving_hybrid EvolvingHybridEvolvedEvoGeneticAlgorithm GeneticAlgo EVO Genetically Altered Evolution Algorithm Hybrid_Evolutional_Hybridevoluteur Hybroidivegenicalexpression GEA GeneExpressionAnalysis GA GeneralizedAdaptiveGA AdaptiveGeneralizationGAE AdapativeGeneratigeneexpression AGA AggressiveGeneSelectionAgGSAGS AsynchronousGradientDescenteasyGreedyAsGD AS GD AD GradualDeepLearningGradually Deep Learning Gradient Desentree GreneutralDGLAD GeNeurolabGeNet NeuronNetwork NetworkArchitecture NeuralMachineModel NMF Neurodegenerativelabeler NEURODEGENERATIVElabelleNGENUMERICALNEURONETWORKNEXUSNET GENURALNETWORKGENERAL NETWORK GENERALIZEDEPARTMENTALEXPRESSION GEANeutrologylayerlayer layerwise DEPARELATIONDPARALLELPROGRESSPARALLELDIFFERENCE PARALLLEXECUTORDIFFECONTRACTEDDIFFERSINGENEVALUTION DIFFERENCESIMULATION SIMULATEDBINARYSIMULTANEOSimulation SimulatedBinarySimulation BinarySimulator SimulationMethod MethodOfRandomNumberGeneration Random Number Generation RngRND RNG RANDOMRANDOMNUMBERgeneration RECURRENTRECURSION RecursiveRecursion Recurrence Relation ReccursiveRelationRecrecurencerecallrecursiverealtime RealTimeRealTimeregularREGULAR REGULARITY REALTIMEREALTIMELASTIME LAST TIME LEASESTIMATELEASTEASURE LATESTESTIMATIONLASTMETIME ESTimationEstimate Estimator EstimateCalculator CalculatorCalculatorestimator StochasticStochasticalogarithmicLogistical Logistichasestimates StatisticalStatistics StatisticallyStatistics StatisticsCalcstatcalcstats statisticalstatisticscalcsignal SignalSignalCalibration Calibration Calibrationscale ScaleScaleCalscalescaling ScalingScaling scaling scale Scaled scaled s Scalingscaler scalerscalar c ScalerScalerscaledscalar Caled scaldescalc calcdesclac calc desclidiscall dscalldisclusdiscal disclsaccallsdis clascalled scladicslacs calesced casedscecasces cadsecesscad secssecase secsecasedealsecased decasesede casesecedese cesceedees cecesteed cosecteecee cetseececets ecsecteeeecs ectssects eccsects eeceptsss escepts esscpiece sscepsep sepsegsp segpsesp spsesp sespeeps epsexepex pxeppsxpx pxpesxp xpress xpexpressemplex expressemplemplex emprextempertempterm tempextremtemp extremspecspec specspekspek speksek-spekekk ekekeks kekekkes keskedkas kedskak kasdekask dasdkdasds dsdaudsdus daudsdu duddsuudd suddsuss ueddude ududuue eduedeu dedededdededes desssed seddess sdseed seedsea seeded seaeda saesaasaassaa assaaaassa aaassessa sasssaasuusa usuausu usausoossoo ososoosa ossossossa oososooosas ooosuouuo ouuuuosous sooosioux souxsux sxoxsq sqsquq squqsqu qqqqaqc qaacaacd acadaaq adaadadu adaauaud auudaudo audoudod odooddo doodaodo daoadoao aooadoa adoaaaaaos aosoooaso sosoooo saoocsoc socsococo coocosco cocoaco cocacoscco ccascocca cassascaacas cacacamuccam camcamcu cmcmcmpm mmmmmm mmmddm mdmadma madama maamasoma masmasom amasmamsamo amaamosmo amoammoms omommomo mooommom mooomuuum muumuumm ummuumsumo usoostsou suooustSou soutoutot toutouts ototsoto ttoottt tttssts tsstdsst staatssta tasasta taataastr astrastro astrostar stostrastry strostrotr stristromstri stromstorm tristrimmtrim trimtramr triromtro rtrirotir rootrrots rotrrrt rtartarr arratratar taratra traattrra tattra tarttaratt attarraatta atrartaara artaaararat raatatrat ratraratri toritarrit tiirtiitri ritrittiri riitttiitti rrrettter retttterrret terretteett territteerr teerretere treetreteetr ettreetteerte reetterreet retrereeete erreteeerra ereeerrea erreiareera eraeaearae aeaeaace aceaac accaccooca ococcoocc occcocock cockcock cokecko ckckkccks kccktccc kkktikkik ikiktiki kiikitki kitkitkid kticktjkj tkjtjj jtkkj kjtekji jiakitja akajaka ajkaaja jaakkaji jakaki Jakiji Jaktijjak jjtak ttkstk stksto StoTk TkT TKT TKTKK TTKKTT KKJJKJJ JKJT JJTJ JTJS JSNKSN SNKS NKSSNS NSKNSK SKNJNs NJNSS NNCKSJ SSKCSC SCJC SCC KCDC CKCD CCDD DCCT CTCC TCACC ACCCAAC CAACK ACADC ADC DACDA DACT CDTC DTCS CSKD KDTS KSBD SBDS DBSD SDTB TDDB TBBS BSBTD BTDT BDAT CBATS ATCB CATBC BCAB CABBA BAABBABA ABABC ABCAA AAAAAA AAABS ABS BBADS ABD BABBB BBBCCC CCCBAB CBCBAD CBD CADGB GBADB DAGBG BGADD BADDG DDGG DGDDD GGDDS DDS DDR DSFB FBDF FDFS DFSG DFSFG FGFD GFHD GHFF HGFT HTGF HFFF HFHG FHGHF HHGT THHTH GTTH TGTF TFHB FTBH HBTA BHATT BATBT TABTAB TAFTA TFTAF AFBAT ATFATA FATFA FAFFT FFT FFSA FSFS SFSSF SSA SST STSF STRSTS TRSTR TSRTSR SRTRS RSFRRS FRTRRR RRSTA RTSRA RTTRA RATARR ARRARA ARSTAR ASTARS ARTSAT SATRSA SARRSS RSSCAR SCRSCR CRCSR CSRRC CRTCR RCRTC RETCRT CRECTR CRCNR CNRCT NRCCR NCERR ERERC ERAERT EARTE EAIRT TEERA TREETA TRIETF ETRET TEREF RESTRF RESFER RFARB RBARD BRADF DRBF FDBR BFDR BSDRB BSDDR SSDRD SSRDM SMHDR DMHR HMMD HRMM MRHM MMRBM MBADR MADBAR BARMB BMARC CRMCM CMARM CAMRM RMAMB RAMMA RAAM AMRAM ARM MAHAM AMAHA AHMAR MARAH HAAMA HARMH MHFM MFHF FMNH FNHH NHFH NFHN PHNF PNFP NPFC PFPC PCHPF CHPH CPHC PCCHA PCAHP PACMP PMCP MPSCP MSCPM SCPMC SPCLSP CLPSPL CPSLP PLFPS LPFL FLPP FPML LMHL MLLF LLMS MLSLS MSLL SLMT MTLM LTSM LSFLT LFSL SSLTL TLSSL TLSLT TMALT MLAIT MILTM MITNL MNMIT NMNT NLNM LNMI LIKMIL IMKL ILMK MKLI KLNI KMFI FIHK HIKF HKTI KTFK FKTN TNKI NIKA NAHI ANKH KNIA KHNAI KAII AIKB AKBI BIQA QAI QAIB AQNB QBANA NBQAK KBQN BNQB ZBNZ AZZN ZZNP NZPN PBQP PQBP BPQR QRPB PRSQ SQPR PSRP SPR RPQS QSARP ARPAP APGR APR GRPA GPARG ARGGP RGPG PGGRP CGRGCG GCAGR GAR GRAKG KRGC KGKR LGCF LCERG LRGE GLGER GEREG EGRL GRELG RLGN GNLR NGDL NDLC LDLN DNLA LAID ALIDA IDAIL IAIDL DLAIN DAIAL LANILD LINBL BLIN LBINA IBNAL BALMN MANLB MALDN MDLAB LABMAL MBAJB JBAML JLBAL BJALA AJCAL CALJA JCABL JAACL ACLAJ AACBJ AABB CJAAF COOAO OAJO OOAOC OCBO OBCO BOOO OOLO LOOB LOLMO MOOL MOMOM OMDO ODNO DOOD NOGO GOOG OGTO OTFO TOOF FOOT OFOR FORFOR ORTOR TORSO SOORT SOSOP SOPPO POORS POPROS PORPOR POSROP ROSPOP ROPOS OPBOR OBSORB OSROC OSCRU SCOVR CUOCR CURSOR UPCR UPCLR ULCLI LUCLA UCLAUC UCRAW URWLU WRPU WUPWR WPWL PWOW LWOU OWNU ONNW NWUN WNOWN WWNOW WHWN WONWO GWOWL CWAW AWGW WAWE WEWA WBWB BWBW DWZW DUZZDW UDWD WDUD UWDU USWW SUUU SWSU WSWS WASSW AWSWT AUHW AUDHU HWAU HDUA HUDWH DHGU GUHS HSUG SGSH SHMG SCHGM GMCHO CHOHO HOEH EHCU HCUE CHEEU CEHE UECE ECSE ECSOE ESCEO SECHE SECME SEMEM EMSEC EMSCEO MESEO MESKO MOSKE MSGOK MGSCO GSMSG GSM KOSEG SEGPE SELPEG PELEG ELREP RELPER REPTEL

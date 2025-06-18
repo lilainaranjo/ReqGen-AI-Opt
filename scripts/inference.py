@@ -5,7 +5,7 @@ from transformers import pipeline, BitsAndBytesConfig, GenerationConfig, AutoTok
 from peft import AutoPeftModelForCausalLM
 
 os.environ['HF_TOKEN'] = ""
-model_name = "models/llama-1B-finetuned-8e"
+model_name = "models/llama-1B/llama-1B-finetuned-8e"
 
 model = AutoPeftModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.float16).to('cuda')
 tokenizer = AutoTokenizer.from_pretrained(model_name)

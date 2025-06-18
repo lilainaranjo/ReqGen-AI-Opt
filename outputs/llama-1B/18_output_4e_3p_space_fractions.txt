@@ -1,0 +1,91 @@
+**Functional Requirements**
+
+### Game Interface (UI)
+
+1. **Game Selection**: Users can select from three available space fractions:
+   - Fraction War
+   - Geometry Match-Up
+   - Math Bingo
+   
+2. **User Profile Management**
+    * User name must exist before starting each new session.
+    
+3. **Home Screen Display**
+     - A welcome message indicating users have selected one of our five options.
+
+4. **Menu System Navigation**
+* Home screen displays all currently active sessions' names along side current score display 
+* Menu items include 'Start New Session', 'View Past Sessions'
+   
+5. **Session Information Panel**
+	- Displays player's username, number of attempts taken so far,
+	- Current total points earned by players across different levels 
+
+6. **Score Update Functionality**
+	- Updates displayed statistics after every attempt made during gameplay
+    
+7. **Error Handling Mechanism**
+	- Handles invalid input errors such as empty fields while entering usernames  
+	- Provides clear error messages prompting correct action  
+
+8. **Displaying Statistics at End-of-Session Timeframe**
+	- Calculates average performance over last few hours played; provides detailed breakdowns per level/level type/score category/time period
+
+
+9. **Statistics Reporting Feature**
+	- Allows administrators to generate reports detailing overall progress toward goals set within individual categories
+ 
+10. **Alert Messages & Notifications**
+	- Sends notifications via email whenever significant milestones reached ('Level Up!', Achieved Goal!)
+
+11. **Multiplayer Support**
+	- Enables two-player interaction through online multiplayer mode
+  
+12. **Leaderboard Creation Tool**
+	- Generates ranked list displaying top-performing individuals according to accumulated achievements throughout history 
+ 
+13. **Customizable Settings Option**
+	- Allowing administrator control over various settings affecting functionality like font size adjustment, background color selection, sound volume adjustments...
+
+14. **Accessibility Features Implementation**
+	- Ensures accessibility features enable visually impaired gamers using assistive technologies. For example:
+
+        i) Text-to-speech feature converts text into spoken words;
+ii) High contrast visual theme reduces eye strain;
+
+iii) Keyboard-only navigation option allows blind participants access key functions.
+
+15. **Cross-Browser Compatibility Guarantee**
+      Ensure compatibility among major browsers used worldwide.
+
+
+
+Non Functional Requirement Description:
+
+
+### Performance Optimization Techniques
+
+16. Reduce server load times under heavy usage scenarios (>1000 concurrent requests)
+17. Implement caching mechanisms reducing database queries frequency (<50% increase compared to original implementation )
+18. Optimize JavaScript code execution speed <20ms / page request cycle
+19. Utilize content delivery networks (CDNs), if possible, instead local hosting servers
+20. Monitor CPU utilization regularly >30%
+21. Regularly update software libraries ensuring latest security patches applied automatically
+
+
+
+### Security Measures Implemented
+
+22. Use HTTPS encryption protocol protecting data transmitted between client-side devices and remote host computers.
+23. Validate incoming HTTP headers preventing unauthorized modifications/modifications being performed upon received responses
+24. Limit SQL injection attacks by enforcing parameterized query syntax only where applicable
+25. Secure sensitive login credentials storage securely behind password hashing algorithms 
+
+
+### Data Storage Solutions Used
+
+26. Store collected student records locally stored databases utilizing relational schema design patterns
+27. Employ cloud-hosted NoSQL document-oriented DBMS systems offering scalable scalability capabilities
+28. Leverage secure third-party services storing large amounts of personal identifiable info safely protected against breaches
+29. Maintain strict compliance standards adherent to relevant regulations governing handling personally identifying customer data
+30. Establish regular backups procedures safeguarding critical business assets daily/month/year cycles

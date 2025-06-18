@@ -1,0 +1,46 @@
+ Functional Requirements:
+1. The system should be a web-based, interactive game for sixth-grade students to improve their fraction-solving skills.
+2. The game should be designed in a way that it is engaging and fun for the students.
+3. The game should provide immediate feedback to the students based on their game scores.
+4. The system should have a scoring mechanism to evaluate the performance of the students.
+5. The system should have a mechanism to keep track of the scores of the students.
+6. The system should have a mechanism to save the game progress of the students.
+7. The system should have a mechanism to load the game progress of the students when they log in next time.
+8. The system should have a mechanism to reset the game progress of the students if they wish to start from the beginning.
+9. The system should have a mechanism to provide a leaderboard to show the top scores of the students.
+10. The system should have a mechanism to provide a history of the games played by the students.
+
+Non-Functional Requirements:
+1. The system should be user-friendly and easy to navigate for the students.
+2. The system should be secure and protect the privacy of the students.
+3. The system should be scalable to accommodate a large number of students.
+4. The system should be robust and able to handle high traffic.
+5. The system should be responsive and provide quick responses to the students.
+6. The system should be accessible from any device with an internet connection.
+7. The system should be compatible with all major web browsers.
+8. The system should be designed to work on different screen sizes.
+9. The system should be designed to work on different operating systems.
+10. The system should be designed to work on different devices (desktop, laptop, tablet, smartphone).
+11. The system should be designed to work on different screen resolutions.
+12. The system should be designed to work on different screen orientations.
+13. The system should be designed to work on different input devices (keyboard, mouse, touchscreen).
+14. The system should be designed to work on different network connections (wired, wireless, 3G, 4G, 5G).
+15. The system should be designed to work on different internet speeds.
+16. The system should be designed to work on different internet latencies.
+17. The system should be designed to work on different internet packet losses.
+18. The system should be designed to work on different internet jitter levels.
+19. The system should be designed to work on different internet error rates.
+20. The system should be designed to work on different internet congestion levels.
+21. The system should be designed to work on different internet connection types (DSL, cable, fiber, satellite).
+22. The system should be designed to work on different internet service providers.
+23. The system should be designed to work on different internet protocol versions (IPv4, IPv6).
+24. The system should be designed to work on different internet domain name system versions (DNSv4, DNSv6).
+25. The system should be designed to work on different internet transport protocol versions (TCP, UDP).
+26. The system should be designed to work on different internet application protocol versions (HTTP, HTTPS).
+27. The system should be designed to work on different internet security protocol versions (SSL, TLS).
+28. The system should be designed to work on different internet authentication protocol versions (Basic, Digest, OAuth, OpenID, SAML).
+29. The system should be designed to work on different internet authorization protocol versions (OAuth, OpenID, SAML).
+30. The system should be designed to work on different internet session management protocol versions (HTTP Cookies, OAuth, OpenID, SAML).
+31. The system should be designed to work on different internet multimedia content types (image, audio, video).
+32. The system should be designed to work on different internet character encodings (UTF-8, UTF-16, UTF-32).
+33. The system should be designed to work on different internet locales (en-US, en-GB, en-CA, en-AU, en-NZ, en-IE, en-ZA, en-SG, en-MY, en-PH, en-HK, en-TW, en-IN, en-PK, en-LK, en-BD, en-MU, en-SG, en-MY, en-LK, en-BD, en-MU, en-TT, en-JM, en-BW, en-ZW, en-ZA, en-ZM, en-NA, en-AW, en-BQ, en-VG, en-VI, en-PR, en-MP, en-GU, en-UM, en-AS, en-FM, en-MH, en-PW, en-KI, en-SB, en-PG, en-CK, en-FO, en-GL, en-GG, en-IM, en-JE, en-CI, en-MF, en-PM, en-VC, en-KN, en-LC, en-VG, en-AI, en-AG, en-BM, en-BS, en-TT, en-TO, en-KY, en-CX, en-CC, en-CK, en-FJ, en-PS, en-WS, en-SB, en-PG, en-PW, en-KI, en-SL, en-LK, en-BD, en-MU, en-TT, en-TO, en-KY, en-CX, en-CC, en-CK, en-FJ, en-PS, en-WS, en-SB, en-PG, en-PW, en-KI, en-SL, en-LK, en-BD, en-MU, en-TT, en-TO, en-KY, en-CX, en-CC, en-CK, en-FJ, en-PS, en-WS, en-SB, en-PG, en-PW, en-KI, en-SL, en-LK, en-BD, en-MU, en-TT, en-TO, en-KY, en-CX, en-CC, en-CK, en-FJ, en-PS, en-WS, en-SB, en-PG, en-PW, en-KI, en-SL, en-LK, en-BD, en-MU, en-TT, en-TO, en-KY, en-CX, en-CC, en-CK, en-FJ, en-PS, en-WS, en-SB, en-PG, en-PW, en-KI, en-SL, en-LK, en-BD, en-MU, en-TT, en-TO, en-KY, en-CX, en-CC, en-CK, en-FJ, en-PS, en-WS, en-SB, en-PG, en-PW, en-KI, en-SL, en-LK, en-BD, en-MU, en-TT, en-TO, en-KY, en-CX, en-CC, en-CK, en-FJ, en-PS, en-WS, en-SB, en-PG, en-PW, en-KI, en-SL, en-LK, en-BD, en-MU, en-TT, en-TO, en-KY, en-CX, en-CC, en-CK, en-FJ, en-PS, en-WS, en-SB, en-PG, en-PW, en-KI, en-SL, en-LK, en-BD, en-MU, en-TT, en-TO, en-KY, en-CX, en-CC, en-CK, en-FJ, en-PS, en-WS, en-SB, en-PG, en-PW, en-KI, en-SL, en-LK, en-BD, en-MU, en-TT, en-TO, en-KY, en-CX, en-CC, en-CK, en-FJ, en-PS, en-WS, en-SB, en-PG, en-PW, en-KI, en-SL, en-LK, en-BD, en-MU, en-TT, en-TO, en-KY, en-CX, en-CC, en-CK, en-FJ, en-PS, en-WS, en-SB, en-PG, en-PW, en-KI, en-SL, en-LK, en-BD, en-MU, en-TT, en-TO, en-KY, en-CX, en-CC, en-CK, en-FJ, en-PS, en-WS, en-SB, en-PG, en-PW, en-KI, en-SL, en-LK, en-BD, en-MU, en-TT, en-TO, en-KY, en-CX, en-CC, en-CK, en-FJ, en-PS, en-WS, en-SB, en-PG, en-PW, en-KI, en-SL, en-LK, en-BD, en-MU, en-TT, en-TO, en-KY, en-CX, en-CC, en-CK, en-FJ, en-PS, en-WS, en-SB, en-PG, en-PW, en-KI, en-SL, en-LK, en-BD, en-MU, en-TT, en-TO, en-KY, en-CX, en-CC, en-CK, en-FJ, en-PS, en-WS, en-SB, en-PG, en-PW, en-KI, en-SL, en-LK, en-BD, en-MU, en-TT, en-TO, en-KY, en-CX, en-CC, en-CK, en-FJ, en-PS, en-WS, en-SB, en-PG, en-PW, en-KI, en-SL, en-LK, en-BD, en-MU, en-TT, en-TO, en-KY, en-CX, en-CC, en-CK, en-FJ, en-PS, en-WS, en-SB, en-PG, en-PW, en-KI, en-SL, en-LK, en-BD, en-MU, en-TT, en-TO, en-KY, en-CX, en-CC, en-CK, en-FJ, en-PS, en-WS, en-SB, en-PG, en-PW, en-KI, en-SL, en-LK, en-BD, en-MU, en-TT, en-TO, en-KY, en-CX, en-CC, en-CK, en-FJ, en-PS, en-WS, en-SB, en-PG, en-PW, en-KI, en-SL, en-LK, en-BD, en-MU, en-TT, en-TO, en-KY, en-CX, en-CC, en-CK, en-FJ, en-PS, en-WS, en-SB, en-PG, en-PW, en-KI, en-SL, en-LK, en-BD, en-MU, en-TT, en-TO, en-KY, en-CX, en-CC, en-CK, en-FJ, en-PS, en-WS, en-SB, en-PG, en-PW, en-KI, en-SL, en-LK, en-BD, en-MU, en-TT, en-TO, en-KY, en-CX, en-CC, en-CK, en-FJ, en-PS, en-WS, en-SB, en-PG, en-PW, en-KI, en-SL, en-LK, en-BD, en-MU, en-TT, en-TO, en-KY, en-CX, en-CC, en-CK, en-FJ, en-PS, en-WS, en-SB, en-PG, en-PW, en-KI, en-SL, en-LK, en-BD, en-MU, en-TT, en-TO, en-KY, en-CX, en-CC, en-CK, en-FJ, en-PS, en-WS, en-SB, en-PG, en-PW, en-KI, en-SL, en-LK, en-BD, en-MU,

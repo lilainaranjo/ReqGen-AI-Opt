@@ -1,0 +1,6 @@
+Spearman A1-A2: ρ=-0.185 (p=0.691)
+Spearman A1-A3: ρ=0.436 (p=0.328)
+Spearman A1-A4: ρ=-0.714 (p=0.071)
+Spearman A2-A3: ρ=0.585 (p=0.168)
+Spearman A2-A4: ρ=0.482 (p=0.274)
+Spearman A3-A4: ρ=0.200 (p=0.667)

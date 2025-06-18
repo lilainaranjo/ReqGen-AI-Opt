@@ -1,0 +1,88 @@
+ Functional Requirements (FR):
+1. FR1: The system shall display a menu with all available games. (Umbrella)
+2. FR2: The system shall allow users to select a game from the menu. (Umbrella)
+3. FR3: The system shall display the selected game. (Umbrella)
+4. FR4: The system shall display a game interface with a space theme. (Space Fractions)
+5. FR5: The system shall display a fraction problem on the screen. (Space Fractions)
+6. FR6: The system shall allow users to select an answer for the displayed fraction problem. (Space Fractions)
+7. FR7: The system shall provide feedback on the correctness of the user's answer. (Space Fractions)
+8. FR8: The system shall display a new fraction problem after the user answers a question. (Space Fractions)
+9. FR9: The system shall keep track of the user's score. (Space Fractions)
+10. FR10: The system shall display the user's score at the end of the game. (Space Fractions)
+11. FR11: The system shall provide feedback on the user's performance based on their score. (Space Fractions)
+
+Non-Functional Requirements (NFR):
+1. NFR1: The system shall be web-based, accessible through any modern web browser.
+2. NFR2: The system shall be designed for sixth-grade students, with an intuitive and easy-to-use interface.
+3. NFR3: The system shall be compatible with all major web browsers (Google Chrome, Mozilla Firefox, Microsoft Edge, Safari).
+4. NFR4: The system shall be designed to run on any device with a modern web browser (desktop, laptop, tablet, smartphone).
+5. NFR5: The system shall be designed to run on any operating system (Windows, macOS, Linux, Android, iOS).
+6. NFR6: The system shall be designed to run on any web server (Apache, Nginx, Microsoft IIS).
+7. NFR7: The system shall be designed to run on any database server (MySQL, PostgreSQL, Microsoft SQL Server, Oracle).
+8. NFR8: The system shall be designed to run on any web development platform (LAMP, WAMP, MAMP, XAMPP, etc.).
+9. NFR9: The system shall be designed to run on any web development language (HTML, CSS, JavaScript, PHP, Python, Ruby, etc.).
+10. NFR10: The system shall be designed to run on any web hosting service (shared, VPS, dedicated, cloud).
+11. NFR11: The system shall be designed to run on any internet connection (DSL, cable, fiber, 4G, 5G).
+12. NFR12: The system shall be designed to run on any screen resolution (480x320, 800x480, 1024x768, 1280x720, 1920x1080).
+13. NFR13: The system shall be designed to run on any browser window size (minimum 480x320).
+14. NFR14: The system shall be designed to run on any device with a modern web browser (desktop, laptop, tablet, smartphone).
+15. NFR15: The system shall be designed to run on any operating system (Windows, macOS, Linux, Android, iOS).
+16. NFR16: The system shall be designed to run on any web server (Apache, Nginx, Microsoft IIS).
+17. NFR17: The system shall be designed to run on any database server (MySQL, PostgreSQL, Microsoft SQL Server, Oracle).
+18. NFR18: The system shall be designed to run on any web development platform (LAMP, WAMP, MAMP, XAMPP, etc.).
+19. NFR19: The system shall be designed to run on any web development language (HTML, CSS, JavaScript, PHP, Python, Ruby, etc.).
+20. NFR20: The system shall be designed to run on any web hosting service (shared, VPS, dedicated, cloud).
+21. NFR21: The system shall be designed to run on any internet connection (DSL, cable, fiber, 4G, 5G).
+22. NFR22: The system shall be designed to run on any screen resolution (480x320, 800x480, 1024x768, 1280x720, 1920x1080).
+23. NFR23: The system shall be designed to run on any browser window size (minimum 480x320).
+24. NFR24: The system shall be designed to run on any device with a modern web browser (desktop, laptop, tablet, smartphone).
+25. NFR25: The system shall be designed to run on any operating system (Windows, macOS, Linux, Android, iOS).
+26. NFR26: The system shall be designed to run on any web server (Apache, Nginx, Microsoft IIS).
+27. NFR27: The system shall be designed to run on any database server (MySQL, PostgreSQL, Microsoft SQL Server, Oracle).
+28. NFR28: The system shall be designed to run on any web development platform (LAMP, WAMP, MAMP, XAMPP, etc.).
+29. NFR29: The system shall be designed to run on any web development language (HTML, CSS, JavaScript, PHP, Python, Ruby, etc.).
+30. NFR30: The system shall be designed to run on any web hosting service (shared, VPS, dedicated, cloud).
+31. NFR31: The system shall be designed to run on any internet connection (DSL, cable, fiber, 4G, 5G).
+32. NFR32: The system shall be designed to run on any screen resolution (480x320, 800x480, 1024x768, 1280x720, 1920x1080).
+33. NFR33: The system shall be designed to run on any browser window size (minimum 480x320).
+34. NFR34: The system shall be designed to run on any device with a modern web browser (desktop, laptop, tablet, smartphone).
+35. NFR35: The system shall be designed to run on any operating system (Windows, macOS, Linux, Android, iOS).
+36. NFR36: The system shall be designed to run on any web server (Apache, Nginx, Microsoft IIS).
+37. NFR37: The system shall be designed to run on any database server (MySQL, PostgreSQL, Microsoft SQL Server, Oracle).
+38. NFR38: The system shall be designed to run on any web development platform (LAMP, WAMP, MAMP, XAMPP, etc.).
+39. NFR39: The system shall be designed to run on any web development language (HTML, CSS, JavaScript, PHP, Python, Ruby, etc.).
+40. NFR40: The system shall be designed to run on any web hosting service (shared, VPS, dedicated, cloud).
+41. NFR41: The system shall be designed to run on any internet connection (DSL, cable, fiber, 4G, 5G).
+42. NFR42: The system shall be designed to run on any screen resolution (480x320, 800x480, 1024x768, 1280x720, 1920x1080).
+43. NFR43: The system shall be designed to run on any browser window size (minimum 480x320).
+44. NFR44: The system shall be designed to run on any device with a modern web browser (desktop, laptop, tablet, smartphone).
+45. NFR45: The system shall be designed to run on any operating system (Windows, macOS, Linux, Android, iOS).
+46. NFR46: The system shall be designed to run on any web server (Apache, Nginx, Microsoft IIS).
+47. NFR47: The system shall be designed to run on any database server (MySQL, PostgreSQL, Microsoft SQL Server, Oracle).
+48. NFR48: The system shall be designed to run on any web development platform (LAMP, WAMP, MAMP, XAMPP, etc.).
+49. NFR49: The system shall be designed to run on any web development language (HTML, CSS, JavaScript, PHP, Python, Ruby, etc.).
+50. NFR50: The system shall be designed to run on any web hosting service (shared, VPS, dedicated, cloud).
+51. NFR51: The system shall be designed to run on any internet connection (DSL, cable, fiber, 4G, 5G).
+52. NFR52: The system shall be designed to run on any screen resolution (480x320, 800x480, 1024x768, 1280x720, 1920x1080).
+53. NFR53: The system shall be designed to run on any browser window size (minimum 480x320).
+54. NFR54: The system shall be designed to run on any device with a modern web browser (desktop, laptop, tablet, smartphone).
+55. NFR55: The system shall be designed to run on any operating system (Windows, macOS, Linux, Android, iOS).
+56. NFR56: The system shall be designed to run on any web server (Apache, Nginx, Microsoft IIS).
+57. NFR57: The system shall be designed to run on any database server (MySQL, PostgreSQL, Microsoft SQL Server, Oracle).
+58. NFR58: The system shall be designed to run on any web development platform (LAMP, WAMP, MAMP, XAMPP, etc.).
+59. NFR59: The system shall be designed to run on any web development language (HTML, CSS, JavaScript, PHP, Python, Ruby, etc.).
+60. NFR60: The system shall be designed to run on any web hosting service (shared, VPS, dedicated, cloud).
+61. NFR61: The system shall be designed to run on any internet connection (DSL, cable, fiber, 4G, 5G).
+62. NFR62: The system shall be designed to run on any screen resolution (480x320, 800x480, 1024x768, 1280x720, 1920x1080).
+63. NFR63: The system shall be designed to run on any browser window size (minimum 480x320).
+64. NFR64: The system shall be designed to run on any device with a modern web browser (desktop, laptop, tablet, smartphone).
+65. NFR65: The system shall be designed to run on any operating system (Windows, macOS, Linux, Android, iOS).
+66. NFR66: The system shall be designed to run on any web server (Apache, Nginx, Microsoft IIS).
+67. NFR67: The system shall be designed to run on any database server (MySQL, PostgreSQL, Microsoft SQL Server, Oracle).
+68. NFR68: The system shall be designed to run on any web development platform (LAMP, WAMP, MAMP, XAMPP, etc.).
+69. NFR69: The system shall be designed to run on any web development language (HTML, CSS, JavaScript, PHP, Python, Ruby, etc.).
+70. NFR70: The system shall be designed to run on any web hosting service (shared, VPS, dedicated, cloud).
+71. NFR71: The system shall be designed to run on any internet connection (DSL, cable, fiber, 4G, 5G).
+72. NFR72: The system shall be designed to run on any screen resolution (480x320, 800x480, 1024x768, 1280x720, 1920x1080).
+73. NFR73: The system shall be designed to run on any browser window size (minimum 480x320).
+74. NFR74: The system
