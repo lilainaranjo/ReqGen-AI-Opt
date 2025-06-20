@@ -6,7 +6,7 @@ realizado por Elizabeth Lilai Naranjo Ventura en el grado en Ingeniería Inform�
 
 ## Objetivo
 
-El objetivo del TFG es automatizar la generación de requisitos funcionales y no funcionales a partir de descripciones textuales de sistemas mediante el uso de **modelos de lenguaje de gran escala (LLMs)**, técnicas de **fine-tuning**, y optimización con **LoRA** y **cuantización**.
+El objetivo del TFG es automatizar la generación de requisitos funcionales y no funcionales a partir de descripciones textuales de sistemas para reducir errores humanos y ambigüedades mediante el uso de **modelos de lenguaje de gran escala (LLMs)**, técnicas de **fine-tuning**, y optimización con **LoRA** y **cuantización**.
 
 ## Contenido del repositorio
 
@@ -14,4 +14,4 @@ El objetivo del TFG es automatizar la generación de requisitos funcionales y no
 * `docs/`: documentos sobre el proyecto
 * `models/`: modelos ajustados
 * `outputs/`: salidas generadas por los modelos
-* `scripts/`: scripts empleados para entrenamiento, inferencia y cálculo del alfa de Krippendorff
+* `scripts/`: scripts empleados para entrenamiento, inferencia y cálculo de métricas (alfa de Krippendorff y correlación de Spearman)
